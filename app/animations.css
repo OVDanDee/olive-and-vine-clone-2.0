@@ -1,0 +1,74 @@
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes swirlOut {
+  0% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: rotateY(90deg) scale(0.9);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(180deg) scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes swirlIn {
+  0% {
+    transform: rotateY(-180deg) scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: rotateY(-90deg) scale(0.9);
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotateY(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+.animated-headline-wrapper {
+  perspective: 1000px;
+  min-width: 200px;
+}
+
+.animated-headline-letter {
+  transform-style: preserve-3d;
+  transform-origin: center center;
+  display: inline-block;
+}
+
+.swirl-out {
+  animation: swirlOut 0.6s ease-in-out forwards;
+}
+
+.swirl-in {
+  animation: swirlIn 0.6s ease-in-out forwards;
+}
+
+@keyframes carouselFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.carousel-fade {
+  animation: carouselFadeIn 0.3s ease-out forwards;
+}

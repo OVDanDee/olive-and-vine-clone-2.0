@@ -1,0 +1,52 @@
+export const rebeccaProfileTranslations = {
+  imagePath: "/leadership/r1.jpg",
+  imagePathHover: "/leadership/r2.jpg",
+  imageObjectPosition: "center 40%",
+  imageObjectPositionHover: "center 18%",
+  heroTag: { en: "Our Leadership", ko: "리더십" },
+  heroTitle: { en: "Rebecca, PARK Ji Hyun", ko: "Rebecca, PARK Ji Hyun" },
+  heroSubtitle: { en: "HKICPA (Practising), CIA", ko: "HKICPA (실무), CIA" },
+  inBrief: { en: "In brief", ko: "요약" },
+  inBriefDescription: {
+    en: "Rebecca is co-founder of Olive and Vine and is mainly responsible for the assurance service. She has numerous experience auditing small to medium sized companies based in Hong Kong, and also listed companies in Korea and Hong Kong. Her experience covers various industries including but not limited to retail, construction, trading, investment holding, cryptocurrencies, and more. Rebecca is highly self-driven, independent, and forward looking professional with diverse background. She has lived in Hong Kong for 10 years and previously lived in Singapore, China, Australia, and Korea. She understands different culture with the first hand experience she had interacting with people from different backgrounds.\n\nShe has devoted her study and career to audit and accounting. She has majored in accounting and finance and started her career at one of the top accounting firm, PwC. With the extensive exposure to the best resources and experience, she has moved on to develop her career as an engagement leader in past 4 years.\n\nRebecca is a true believer in principles. She believes that the impactful outcomes can only be achieved by the exercise of principles. She is strengthened by strong compassion, providing pragmatic solutions and devoted services to her clients.",
+    ko: "Rebecca는 Olive and Vine의 공동창업자이며 주로 보증 서비스를 담당합니다. 홍콩 소재 중소기업 및 한국·홍콩 상장기업 감사 경험이 풍부하며, 소매, 건설, 무역, 투자지주, 암호화폐 등 다양한 산업분야의 경험을 보유하고 있습니다. 자기주도적이고 독립적이며 선견지명이 있는 전문가로 10년이상 홍콩에 거주하였으며, 싱가포르, 중국, 호주, 한국에서 학업 및 직업생활을 했습니다. 다양한 배경의 사람들과 교류한 경험을 바탕으로 여러 문화권 사람과 쉽게 어울리며 업무를 진행할 수 있습니다.\n\n학업과 경력을 감사와 회계에 집중하여 쌓아왔습니다. 회계 및 금융을 전공하였고 국제최고의 회계법인 PwC에서 감사업무를 시작하였으며, 그 후 홍콩의 일신회계법인에서 지난 4년간 감사담당회계사로 홍콩의 한국기업들과 직접적이고 현실적인 경험을 쌓았습니다.\n\n원칙을 중요시하며 깊은 공감을 통해 의미있는 결과물을 창출하여 고객이 만족하는 서비스를 제공합니다.",
+  },
+  educationTitle: { en: "Education", ko: "학력" },
+  educationDescription: {
+    en: "University of Hong Kong, Bachelor of Business Administration in Accounting and Finance",
+    ko: "홍콩대학교, 회계 및 금융 경영학사",
+  },
+  professionalCareersTitle: { en: "Professional careers", ko: "경력" },
+  professionalCareersItems: {
+    en: ["PwC HK, Assurance", "PwC Australia Sydney, Assurance", "IL Shin CPA Limited, Engagement leader"],
+    ko: ["PwC 홍콩, 보증", "PwC 호주 시드니, 보증", "IL Shin CPA Limited, 엔게이지먼트 리더"],
+  },
+  languageTitle: { en: "Language", ko: "언어" },
+  languageItems: {
+    en: ["Korean, English, Cantonese, Mandarin"],
+    ko: ["한국어, 영어, 광둥어, 중국어"],
+  },
+  keyExperienceTitle: { en: "Key experience and expertise", ko: "핵심 경험 및 전문성" },
+  keyExperienceItems: {
+    en: [
+      "Audit experience with diversified industries including trading, retail, investment holding, manufacturing, construction, crypto currencies, transmission network and more",
+      "Multiple audit experience with consolidation, overseas subsidiaries/associates, joint operation/ventures, equity method",
+      "Audit of various sized companies from small and medium sized clients to HKEX listed companies in Hong Kong",
+      "Audit of Korean entities in Hong Kong including Samsung Electronics Hong Kong (from the initial year), LG electronics Hong Kong (in the initial year) and more",
+      "Component audit of MNCs listed in Korea including KT&G, Hanjin, Lotte, LT Sambo, LX international, SK, Line, Neowiz, Kolon, SeAH, Taekwang",
+      "HKEX main board IPO project",
+      "PCAOB component audit of a US listed company",
+      "Regulatory audit and review of NSW transmission network entities in Australia",
+    ],
+    ko: [
+      "무역, 소매, 투자 지주, 제조, 건설, 암호화폐, 송전망 등 다양한 산업의 감사 경험",
+      "연결재무제표, 해외 자회사/관련회사, 공동운영/합작, 지분법 적용 등 다각화된 감사 경험",
+      "중소기업부터 홍콩 HKEX 상장기업까지 다양한 규모의 기업 감사",
+      "삼성전자 홍콩(설립 초기), LG전자 홍콩(설립 초기) 등 홍콩 내 한국계 법인 감사",
+      "KT&G, 한진, 롯데, LT삼보, LX인터내셔널, SK, 라인, 네오위즈, 코오롱, 세아, 태광 등 한국 상장 MNC 구성요소 감사",
+      "HKEX 메인보드 IPO 프로젝트",
+      "미국 상장기업 PCAOB 구성요소 감사",
+      "호주 NSW 송전망 법인 규제 감사 및 검토",
+    ],
+  },
+};

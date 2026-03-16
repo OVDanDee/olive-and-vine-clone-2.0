@@ -1,0 +1,108 @@
+@import "tailwindcss";
+@import "./animations.css";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Roboto", sans-serif;
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Roboto", sans-serif;
+}
+
+html[data-lang="KOR"] {
+  --font-sans: "Noto Sans KR", sans-serif;
+}
+
+html[data-lang="KOR"] body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+/* Language toggle (KOR/ENG) keeps default (Roboto) for uniformity */
+html[data-lang="KOR"] .font-lang-toggle {
+  font-family: "Roboto", sans-serif;
+}
+
+.section-py {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .section-py {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.hero-background {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 260px;
+}
+
+@media (min-width: 431px) {
+  .hero-background {
+    background-size: 100% 100%;
+    height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-background {
+    height: 700px;
+  }
+}
+
+.toggle-menu-bg {
+  background-position: center center;
+}
+
+@media (min-width: 1280px) {
+  .toggle-menu-bg {
+    background-position: center 42%;
+  }
+}
+
+.assurance-section-bg {
+  background-color: #F0EEE2;
+}
+
+@media (min-width: 640px) {
+  .assurance-section-bg {
+    background-image: url(/services/au3.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.consulting-section-bg {
+  background-color: #F0EEE2;
+}
+
+@media (min-width: 640px) {
+  .consulting-section-bg {
+    background-image: url(/services/c1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
