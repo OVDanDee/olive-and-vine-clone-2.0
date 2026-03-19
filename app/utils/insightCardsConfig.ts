@@ -106,6 +106,11 @@ export const subTagsByInsight = {
     { en: "30-Day Release Rule", ko: "30일 지급 규칙" },
     { en: "Employer Risk", ko: "고용주 위험" },
   ] as InsightSubTag[],
+  twoTieredSalariesTax: [
+    { en: "Salaries Tax", ko: "급여세" },
+    { en: "Tax Rates", ko: "세율" },
+    { en: "Employer Obligations", ko: "고용주 의무" },
+  ] as InsightSubTag[],
 };
 
 export const FIVE_STEPS_CARD: InsightCardDefinition = {
@@ -328,6 +333,16 @@ export const PLACEHOLDER_CARD: InsightCardDefinition = {
 };
 
 /** Order of cards on the insights page list. Add/remove/reorder here. */
+export const TWO_TIERED_SALARIES_TAX_CARD: InsightCardDefinition = {
+  image: "/insights/two-tiered-salaries-tax.jpg",
+  alt: "Two-Tiered Salaries Tax in Hong Kong (2024/25)",
+  href: "/insights/tax/two-tiered-salaries-tax",
+  tag: { en: "Tax", ko: "세무" },
+  title: { en: "Two-Tiered Salaries Tax in Hong Kong (2024/25)", ko: "홍콩 이중 급여세 (2024/25)" },
+  description: { en: "", ko: "" },
+  subTags: subTagsByInsight.twoTieredSalariesTax,
+};
+
 export const INSIGHT_LIST_CARDS: InsightCardDefinition[] = [
   FIVE_STEPS_CARD,
   INTRODUCTION_XERO_CARD,
@@ -350,4 +365,5 @@ export const INSIGHT_LIST_CARDS: InsightCardDefinition[] = [
   IR56_CARD,
   TAX_CLEARANCE_DEPARTING_EMPLOYEES_CARD,
   WITHHOLDING_OBLIGATIONS_DEPARTING_EMPLOYEES_CARD,
+  TWO_TIERED_SALARIES_TAX_CARD,
 ];
