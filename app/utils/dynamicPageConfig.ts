@@ -214,6 +214,16 @@ const INSIGHT_PAGES: Record<string, DynamicPageEntry> = {
       ko: ["인사이트", "인사", "출국 직원에 대한 고용주의 지급 보류 의무"],
     },
   },
+  "insights/tax/two-tiered-salaries-tax": {
+    documentTitle: {
+      en: "Two-Tiered Salaries Tax in Hong Kong (2024/25)",
+      ko: "홍콩 이중 급여세 (2024/25)",
+    },
+    pathSegments: {
+      en: ["Insights", "Tax", "Two-Tiered Salaries Tax in Hong Kong (2024/25)"],
+      ko: ["인사이트", "세무", "홍콩 이중 급여세 (2024/25)"],
+    },
+  },
 };
 
 export function getDynamicPageKey(pathname: string): string {

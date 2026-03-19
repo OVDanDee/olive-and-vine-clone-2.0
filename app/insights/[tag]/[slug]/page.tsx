@@ -68,6 +68,7 @@ function InsightPageClient({ tag, slug }: { tag: string; slug: string }) {
   const isHrIr56 = normalizedTag === "hr" && slug === "ir56";
   const isHrTaxClearanceDeparting = normalizedTag === "hr" && slug === "tax-clearance-departing-employees";
   const isHrWithholdingObligationsDeparting = normalizedTag === "hr" && slug === "withholding-obligations-departing-employees";
+  const isTaxTwoTieredSalariesTax = normalizedTag === "tax" && slug === "two-tiered-salaries-tax";
   const isAmendmentLayout = isAmendment || isIncorporation || isCorporateSecretary || isHrTerminationRegulation || isHrMandatoryProvidentFund;
   const sectionLabel = (index: number) => (isAmendmentLayout || isTaxVat || isHrHybridWorkPerformance || isHrLeavePolicyExplanation ? "" : `${index + 1}. `);
   const translations = getInsightTranslations(tag, slug);
@@ -83,9 +84,9 @@ function InsightPageClient({ tag, slug }: { tag: string; slug: string }) {
         <>
           <section className="w-full relative overflow-hidden h-[280px] sm:h-[320px] md:h-[380px] lg:h-[420px] xl:h-[480px]">
             <div className="absolute inset-0 w-full h-full z-0">
-              <Image src={isAmendment ? "/insights/amendment.jpg" : isIncorporation ? "/insights/incorporation.jpg" : isCorporateSecretary ? "/insights/corporate-secretary.jpg" : isHrTerminationRegulation ? "/insights/termination.jpg" : isHrHybridWorkPerformance ? "/insights/hybrid-work.jpg" : isHrLeavePolicyExplanation ? "/insights/leave-policy.jpg" : isHrMandatoryProvidentFund ? "/insights/mpf.jpg" : isHrIr56 ? "/insights/ir.jpg" : isHrTaxClearanceDeparting ? "/insights/tax-clearance.jpg" : isHrWithholdingObligationsDeparting ? "/insights/withholding-obligations.jpg" : isIntroductionXero ? "/insights/introduction-xero.png" : isAccountingKnowledge ? "/insights/accounting-knowledge.jpg" : isTaxDividendLegalConsiderations ? "/insights/dividend.jpg" : isTaxVat ? "/insights/vat.jpg" : isTaxCorporateTax ? "/insights/corporate-tax.jpg" : isConsultingLegalConsiderationsMA ? "/insights/legal.jpg" : isConsultingDigitalTransformation ? "/insights/digital-transformation.jpg" : isConsultingDigitalTransformationUX ? "/insights/digital-ux.jpg" : isConsultingBigDataDriven ? "/insights/big-data.jpg" : isConsultingDigitalTransformationTVP ? "/insights/digital-trans.jpg" : "/insights/ai-automation.jpg"} alt="" fill className="object-cover object-center" priority />
+              <Image src={isAmendment ? "/insights/amendment.jpg" : isIncorporation ? "/insights/incorporation.jpg" : isCorporateSecretary ? "/insights/corporate-secretary.jpg" : isHrTerminationRegulation ? "/insights/termination.jpg" : isHrHybridWorkPerformance ? "/insights/hybrid-work.jpg" : isHrLeavePolicyExplanation ? "/insights/leave-policy.jpg" : isHrMandatoryProvidentFund ? "/insights/mpf.jpg" : isHrIr56 ? "/insights/ir.jpg" : isHrTaxClearanceDeparting ? "/insights/tax-clearance.jpg" : isHrWithholdingObligationsDeparting ? "/insights/withholding-obligations.jpg" : isTaxTwoTieredSalariesTax ? "/insights/two-tiered-salaries-tax.jpg" : isIntroductionXero ? "/insights/introduction-xero.png" : isAccountingKnowledge ? "/insights/accounting-knowledge.jpg" : isTaxDividendLegalConsiderations ? "/insights/dividend.jpg" : isTaxVat ? "/insights/vat.jpg" : isTaxCorporateTax ? "/insights/corporate-tax.jpg" : isConsultingLegalConsiderationsMA ? "/insights/legal.jpg" : isConsultingDigitalTransformation ? "/insights/digital-transformation.jpg" : isConsultingDigitalTransformationUX ? "/insights/digital-ux.jpg" : isConsultingBigDataDriven ? "/insights/big-data.jpg" : isConsultingDigitalTransformationTVP ? "/insights/digital-trans.jpg" : "/insights/ai-automation.jpg"} alt="" fill className="object-cover object-center" priority />
             </div>
-            {(isIntroductionXero || isAccountingKnowledge || isAiBusinessAutomation || isTaxDividendLegalConsiderations || isTaxVat || isTaxCorporateTax || isConsultingLegalConsiderationsMA || isConsultingDigitalTransformation || isConsultingDigitalTransformationUX || isConsultingBigDataDriven || isConsultingDigitalTransformationTVP || isAmendment || isIncorporation || isCorporateSecretary || isHrTerminationRegulation || isHrHybridWorkPerformance || isHrLeavePolicyExplanation || isHrMandatoryProvidentFund || isHrIr56 || isHrTaxClearanceDeparting || isHrWithholdingObligationsDeparting) && <div className="absolute inset-0 w-full h-full z-[1] bg-black/50" aria-hidden />}
+            {(isIntroductionXero || isAccountingKnowledge || isAiBusinessAutomation || isTaxDividendLegalConsiderations || isTaxVat || isTaxCorporateTax || isConsultingLegalConsiderationsMA || isConsultingDigitalTransformation || isConsultingDigitalTransformationUX || isConsultingBigDataDriven || isConsultingDigitalTransformationTVP || isAmendment || isIncorporation || isCorporateSecretary || isHrTerminationRegulation || isHrHybridWorkPerformance || isHrLeavePolicyExplanation || isHrMandatoryProvidentFund || isHrIr56 || isHrTaxClearanceDeparting || isHrWithholdingObligationsDeparting || isTaxTwoTieredSalariesTax) && <div className="absolute inset-0 w-full h-full z-[1] bg-black/50" aria-hidden />}
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 flex flex-col items-start justify-center h-full pt-6 sm:pt-8 md:pt-12 lg:pt-16 pb-6 sm:pb-8">
               <span className="text-sm sm:text-base md:text-lg lg:text-[20px] text-white/80 mb-1.5 sm:mb-2 md:mb-3 lg:mb-4">{heroTag}</span>
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-[64px] font-base text-white mb-1.5 sm:mb-2 md:mb-2.5 lg:mb-3 leading-tight sm:leading-tight md:leading-tight [&_br]:block [&_br]:-mt-0.5 sm:[&_br]:-mt-1 md:[&_br]:-mt-1.5 lg:[&_br]:-mt-2" dangerouslySetInnerHTML={{ __html: pageTitle }} />
@@ -227,6 +228,10 @@ function InsightPageClient({ tag, slug }: { tag: string; slug: string }) {
                   ) : isHrWithholdingObligationsDeparting ? (
                     <div className="w-full relative h-[200px] sm:h-[250px] md:h-[280px] lg:h-[300px] mb-4 sm:mb-5 md:mb-6">
                       <Image src="/insights/wo-bg.jpg" alt={language === "KOR" ? translations.aiTaskAutomation.ko : translations.aiTaskAutomation.en} fill className="object-cover" />
+                    </div>
+                  ) : isTaxTwoTieredSalariesTax ? (
+                    <div className="w-full relative h-[200px] sm:h-[250px] md:h-[280px] lg:h-[300px] mb-4 sm:mb-5 md:mb-6">
+                      <Image src="/insights/tst-bg.jpg" alt={language === "KOR" ? translations.aiTaskAutomation.ko : translations.aiTaskAutomation.en} fill className="object-cover" />
                     </div>
                   ) : (
                   <div className="w-full relative h-[200px] sm:h-[250px] md:h-[280px] lg:h-[300px] mb-4 sm:mb-5 md:mb-6">
@@ -509,6 +514,83 @@ function InsightPageClient({ tag, slug }: { tag: string; slug: string }) {
                           {((translations as { section5Items: { en: string; ko: string }[] }).section5Items).map((item, i) => (
                             <p key={i} className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed"><span className="inline-block mr-2">•</span>{language === "KOR" ? item.ko : item.en}</p>
                           ))}
+                        </div>
+                      )}
+                    </>
+                  )}
+                  {isTaxTwoTieredSalariesTax && "section1Title" in translations && (
+                    <>
+                      {/* Section 1 — How Calculated */}
+                      <h3 className="text-sm sm:text-base md:text-lg lg:text-[24px] xl:text-[24px] font-semibold text-[#627F38] mb-3 sm:mb-3.5 md:mb-4">{language === "KOR" ? (translations as { section1Title: { en: string; ko: string } }).section1Title.ko : (translations as { section1Title: { en: string; ko: string } }).section1Title.en}</h3>
+                      {"section1Description" in translations && <p className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed text-justify mb-3">{language === "KOR" ? (translations as { section1Description: { en: string; ko: string } }).section1Description.ko : (translations as { section1Description: { en: string; ko: string } }).section1Description.en}</p>}
+                      {"section1Method1Title" in translations && <h4 className="text-xs sm:text-sm md:text-base lg:text-[16px] xl:text-[16px] font-semibold text-[#333333] pl-4 sm:pl-5 md:pl-6 mb-2">{language === "KOR" ? (translations as { section1Method1Title: { en: string; ko: string } }).section1Method1Title.ko : (translations as { section1Method1Title: { en: string; ko: string } }).section1Method1Title.en}</h4>}
+                      {"section1ProgressiveRates" in translations && Array.isArray((translations as { section1ProgressiveRates?: { label: { en: string; ko: string }; rate: { en: string; ko: string } }[] }).section1ProgressiveRates) && (
+                        <div className="pl-8 sm:pl-10 md:pl-12 space-y-1 mb-4">
+                          {((translations as { section1ProgressiveRates: { label: { en: string; ko: string }; rate: { en: string; ko: string } }[] }).section1ProgressiveRates).map((r, i) => (
+                            <p key={i} className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed"><span className="inline-block mr-2">•</span>{language === "KOR" ? r.label.ko : r.label.en} — {language === "KOR" ? r.rate.ko : r.rate.en}</p>
+                          ))}
+                        </div>
+                      )}
+                      {"section1Method2Title" in translations && <h4 className="text-xs sm:text-sm md:text-base lg:text-[16px] xl:text-[16px] font-semibold text-[#333333] pl-4 sm:pl-5 md:pl-6 mb-2">{language === "KOR" ? (translations as { section1Method2Title: { en: string; ko: string } }).section1Method2Title.ko : (translations as { section1Method2Title: { en: string; ko: string } }).section1Method2Title.en}</h4>}
+                      {"section1StandardRates" in translations && Array.isArray((translations as { section1StandardRates?: { label: { en: string; ko: string }; rate: { en: string; ko: string } }[] }).section1StandardRates) && (
+                        <div className="pl-8 sm:pl-10 md:pl-12 space-y-1 mb-3">
+                          {((translations as { section1StandardRates: { label: { en: string; ko: string }; rate: { en: string; ko: string } }[] }).section1StandardRates).map((r, i) => (
+                            <p key={i} className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed"><span className="inline-block mr-2">•</span>{language === "KOR" ? r.label.ko : r.label.en} — {language === "KOR" ? r.rate.ko : r.rate.en}</p>
+                          ))}
+                        </div>
+                      )}
+                      {"section1Note" in translations && <p className="text-xs sm:text-sm md:text-base lg:text-[14px] text-[#998C3D] mb-5 sm:mb-6">{language === "KOR" ? (translations as { section1Note: { en: string; ko: string } }).section1Note.ko : (translations as { section1Note: { en: string; ko: string } }).section1Note.en}</p>}
+                      {/* Section 2 — Two-Tiered Change */}
+                      {"section2Title" in translations && <h3 className="text-sm sm:text-base md:text-lg lg:text-[24px] xl:text-[24px] font-semibold text-[#627F38] mb-3 sm:mb-3.5 md:mb-4">{language === "KOR" ? (translations as { section2Title: { en: string; ko: string } }).section2Title.ko : (translations as { section2Title: { en: string; ko: string } }).section2Title.en}</h3>}
+                      {"section2Description" in translations && <p className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed text-justify mb-3">{language === "KOR" ? (translations as { section2Description: { en: string; ko: string } }).section2Description.ko : (translations as { section2Description: { en: string; ko: string } }).section2Description.en}</p>}
+                      {"section2WhoAffectedTitle" in translations && <h4 className="text-xs sm:text-sm md:text-base lg:text-[16px] xl:text-[16px] font-semibold text-[#333333] pl-4 sm:pl-5 md:pl-6 mb-2">{language === "KOR" ? (translations as { section2WhoAffectedTitle: { en: string; ko: string } }).section2WhoAffectedTitle.ko : (translations as { section2WhoAffectedTitle: { en: string; ko: string } }).section2WhoAffectedTitle.en}</h4>}
+                      {"section2WhoAffectedItems" in translations && Array.isArray((translations as { section2WhoAffectedItems?: { en: string; ko: string }[] }).section2WhoAffectedItems) && (
+                        <div className="pl-8 sm:pl-10 md:pl-12 space-y-2 mb-4">
+                          {((translations as { section2WhoAffectedItems: { en: string; ko: string }[] }).section2WhoAffectedItems).map((item, i) => (
+                            <p key={i} className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed"><span className="inline-block mr-2">•</span>{language === "KOR" ? item.ko : item.en}</p>
+                          ))}
+                        </div>
+                      )}
+                      {"section2EmployerTitle" in translations && <h4 className="text-xs sm:text-sm md:text-base lg:text-[16px] xl:text-[16px] font-semibold text-[#333333] pl-4 sm:pl-5 md:pl-6 mb-2">{language === "KOR" ? (translations as { section2EmployerTitle: { en: string; ko: string } }).section2EmployerTitle.ko : (translations as { section2EmployerTitle: { en: string; ko: string } }).section2EmployerTitle.en}</h4>}
+                      {"section2EmployerItems" in translations && Array.isArray((translations as { section2EmployerItems?: { en: string; ko: string }[] }).section2EmployerItems) && (
+                        <div className="pl-8 sm:pl-10 md:pl-12 space-y-2 mb-5 sm:mb-6">
+                          {((translations as { section2EmployerItems: { en: string; ko: string }[] }).section2EmployerItems).map((item, i) => (
+                            <p key={i} className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed"><span className="inline-block mr-2">•</span>{language === "KOR" ? item.ko : item.en}</p>
+                          ))}
+                        </div>
+                      )}
+                      {/* Section 3 — Deductions & Allowances */}
+                      {"section3Title" in translations && <h3 className="text-sm sm:text-base md:text-lg lg:text-[24px] xl:text-[24px] font-semibold text-[#627F38] mb-3 sm:mb-3.5 md:mb-4">{language === "KOR" ? (translations as { section3Title: { en: string; ko: string } }).section3Title.ko : (translations as { section3Title: { en: string; ko: string } }).section3Title.en}</h3>}
+                      {"section3DeductionsTitle" in translations && <h4 className="text-xs sm:text-sm md:text-base lg:text-[16px] xl:text-[16px] font-semibold text-[#333333] pl-4 sm:pl-5 md:pl-6 mb-2">{language === "KOR" ? (translations as { section3DeductionsTitle: { en: string; ko: string } }).section3DeductionsTitle.ko : (translations as { section3DeductionsTitle: { en: string; ko: string } }).section3DeductionsTitle.en}</h4>}
+                      {"section3DeductionItems" in translations && Array.isArray((translations as { section3DeductionItems?: { en: string; ko: string }[] }).section3DeductionItems) && (
+                        <div className="pl-8 sm:pl-10 md:pl-12 space-y-2 mb-4">
+                          {((translations as { section3DeductionItems: { en: string; ko: string }[] }).section3DeductionItems).map((item, i) => (
+                            <p key={i} className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed"><span className="inline-block mr-2">•</span>{language === "KOR" ? item.ko : item.en}</p>
+                          ))}
+                        </div>
+                      )}
+                      {"section3AllowancesTitle" in translations && <h4 className="text-xs sm:text-sm md:text-base lg:text-[16px] xl:text-[16px] font-semibold text-[#333333] pl-4 sm:pl-5 md:pl-6 mb-2">{language === "KOR" ? (translations as { section3AllowancesTitle: { en: string; ko: string } }).section3AllowancesTitle.ko : (translations as { section3AllowancesTitle: { en: string; ko: string } }).section3AllowancesTitle.en}</h4>}
+                      {"section3AllowanceItems" in translations && Array.isArray((translations as { section3AllowanceItems?: { en: string; ko: string }[] }).section3AllowanceItems) && (
+                        <div className="pl-8 sm:pl-10 md:pl-12 space-y-2 mb-5 sm:mb-6">
+                          {((translations as { section3AllowanceItems: { en: string; ko: string }[] }).section3AllowanceItems).map((item, i) => (
+                            <p key={i} className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed"><span className="inline-block mr-2">•</span>{language === "KOR" ? item.ko : item.en}</p>
+                          ))}
+                        </div>
+                      )}
+                      {/* Section 4 — Employer Reporting */}
+                      {"section4Title" in translations && <h3 className="text-sm sm:text-base md:text-lg lg:text-[24px] xl:text-[24px] font-semibold text-[#627F38] mb-3 sm:mb-3.5 md:mb-4">{language === "KOR" ? (translations as { section4Title: { en: string; ko: string } }).section4Title.ko : (translations as { section4Title: { en: string; ko: string } }).section4Title.en}</h3>}
+                      {"section4Description" in translations && <p className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed text-justify mb-3">{language === "KOR" ? (translations as { section4Description: { en: string; ko: string } }).section4Description.ko : (translations as { section4Description: { en: string; ko: string } }).section4Description.en}</p>}
+                      {"section4Items" in translations && Array.isArray((translations as { section4Items?: { en: string; ko: string }[] }).section4Items) && (
+                        <div className="pl-8 sm:pl-10 md:pl-12 space-y-2 mb-4">
+                          {((translations as { section4Items: { en: string; ko: string }[] }).section4Items).map((item, i) => (
+                            <p key={i} className="text-xs sm:text-sm md:text-base lg:text-[16px] text-[#111B12] leading-relaxed"><span className="inline-block mr-2">•</span>{language === "KOR" ? item.ko : item.en}</p>
+                          ))}
+                        </div>
+                      )}
+                      {"section4ExposureTitle" in translations && (
+                        <div className="border-l-4 border-[#627F38] pl-4 py-2 mb-5 sm:mb-6">
+                          <p className="text-xs sm:text-sm font-semibold text-[#627F38] mb-1">{language === "KOR" ? (translations as { section4ExposureTitle: { en: string; ko: string } }).section4ExposureTitle.ko : (translations as { section4ExposureTitle: { en: string; ko: string } }).section4ExposureTitle.en}</p>
+                          {"section4ExposureDescription" in translations && <p className="text-xs sm:text-sm text-[#111B12] leading-relaxed">{language === "KOR" ? (translations as { section4ExposureDescription: { en: string; ko: string } }).section4ExposureDescription.ko : (translations as { section4ExposureDescription: { en: string; ko: string } }).section4ExposureDescription.en}</p>}
                         </div>
                       )}
                     </>
@@ -1634,7 +1716,7 @@ function InsightPageClient({ tag, slug }: { tag: string; slug: string }) {
                   )}
                   </>
                   )}
-                  {"conclusionTitle" in translations && !isHrIr56 && !isHrTaxClearanceDeparting && !isHrWithholdingObligationsDeparting && (
+                  {"conclusionTitle" in translations && !isHrIr56 && !isHrTaxClearanceDeparting && !isHrWithholdingObligationsDeparting && !isTaxTwoTieredSalariesTax && (
                     <>
                       <h3 className="text-sm sm:text-base md:text-lg lg:text-[24px] xl:text-[24px] font-semibold text-[#627F38] mb-3 sm:mb-3.5 md:mb-4">{language === "KOR" ? (translations as { conclusionTitle: { en: string; ko: string } }).conclusionTitle.ko : (translations as { conclusionTitle: { en: string; ko: string } }).conclusionTitle.en}</h3>
                       {"conclusionDescription" in translations && (
@@ -2274,7 +2356,7 @@ function InsightPageClient({ tag, slug }: { tag: string; slug: string }) {
                     )}
                   </>
                 )}
-                {(isAmendmentLayout || isHrIr56 || isHrTaxClearanceDeparting || isHrWithholdingObligationsDeparting) && "conclusionTitle" in translations && (
+                {(isAmendmentLayout || isHrIr56 || isHrTaxClearanceDeparting || isHrWithholdingObligationsDeparting || isTaxTwoTieredSalariesTax) && "conclusionTitle" in translations && (
                   <>
                     <h3 className="text-sm sm:text-base md:text-lg lg:text-[24px] xl:text-[24px] font-semibold text-[#627F38] mb-3 sm:mb-3.5 md:mb-4">{language === "KOR" ? (translations as { conclusionTitle: { en: string; ko: string } }).conclusionTitle.ko : (translations as { conclusionTitle: { en: string; ko: string } }).conclusionTitle.en}</h3>
                     {"conclusionDescription" in translations && (
