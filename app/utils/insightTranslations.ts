@@ -17,6 +17,8 @@ import { hrHybridWorkPerformanceTranslations } from "./insights/hr-hybrid-work-p
 import { hrLeavePolicyTranslations } from "./insights/hr-leave-policy";
 import { hrMandatoryProvidentFundTranslations } from "./insights/hr-mandatory-provident-fund";
 import { hrIr56Translations } from "./insights/hr-ir56";
+import { hrTaxClearanceDepartingEmployeesTranslations } from "./insights/hr-tax-clearance-departing-employees";
+import { hrWithholdingObligationsDepartingEmployeesTranslations } from "./insights/hr-withholding-obligations-departing-employees";
 /**
  * Template for insight/news detail pages. Any (tag, slug) with a registered translation
  * module gets the full layout (hero, share buttons, Back to insights, content sections, FAQ, contact).
@@ -43,6 +45,8 @@ const INSIGHT_KEY_HR_HYBRID_WORK_PERFORMANCE = "hr/hybrid-work-performance";
 const INSIGHT_KEY_HR_LEAVE_POLICY = "hr/leave-policy-explanation";
 const INSIGHT_KEY_HR_MANDATORY_PROVIDENT_FUND = "hr/mandatory-provident-fund";
 const INSIGHT_KEY_HR_IR56 = "hr/ir56";
+const INSIGHT_KEY_HR_TAX_CLEARANCE_DEPARTING = "hr/tax-clearance-departing-employees";
+const INSIGHT_KEY_HR_WITHHOLDING_OBLIGATIONS_DEPARTING = "hr/withholding-obligations-departing-employees";
 
 export function getInsightTranslations(tag: string, slug: string) {
   const key = `${tag.toLowerCase()}/${slug}`;
@@ -103,6 +107,12 @@ export function getInsightTranslations(tag: string, slug: string) {
   if (key === INSIGHT_KEY_HR_IR56) {
     return hrIr56Translations;
   }
+  if (key === INSIGHT_KEY_HR_TAX_CLEARANCE_DEPARTING) {
+    return hrTaxClearanceDepartingEmployeesTranslations;
+  }
+  if (key === INSIGHT_KEY_HR_WITHHOLDING_OBLIGATIONS_DEPARTING) {
+    return hrWithholdingObligationsDepartingEmployeesTranslations;
+  }
   return null;
 }
 
@@ -125,3 +135,5 @@ export { hrHybridWorkPerformanceTranslations } from "./insights/hr-hybrid-work-p
 export { hrLeavePolicyTranslations } from "./insights/hr-leave-policy";
 export { hrMandatoryProvidentFundTranslations } from "./insights/hr-mandatory-provident-fund";
 export { hrIr56Translations } from "./insights/hr-ir56";
+export { hrTaxClearanceDepartingEmployeesTranslations } from "./insights/hr-tax-clearance-departing-employees";
+export { hrWithholdingObligationsDepartingEmployeesTranslations } from "./insights/hr-withholding-obligations-departing-employees";

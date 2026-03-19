@@ -194,6 +194,26 @@ const INSIGHT_PAGES: Record<string, DynamicPageEntry> = {
       ko: ["인사이트", "인사", "IR56"],
     },
   },
+  "insights/hr/tax-clearance-departing-employees": {
+    documentTitle: {
+      en: "Tax Clearance for Departing Employees",
+      ko: "출국 직원의 세금 정산 절차",
+    },
+    pathSegments: {
+      en: ["Insights", "HR", "Tax Clearance for Departing Employees"],
+      ko: ["인사이트", "인사", "출국 직원의 세금 정산 절차"],
+    },
+  },
+  "insights/hr/withholding-obligations-departing-employees": {
+    documentTitle: {
+      en: "Employer Withholding Obligations for Departing Employees",
+      ko: "출국 직원에 대한 고용주의 지급 보류 의무",
+    },
+    pathSegments: {
+      en: ["Insights", "HR", "Employer Withholding Obligations for Departing Employees"],
+      ko: ["인사이트", "인사", "출국 직원에 대한 고용주의 지급 보류 의무"],
+    },
+  },
 };
 
 export function getDynamicPageKey(pathname: string): string {

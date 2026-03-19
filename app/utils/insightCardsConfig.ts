@@ -96,6 +96,16 @@ export const subTagsByInsight = {
     { en: "Importance", ko: "중요성" },
     { en: "Procedures and Deadlines", ko: "절차 및 기한" },
   ] as InsightSubTag[],
+  taxClearanceDepartingEmployees: [
+    { en: "IR56G Filing", ko: "IR56G 제출" },
+    { en: "Tax Clearance Workflow", ko: "세금 정산 절차" },
+    { en: "Employer Liability", ko: "고용주 책임" },
+  ] as InsightSubTag[],
+  withholdingObligationsDepartingEmployees: [
+    { en: "Section 52 IRO", ko: "세무조례 제52조" },
+    { en: "30-Day Release Rule", ko: "30일 지급 규칙" },
+    { en: "Employer Risk", ko: "고용주 위험" },
+  ] as InsightSubTag[],
 };
 
 export const FIVE_STEPS_CARD: InsightCardDefinition = {
@@ -288,6 +298,26 @@ export const IR56_CARD: InsightCardDefinition = {
   subTags: subTagsByInsight.ir56,
 };
 
+export const TAX_CLEARANCE_DEPARTING_EMPLOYEES_CARD: InsightCardDefinition = {
+  image: "/insights/tax-clearance.jpg",
+  alt: "Tax Clearance for Departing Employees",
+  href: "/insights/hr/tax-clearance-departing-employees",
+  tag: { en: "HR", ko: "인사" },
+  title: { en: "Tax Clearance for Departing Employees", ko: "출국 직원의 세금 정산 절차" },
+  description: { en: "", ko: "" },
+  subTags: subTagsByInsight.taxClearanceDepartingEmployees,
+};
+
+export const WITHHOLDING_OBLIGATIONS_DEPARTING_EMPLOYEES_CARD: InsightCardDefinition = {
+  image: "/insights/withholding-obligations.jpg",
+  alt: "Employer Withholding Obligations for Departing Employees",
+  href: "/insights/hr/withholding-obligations-departing-employees",
+  tag: { en: "HR", ko: "인사" },
+  title: { en: "Employer Withholding Obligations for Departing Employees", ko: "출국 직원에 대한 고용주의 지급 보류 의무" },
+  description: { en: "", ko: "" },
+  subTags: subTagsByInsight.withholdingObligationsDepartingEmployees,
+};
+
 export const PLACEHOLDER_CARD: InsightCardDefinition = {
   image: "/home/sa-1.png",
   alt: "Coming soon",
@@ -318,4 +348,6 @@ export const INSIGHT_LIST_CARDS: InsightCardDefinition[] = [
   LEAVE_POLICY_EXPLANATION_CARD,
   MANDATORY_PROVIDENT_FUND_CARD,
   IR56_CARD,
+  TAX_CLEARANCE_DEPARTING_EMPLOYEES_CARD,
+  WITHHOLDING_OBLIGATIONS_DEPARTING_EMPLOYEES_CARD,
 ];
