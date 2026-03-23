@@ -20,6 +20,7 @@ import { hrIr56Translations } from "./insights/hr-ir56";
 import { hrTaxClearanceDepartingEmployeesTranslations } from "./insights/hr-tax-clearance-departing-employees";
 import { hrWithholdingObligationsDepartingEmployeesTranslations } from "./insights/hr-withholding-obligations-departing-employees";
 import { taxTwoTieredSalariesTaxTranslations } from "./insights/tax-two-tiered-salaries-tax";
+import { hrEmployersReturnBir56aTranslations } from "./insights/hr-employers-return-bir56a";
 /**
  * Template for insight/news detail pages. Any (tag, slug) with a registered translation
  * module gets the full layout (hero, share buttons, Back to insights, content sections, FAQ, contact).
@@ -49,6 +50,7 @@ const INSIGHT_KEY_HR_IR56 = "hr/ir56";
 const INSIGHT_KEY_HR_TAX_CLEARANCE_DEPARTING = "hr/tax-clearance-departing-employees";
 const INSIGHT_KEY_HR_WITHHOLDING_OBLIGATIONS_DEPARTING = "hr/withholding-obligations-departing-employees";
 const INSIGHT_KEY_TAX_TWO_TIERED_SALARIES_TAX = "tax/two-tiered-salaries-tax";
+const INSIGHT_KEY_HR_EMPLOYERS_RETURN_BIR56A = "hr/employers-return-bir56a";
 
 export function getInsightTranslations(tag: string, slug: string) {
   const key = `${tag.toLowerCase()}/${slug}`;
@@ -118,6 +120,9 @@ export function getInsightTranslations(tag: string, slug: string) {
   if (key === INSIGHT_KEY_TAX_TWO_TIERED_SALARIES_TAX) {
     return taxTwoTieredSalariesTaxTranslations;
   }
+  if (key === INSIGHT_KEY_HR_EMPLOYERS_RETURN_BIR56A) {
+    return hrEmployersReturnBir56aTranslations;
+  }
   return null;
 }
 
@@ -143,3 +148,4 @@ export { hrIr56Translations } from "./insights/hr-ir56";
 export { hrTaxClearanceDepartingEmployeesTranslations } from "./insights/hr-tax-clearance-departing-employees";
 export { hrWithholdingObligationsDepartingEmployeesTranslations } from "./insights/hr-withholding-obligations-departing-employees";
 export { taxTwoTieredSalariesTaxTranslations } from "./insights/tax-two-tiered-salaries-tax";
+export { hrEmployersReturnBir56aTranslations } from "./insights/hr-employers-return-bir56a";
