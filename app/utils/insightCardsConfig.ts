@@ -111,6 +111,11 @@ export const subTagsByInsight = {
     { en: "Tax Rates", ko: "세율" },
     { en: "Employer Obligations", ko: "고용주 의무" },
   ] as InsightSubTag[],
+  employersReturnBir56a: [
+    { en: "BIR56A", ko: "BIR56A" },
+    { en: "IR56 Forms", ko: "IR56 양식" },
+    { en: "Employer Compliance", ko: "고용주 규정 준수" },
+  ] as InsightSubTag[],
 };
 
 export const FIVE_STEPS_CARD: InsightCardDefinition = {
@@ -343,6 +348,16 @@ export const TWO_TIERED_SALARIES_TAX_CARD: InsightCardDefinition = {
   subTags: subTagsByInsight.twoTieredSalariesTax,
 };
 
+export const EMPLOYERS_RETURN_BIR56A_CARD: InsightCardDefinition = {
+  image: "/insights/employers-return-bir56a.jpg",
+  alt: "Annual Employer's Return (BIR56A)",
+  href: "/insights/hr/employers-return-bir56a",
+  tag: { en: "HR", ko: "인사" },
+  title: { en: "Annual Employer's Return (BIR56A) in Hong Kong", ko: "연간 고용주 신고서 (BIR56A) 홍콩" },
+  description: { en: "", ko: "" },
+  subTags: subTagsByInsight.employersReturnBir56a,
+};
+
 export const INSIGHT_LIST_CARDS: InsightCardDefinition[] = [
   FIVE_STEPS_CARD,
   INTRODUCTION_XERO_CARD,
@@ -366,4 +381,5 @@ export const INSIGHT_LIST_CARDS: InsightCardDefinition[] = [
   TAX_CLEARANCE_DEPARTING_EMPLOYEES_CARD,
   WITHHOLDING_OBLIGATIONS_DEPARTING_EMPLOYEES_CARD,
   TWO_TIERED_SALARIES_TAX_CARD,
+  EMPLOYERS_RETURN_BIR56A_CARD,
 ];

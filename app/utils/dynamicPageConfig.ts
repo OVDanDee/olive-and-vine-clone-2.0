@@ -224,6 +224,16 @@ const INSIGHT_PAGES: Record<string, DynamicPageEntry> = {
       ko: ["인사이트", "세무", "홍콩 이중 급여세 (2024/25)"],
     },
   },
+  "insights/hr/employers-return-bir56a": {
+    documentTitle: {
+      en: "Annual Employer's Return (BIR56A) in Hong Kong",
+      ko: "연간 고용주 신고서 (BIR56A) 홍콩",
+    },
+    pathSegments: {
+      en: ["Insights", "HR", "Annual Employer's Return (BIR56A)"],
+      ko: ["인사이트", "인사", "연간 고용주 신고서 (BIR56A)"],
+    },
+  },
 };
 
 export function getDynamicPageKey(pathname: string): string {
