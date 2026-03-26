@@ -30,12 +30,14 @@ export default function HrServicePage() {
 
   return (
     <div className="min-h-screen bg-white">
-      <section className="w-full py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 relative overflow-hidden min-h-[250px] sm:min-h-[300px] md:min-h-[350px] lg:min-h-[400px]">
+      {/* Hero */}
+      <section className="w-full py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 relative overflow-hidden min-h-[250px] sm:min-h-[300px] md:min-h-[350px] lg:min-h-[60vh]">
         <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
-          <iframe src="https://player.vimeo.com/video/1161327051?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1" className="absolute left-1/2 top-1/2 pointer-events-none w-full h-full min-w-full min-h-full" style={{ width: "max(100%, 177.78vh)", minWidth: "100%", height: "max(100%, 56.25vw)", minHeight: "100%", transform: "translate(-50%, -50%) scale(1.15)" }} title="HR BG" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerPolicy="strict-origin-when-cross-origin" />
+          <iframe src="https://player.vimeo.com/video/1177226263?badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&loop=1&muted=1&background=1" className="absolute left-1/2 top-1/2 pointer-events-none w-full h-full min-w-full min-h-full" style={{ width: "max(100%, 177.78vh)", minWidth: "100%", height: "max(100%, 56.25vw)", minHeight: "100%", transform: "translate(-50%, -50%) scale(1.15)" }} title="HR BG" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerPolicy="strict-origin-when-cross-origin" />
         </div>
-        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 flex flex-col items-center justify-center text-center pb-0 min-h-[250px] sm:min-h-[300px] md:min-h-[350px] lg:min-h-[400px]">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-[96px] font-base text-white mb-2 sm:mb-2.5 md:mb-3 leading-tight text-center w-full px-1 sm:px-0">
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40 z-[1]" />
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 flex flex-col items-center justify-center text-center pb-0 min-h-[250px] sm:min-h-[300px] md:min-h-[350px] lg:min-h-[60vh]">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl xl:text-[96px] font-light text-white mb-2 sm:mb-2.5 md:mb-3 leading-tight text-center w-full px-1 sm:px-0">
             {heroTitle}
           </h2>
           <p className="text-sm sm:text-base md:text-lg lg:text-[20px] text-white w-full text-center max-w-2xl sm:max-w-none mx-auto px-1 sm:px-0 leading-relaxed">
@@ -44,6 +46,31 @@ export default function HrServicePage() {
         </div>
       </section>
 
+      {/* Stat Strip */}
+      <section className="w-full bg-[#495F2B] py-3 sm:py-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 text-center">
+            <div>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">25+</span>
+              <span className="block text-sm md:text-base text-white/70 mt-1">Years of Experience</span>
+            </div>
+            <div>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">500+</span>
+              <span className="block text-sm md:text-base text-white/70 mt-1">Clients Served</span>
+            </div>
+            <div>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">HK</span>
+              <span className="block text-sm md:text-base text-white/70 mt-1">Focused Practice</span>
+            </div>
+            <div>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">Big 4</span>
+              <span className="block text-sm md:text-base text-white/70 mt-1">Trained Alumni</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Service Cards */}
       <section className="w-full py-8 sm:py-12 md:py-16 lg:py-20 bg-[#F0EEE2]">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-6 gap-6 md:gap-8 mb-6 md:mb-8">
@@ -82,7 +109,7 @@ export default function HrServicePage() {
                       </div>
                     )}
                   </div>
-                  <div className="bg-white w-[380.8px] max-w-full h-[88px] flex flex-col justify-center pt-2 pb-2 text-center mx-auto shrink-0">
+                  <div className="bg-white w-full h-[88px] flex flex-col justify-center pt-2 pb-2 text-center mx-auto shrink-0">
                     <h3 className="font-sans text-[20px] font-bold text-[#202020] mb-2">{title}</h3>
                     <div className="flex flex-wrap gap-2 justify-center">
                       {card.tags.map((tag, i) => (
@@ -109,7 +136,7 @@ export default function HrServicePage() {
                       <ul className="list-disc list-inside space-y-1 text-white text-sm sm:text-base w-full">{descContent}</ul>
                     </div>
                   </div>
-                  <div className="bg-white w-[380.8px] max-w-full h-[88px] flex flex-col justify-center pt-2 pb-2 text-center mx-auto shrink-0">
+                  <div className="bg-white w-full h-[88px] flex flex-col justify-center pt-2 pb-2 text-center mx-auto shrink-0">
                     <h3 className="font-sans text-[20px] font-bold text-[#202020] mb-2">{title}</h3>
                     <div className="flex flex-wrap gap-2 justify-center">
                       {card.tags.map((tag, i) => (
@@ -123,6 +150,8 @@ export default function HrServicePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ */}
       <section className="w-full py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row md:gap-12 lg:gap-16 w-full">
@@ -168,6 +197,18 @@ export default function HrServicePage() {
           </div>
         </div>
       </section>
+
+      {/* CTA */}
+      <div className="h-12 sm:h-16 md:h-20 lg:h-24 bg-white" />
+      <section className="w-full bg-[#495F2B] py-16 sm:py-20 lg:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 text-center">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-white mb-4">Ready to Get Started?</h2>
+          <p className="text-base lg:text-lg text-white/70 max-w-2xl mx-auto mb-8">Let our experienced team help you navigate your business needs with confidence.</p>
+          <a href="/contact" className="inline-flex items-center gap-2 bg-white text-[#495F2B] font-semibold px-8 py-3 rounded-full hover:bg-[#F5F3E8] transition-colors duration-300">Book a Consultation</a>
+        </div>
+      </section>
+
+      {/* Insights */}
       <section className="w-full py-8 sm:py-10 md:py-12 lg:py-16 xl:py-[7.5rem] relative z-10 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 flex flex-col items-start w-full">
           <span className="text-base md:text-lg lg:text-[20px] font-semibold text-[#627F38]">
