@@ -80,7 +80,7 @@ export default function AccountingServicePage() {
 
       {/* Bookkeeping */}
       <section className="w-full grid grid-cols-1 lg:grid-cols-2 items-center bg-white pt-6 sm:pt-8 lg:pt-16 xl:pt-30">
-        <div className="w-full min-h-[280px] sm:min-h-[340px] lg:min-h-[400px] bg-contain bg-center bg-no-repeat py-16 md:py-24 lg:py-0" style={{ backgroundImage: "url(/services/b1.svg)" }} role="img" aria-label="Bookkeeping" />
+        <div className="w-full min-h-[280px] sm:min-h-[340px] lg:min-h-[400px] bg-cover bg-center bg-no-repeat py-16 md:py-24 lg:py-0" style={{ backgroundImage: "url(/services/b1.svg)" }} role="img" aria-label="Bookkeeping" />
         <div className="flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 px-4 sm:px-5 md:px-6 lg:px-8">
           <div className="max-w-xl">
             <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-[#000000] mb-4 md:mb-5 lg:mb-6">
@@ -121,7 +121,7 @@ export default function AccountingServicePage() {
             </ul>
           </div>
         </div>
-        <div className="w-full min-h-[280px] sm:min-h-[340px] lg:min-h-[400px] bg-contain bg-center bg-no-repeat order-2 lg:order-2 py-16 md:py-24 lg:py-0" style={{ backgroundImage: "url(/services/a1.svg)" }} role="img" aria-label="Accounting" />
+        <div className="w-full min-h-[280px] sm:min-h-[340px] lg:min-h-[400px] bg-cover bg-center bg-no-repeat order-2 lg:order-2 py-16 md:py-24 lg:py-0" style={{ backgroundImage: "url(/services/a1.svg)" }} role="img" aria-label="Accounting" />
       </section>
 
       {/* Private Accounting */}
@@ -147,7 +147,6 @@ export default function AccountingServicePage() {
       </section>
 
       {/* CTA */}
-      <div className="h-12 sm:h-16 md:h-20 lg:h-24 bg-white" />
       <section className="w-full bg-[#495F2B] py-16 sm:py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-white mb-4">Ready to Get Started?</h2>
