@@ -31,7 +31,7 @@ export default function ConsultingServicePage() {
       {/* Hero */}
       <section className="w-full py-8 sm:py-12 md:py-16 lg:py-20 xl:py-24 relative overflow-hidden min-h-[250px] sm:min-h-[300px] md:min-h-[350px] lg:min-h-[60vh]">
         <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
-          <iframe src="https://player.vimeo.com/video/1160909295?autoplay=1&loop=1&muted=1&background=1" className="absolute left-1/2 top-1/2 pointer-events-none w-full h-full min-w-full min-h-full" style={{ width: "max(100%, 177.78vh)", minWidth: "100%", height: "max(100%, 56.25vw)", minHeight: "100%", transform: "translate(-50%, -50%) scale(1.15)" }} title="Consulting services background" allow="autoplay; fullscreen; picture-in-picture" />
+          <iframe src="https://player.vimeo.com/video/1177226397?autoplay=1&loop=1&muted=1&background=1" className="absolute left-1/2 top-1/2 pointer-events-none w-full h-full min-w-full min-h-full" style={{ width: "max(100%, 177.78vh)", minWidth: "100%", height: "max(100%, 56.25vw)", minHeight: "100%", transform: "translate(-50%, -50%) scale(1.15)" }} title="Consulting services background" allow="autoplay; fullscreen; picture-in-picture" />
         </div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40 z-[1]" />
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 flex flex-col items-center justify-center text-center pb-0 min-h-[250px] sm:min-h-[300px] md:min-h-[350px] lg:min-h-[60vh]">
@@ -45,23 +45,23 @@ export default function ConsultingServicePage() {
       </section>
 
       {/* Stat Strip */}
-      <section className="w-full bg-[#495F2B] py-6 sm:py-8">
+      <section className="w-full bg-[#495F2B] py-3 sm:py-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 text-center">
             <div>
-              <span className="block text-2xl md:text-3xl lg:text-4xl font-bold text-white">25+</span>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">25+</span>
               <span className="block text-sm md:text-base text-white/70 mt-1">Years of Experience</span>
             </div>
             <div>
-              <span className="block text-2xl md:text-3xl lg:text-4xl font-bold text-white">500+</span>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">500+</span>
               <span className="block text-sm md:text-base text-white/70 mt-1">Clients Served</span>
             </div>
             <div>
-              <span className="block text-2xl md:text-3xl lg:text-4xl font-bold text-white">HK</span>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">HK</span>
               <span className="block text-sm md:text-base text-white/70 mt-1">Focused Practice</span>
             </div>
             <div>
-              <span className="block text-2xl md:text-3xl lg:text-4xl font-bold text-white">Big 4</span>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">Big 4</span>
               <span className="block text-sm md:text-base text-white/70 mt-1">Trained Alumni</span>
             </div>
           </div>
