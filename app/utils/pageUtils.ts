@@ -158,6 +158,26 @@ export const portfolioTranslations = {
   },
 };
 
+export const statStripTranslations = {
+  yearsValue: { en: "25+", ko: "25+" },
+  yearsLabel: { en: "Years of Experience", ko: "경력 연수" },
+  clientsValue: { en: "500+", ko: "500+" },
+  clientsLabel: { en: "Clients Served", ko: "서비스 제공 고객" },
+  hkValue: { en: "HK", ko: "HK" },
+  hkLabel: { en: "Focused Practice", ko: "홍콩 전문 서비스" },
+  big4Value: { en: "Big 4", ko: "Big 4" },
+  big4Label: { en: "Trained Alumni", ko: "출신 전문가" },
+};
+
+export const ctaTranslations = {
+  heading: { en: "Ready to Get Started?", ko: "시작할 준비가 되셨나요?" },
+  description: {
+    en: "Let our experienced team help you navigate your business needs with confidence.",
+    ko: "저희 전문 팀이 귀하의 비즈니스 요구를 자신 있게 안내해 드리겠습니다.",
+  },
+  button: { en: "Book a Consultation", ko: "상담 예약" },
+};
+
 export const learnMoreTranslations = {
   title: {
     en: "Learn More",

@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from "@/app/contexts/LanguageContext";
 import { taxServicePageTranslations } from "@/app/utils/pageTaxServiceUtils";
-import { learnMoreTranslations } from "@/app/utils/pageUtils";
+import { learnMoreTranslations, statStripTranslations, ctaTranslations } from "@/app/utils/pageUtils";
 import InsightCards from "@/app/components/InsightCards";
 import * as Icons from "@/app/utils/icons";
 
@@ -45,20 +45,20 @@ export default function TaxServicePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 text-center">
             <div>
-              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">25+</span>
-              <span className="block text-sm md:text-base text-white/70 mt-1">Years of Experience</span>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">{language === "KOR" ? statStripTranslations.yearsValue.ko : statStripTranslations.yearsValue.en}</span>
+              <span className="block text-sm md:text-base text-white/70 mt-1">{language === "KOR" ? statStripTranslations.yearsLabel.ko : statStripTranslations.yearsLabel.en}</span>
             </div>
             <div>
-              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">500+</span>
-              <span className="block text-sm md:text-base text-white/70 mt-1">Clients Served</span>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">{language === "KOR" ? statStripTranslations.clientsValue.ko : statStripTranslations.clientsValue.en}</span>
+              <span className="block text-sm md:text-base text-white/70 mt-1">{language === "KOR" ? statStripTranslations.clientsLabel.ko : statStripTranslations.clientsLabel.en}</span>
             </div>
             <div>
-              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">HK</span>
-              <span className="block text-sm md:text-base text-white/70 mt-1">Focused Practice</span>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">{language === "KOR" ? statStripTranslations.hkValue.ko : statStripTranslations.hkValue.en}</span>
+              <span className="block text-sm md:text-base text-white/70 mt-1">{language === "KOR" ? statStripTranslations.hkLabel.ko : statStripTranslations.hkLabel.en}</span>
             </div>
             <div>
-              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">Big 4</span>
-              <span className="block text-sm md:text-base text-white/70 mt-1">Trained Alumni</span>
+              <span className="block text-xl md:text-2xl lg:text-3xl font-bold text-white">{language === "KOR" ? statStripTranslations.big4Value.ko : statStripTranslations.big4Value.en}</span>
+              <span className="block text-sm md:text-base text-white/70 mt-1">{language === "KOR" ? statStripTranslations.big4Label.ko : statStripTranslations.big4Label.en}</span>
             </div>
           </div>
         </div>
@@ -134,9 +134,9 @@ export default function TaxServicePage() {
       <div className="h-12 sm:h-16 md:h-20 lg:h-24 bg-white" />
       <section className="w-full bg-[#495F2B] py-16 sm:py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 text-center">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-white mb-4">Ready to Get Started?</h2>
-          <p className="text-base lg:text-lg text-white/70 max-w-2xl mx-auto mb-8">Let our experienced team help you navigate your business needs with confidence.</p>
-          <a href="/contact" className="inline-flex items-center gap-2 bg-white text-[#495F2B] font-semibold px-8 py-3 rounded-full hover:bg-[#F5F3E8] transition-colors duration-300">Book a Consultation</a>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-white mb-4">{language === "KOR" ? ctaTranslations.heading.ko : ctaTranslations.heading.en}</h2>
+          <p className="text-base lg:text-lg text-white/70 max-w-2xl mx-auto mb-8">{language === "KOR" ? ctaTranslations.description.ko : ctaTranslations.description.en}</p>
+          <a href="/contact" className="inline-flex items-center gap-2 bg-white text-[#495F2B] font-semibold px-8 py-3 rounded-full hover:bg-[#F5F3E8] transition-colors duration-300">{language === "KOR" ? ctaTranslations.button.ko : ctaTranslations.button.en}</a>
         </div>
       </section>
 
