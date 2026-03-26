@@ -79,9 +79,9 @@ export default function AccountingServicePage() {
       </section>
 
       {/* Bookkeeping */}
-      <section className="w-full grid grid-cols-1 lg:grid-cols-2 items-stretch min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-white pt-6 sm:pt-8 lg:pt-16 xl:pt-30">
-        <div className="accounting-service-bookkeeping-img w-full min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-cover bg-center bg-no-repeat py-32 md:py-60 lg:py-0" style={{ backgroundImage: "url(/services/b1.svg)" }} role="img" aria-label="Bookkeeping" />
-        <div className="flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 xl:py-40 px-4 sm:px-5 md:px-6 lg:px-8">
+      <section className="w-full grid grid-cols-1 lg:grid-cols-2 items-center bg-white pt-6 sm:pt-8 lg:pt-16 xl:pt-30">
+        <div className="w-full min-h-[280px] sm:min-h-[340px] lg:min-h-[400px] bg-contain bg-center bg-no-repeat py-16 md:py-24 lg:py-0" style={{ backgroundImage: "url(/services/b1.svg)" }} role="img" aria-label="Bookkeeping" />
+        <div className="flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 px-4 sm:px-5 md:px-6 lg:px-8">
           <div className="max-w-xl">
             <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-[#000000] mb-4 md:mb-5 lg:mb-6">
               {bookkeepingTitle}
@@ -102,8 +102,8 @@ export default function AccountingServicePage() {
       </section>
 
       {/* Accounting */}
-      <section className="w-full grid grid-cols-1 lg:grid-cols-2 items-stretch min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-white">
-        <div className="flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 xl:py-40 px-4 sm:px-5 md:px-6 lg:px-8 order-1 lg:order-1">
+      <section className="w-full grid grid-cols-1 lg:grid-cols-2 items-center bg-white">
+        <div className="flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 px-4 sm:px-5 md:px-6 lg:px-8 order-1 lg:order-1">
           <div className="max-w-xl lg:ml-auto">
             <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-[#000000] mb-4 md:mb-5 lg:mb-6">
               {accountingSectionTitle}
@@ -121,33 +121,33 @@ export default function AccountingServicePage() {
             </ul>
           </div>
         </div>
-        <div className="w-full min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-cover bg-center bg-no-repeat order-2 lg:order-2 py-32 md:py-60 lg:py-0" style={{ backgroundImage: "url(/services/a1.svg)" }} role="img" aria-label="Accounting" />
+        <div className="w-full min-h-[280px] sm:min-h-[340px] lg:min-h-[400px] bg-contain bg-center bg-no-repeat order-2 lg:order-2 py-16 md:py-24 lg:py-0" style={{ backgroundImage: "url(/services/a1.svg)" }} role="img" aria-label="Accounting" />
       </section>
 
       {/* Private Accounting */}
-      <section className="w-full grid grid-cols-1 lg:grid-cols-2 items-stretch min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-white pt-6 sm:pt-8 lg:pt-16 xl:pt-30">
-        <div className="accounting-service-bookkeeping-img w-full min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-cover bg-center bg-no-repeat py-32 md:py-60 lg:py-0" style={{ backgroundImage: "url(/services/ac1.svg)" }} role="img" aria-label="Private Accounting" />
-        <div className="flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 xl:py-40 px-4 sm:px-5 md:px-6 lg:px-8">
-          <div className="max-w-xl">
-            <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-[#000000] mb-4 md:mb-5 lg:mb-6">
+      <section className="w-full bg-[#F5F3E8] py-12 sm:py-16 md:py-20 lg:py-24">
+        <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8">
+          <div className="max-w-3xl">
+            <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-[#111B12] mb-4 md:mb-5 lg:mb-6">
               {privateaccountingTitle}
             </h3>
-            <span className="block text-base text-[#111B12] text-justify mb-4 md:mb-5 lg:mb-6">
+            <span className="block text-base text-[#111B12] text-justify mb-6 md:mb-8">
               {privateaccountingDescription}
             </span>
-            <ul className="flex flex-col gap-3 md:gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 md:gap-4">
               {privateaccountingItems.map((item, i) => (
-                <li key={i} className="flex gap-2">
+                <div key={i} className="flex gap-2">
                   <span className="inline-block flex-shrink-0 w-2 h-2 rounded-full bg-[#627F38] mt-2"></span>
                   <span className="block text-base text-[#111B12]">{item}</span>
-                </li>
+                </div>
               ))}
-            </ul>
+            </div>
           </div>
         </div>
       </section>
 
       {/* CTA */}
+      <div className="h-12 sm:h-16 md:h-20 lg:h-24 bg-white" />
       <section className="w-full bg-[#495F2B] py-16 sm:py-20 lg:py-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 text-center">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-light text-white mb-4">Ready to Get Started?</h2>
