@@ -30,6 +30,7 @@ export default function AccountingServicePage() {
         <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
           <iframe src="https://player.vimeo.com/video/1160084875?autoplay=1&loop=1&muted=1&background=1" className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none w-full h-full min-w-full min-h-full" style={{ width: "max(100%, 177.78vh)", minWidth: "100%", height: "max(100%, 56.25vw)", minHeight: "100%" }} title="Accounting services background" allow="autoplay; fullscreen; picture-in-picture" />
         </div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/40 z-[1]" />
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 flex flex-col items-center justify-center text-center pb-0 min-h-[250px] sm:min-h-[300px] md:min-h-[350px] lg:min-h-[60vh]">
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-[96px] font-light text-[#FFFFFF] mb-2 sm:mb-2.5 md:mb-3 leading-tight text-center w-full">
             {heroTitle}
@@ -100,7 +101,7 @@ export default function AccountingServicePage() {
         </div>
       </section>
 
-      {/* Accounting */}
+      {/* Accounting + Private Accounting */}
       <section className="w-full grid grid-cols-1 lg:grid-cols-2 items-stretch min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-white">
         <div className="flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 xl:py-40 px-4 sm:px-5 md:px-6 lg:px-8 order-1 lg:order-1">
           <div className="max-w-xl lg:ml-auto">
@@ -120,25 +121,19 @@ export default function AccountingServicePage() {
             </ul>
           </div>
         </div>
-        <div className="w-full min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-cover bg-center bg-no-repeat order-2 lg:order-2 py-32 md:py-60 lg:py-0" style={{ backgroundImage: "url(/services/a1.svg)" }} role="img" aria-label="Accounting" />
-      </section>
-
-      {/* Private Accounting */}
-      <section className="w-full grid grid-cols-1 lg:grid-cols-2 items-stretch min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-white pt-6 sm:pt-8 lg:pt-16 xl:pt-30">
-        <div className="accounting-service-bookkeeping-img w-full min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-cover bg-center bg-no-repeat py-32 md:py-60 lg:py-0" style={{ backgroundImage: "url(/services/ac1.svg)" }} role="img" aria-label="Private Accounting" />
-        <div className="flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 xl:py-40 px-4 sm:px-5 md:px-6 lg:px-8">
+        <div className="w-full min-h-[200px] sm:min-h-[240px] lg:min-h-[280px] bg-[#495F2B] order-2 lg:order-2 flex flex-col justify-center py-6 sm:py-8 md:py-12 lg:py-16 xl:py-40 px-4 sm:px-5 md:px-6 lg:px-8">
           <div className="max-w-xl">
-            <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-[#000000] mb-4 md:mb-5 lg:mb-6">
+            <h3 className="text-lg md:text-xl lg:text-2xl font-medium text-white mb-4 md:mb-5 lg:mb-6">
               {privateaccountingTitle}
             </h3>
-            <span className="block text-base text-[#111B12] text-justify mb-4 md:mb-5 lg:mb-6">
+            <span className="block text-base text-white/80 text-justify mb-4 md:mb-5 lg:mb-6">
               {privateaccountingDescription}
             </span>
             <ul className="flex flex-col gap-3 md:gap-4">
               {privateaccountingItems.map((item, i) => (
                 <li key={i} className="flex gap-2">
-                  <span className="inline-block flex-shrink-0 w-2 h-2 rounded-full bg-[#627F38] mt-2"></span>
-                  <span className="block text-base text-[#111B12]">{item}</span>
+                  <span className="inline-block flex-shrink-0 w-2 h-2 rounded-full bg-[#F5F3E8] mt-2"></span>
+                  <span className="block text-base text-white/90">{item}</span>
                 </li>
               ))}
             </ul>
