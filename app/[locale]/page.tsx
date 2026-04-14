@@ -1,8 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import InsightCards from "@/app/components/InsightCards";
 import ServiceCards from "@/app/components/ServiceCards";
 import AnimatedHeadline from "@/app/components/AnimatedHeadline";
@@ -16,50 +15,62 @@ const DELETING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 
 export default function Home() {
-  const { language, setLanguage } = useLanguage();
+  const { language } = useLanguage();
 
-  const toggleLanguage = () => {
-    setLanguage(language === "KOR" ? "ENG" : "KOR");
-  };
   const WORDS = language === "KOR" ? heroWords.ko : heroWords.en;
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [displayedText, setDisplayedText] = useState("");
-  const [isDeleting, setIsDeleting] = useState(false);
-  const [typingSpeed, setTypingSpeed] = useState(TYPING_SPEED);
-
+  const [typingState, setTypingState] = useState({
+    currentIndex: 0,
+    displayedText: "",
+    isDeleting: false,
+    typingSpeed: TYPING_SPEED,
+  });
 
   const handleTyping = useCallback(() => {
-    const currentWord = WORDS[currentIndex];
-    
-    if (!isDeleting) {
-      if (displayedText.length < currentWord.length) {
-        setDisplayedText(currentWord.substring(0, displayedText.length + 1));
-        setTypingSpeed(TYPING_SPEED);
+    const currentWord = WORDS[typingState.currentIndex];
+
+    if (!typingState.isDeleting) {
+      if (typingState.displayedText.length < currentWord.length) {
+        setTypingState((prev) => ({
+          ...prev,
+          displayedText: currentWord.substring(0, prev.displayedText.length + 1),
+          typingSpeed: TYPING_SPEED,
+        }));
       } else {
-        setTimeout(() => setIsDeleting(true), PAUSE_DURATION);
+        setTimeout(() => setTypingState((prev) => ({ ...prev, isDeleting: true })), PAUSE_DURATION);
       }
     } else {
-      if (displayedText.length > 0) {
-        setDisplayedText(currentWord.substring(0, displayedText.length - 1));
-        setTypingSpeed(DELETING_SPEED);
+      if (typingState.displayedText.length > 0) {
+        setTypingState((prev) => ({
+          ...prev,
+          displayedText: currentWord.substring(0, prev.displayedText.length - 1),
+          typingSpeed: DELETING_SPEED,
+        }));
       } else {
-        setIsDeleting(false);
-        setCurrentIndex((prevIndex) => (prevIndex + 1) % WORDS.length);
-        setTypingSpeed(TYPING_SPEED);
+        setTypingState((prev) => ({
+          ...prev,
+          isDeleting: false,
+          currentIndex: (prev.currentIndex + 1) % WORDS.length,
+          typingSpeed: TYPING_SPEED,
+        }));
       }
     }
-  }, [displayedText, isDeleting, currentIndex, WORDS]);
+  }, [typingState, WORDS]);
 
+  // Reset animation state when language changes - legitimate side effect from language context
   useEffect(() => {
-    setCurrentIndex(0);
-    setDisplayedText("");
-    setIsDeleting(false);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setTypingState({
+      currentIndex: 0,
+      displayedText: "",
+      isDeleting: false,
+      typingSpeed: TYPING_SPEED,
+    });
   }, [language]);
 
   useEffect(() => {
-    const timer = setTimeout(handleTyping, typingSpeed);
+    const timer = setTimeout(handleTyping, typingState.typingSpeed);
     return () => clearTimeout(timer);
-  }, [handleTyping, typingSpeed]);
+  }, [handleTyping, typingState.typingSpeed]);
 
   const heroBackgroundStyle = createBgStyle("/home/home-bg.png", { size: "contain" });
   const aboutBackgroundStyle = createBgStyle("/home/about-us.png");
@@ -72,7 +83,7 @@ export default function Home() {
           <div className="hero-background w-full flex items-center justify-center" style={heroBackgroundStyle}>
             <div className="flex flex-col items-start gap-4">
               <span className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl text-white text-left">
-                {displayedText}
+                {typingState.displayedText}
                 <span className="animate-blink" aria-hidden="true">|</span>
               </span>
             </div>

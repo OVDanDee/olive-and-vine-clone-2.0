@@ -80,6 +80,7 @@ function isEnKoPair(obj: ts.ObjectLiteralExpression): { en: ts.Expression; ko: t
  * Returns the extracted value if it's a literal (string/number/bool/null/array/object),
  * or undefined for calls/identifiers/etc.
  */
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 function toValue(node: ts.Expression, lang: Lang): unknown {
   if (ts.isStringLiteral(node) || ts.isNoSubstitutionTemplateLiteral(node)) return node.text;
   if (ts.isNumericLiteral(node)) return Number(node.text);
@@ -184,7 +185,7 @@ function walkInitializer(
           if (pn === "ko") {
             const koInit = p.initializer;
             // Check if replacement is valid (both should be strings or both arrays of same length)
-            const canReplace = validateReplacement(koInit, deeplValue, sf);
+            const canReplace = validateReplacement(koInit, deeplValue);
             if (canReplace) {
               const replacement = JSON.stringify(deeplValue);
               edits.push({
@@ -230,7 +231,7 @@ function walkInitializer(
  * - Both arrays of strings with same length: OK
  * - Otherwise: SKIP
  */
-function validateReplacement(sourceNode: ts.Expression, deeplValue: unknown, sf: ts.SourceFile): boolean {
+function validateReplacement(sourceNode: ts.Expression, deeplValue: unknown): boolean {
   // If source is string literal and DeepL is string: OK
   if ((ts.isStringLiteral(sourceNode) || ts.isNoSubstitutionTemplateLiteral(sourceNode)) && typeof deeplValue === "string") {
     return true;

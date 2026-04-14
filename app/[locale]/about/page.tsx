@@ -31,8 +31,10 @@ export default function AboutPage() {
 
       {/* ═══════ HERO — Vimeo cinematic background + text reveal ═══════ */}
       <section className="w-full relative overflow-hidden" style={{ minHeight: "90vh" }}>
-        <VimeoBackground videoId="1182577957" overlayOpacity={0.45} />
-
+        <VimeoBackground videoId="1178766724" overlayOpacity={0.45} />
+// 1178766724
+// 1182914090
+// 1182914091
         {/* Content */}
         <div
           className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-5 md:px-6 lg:px-8 flex flex-col justify-center"

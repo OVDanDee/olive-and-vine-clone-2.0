@@ -20,13 +20,10 @@ export default function AccountingServicePage() {
   const accountingServiceIntro = language === "KOR" ? t.accountingServiceIntro.ko : t.accountingServiceIntro.en;
   const bookkeepingTitle = language === "KOR" ? t.bookkeepingTitle.ko : t.bookkeepingTitle.en;
   const bookkeepingDescription = language === "KOR" ? t.bookkeepingDescription.ko : t.bookkeepingDescription.en;
-  const bookkeepingItems = language === "KOR" ? t.bookkeepingItems.ko : t.bookkeepingItems.en;
   const accountingSectionTitle = language === "KOR" ? t.accountingSectionTitle.ko : t.accountingSectionTitle.en;
   const accountingSectionDescription = language === "KOR" ? t.accountingSectionDescription.ko : t.accountingSectionDescription.en;
-  const accountingSectionItems = language === "KOR" ? t.accountingSectionItems.ko : t.accountingSectionItems.en;
   const privateaccountingTitle = language === "KOR" ? t.privateaccountingTitle.ko : t.privateaccountingTitle.en;
   const privateaccountingDescription = language === "KOR" ? t.privateaccountingDescription.ko : t.privateaccountingDescription.en;
-  const privateaccountingItems = language === "KOR" ? t.privateaccountingItems.ko : t.privateaccountingItems.en;
 
   return (
     <ServiceAccentProvider serviceType="accounting">

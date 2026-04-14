@@ -4,7 +4,7 @@ import { setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { routing, Locale } from "@/i18n/routing";
+import { routing } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
 import PageTitle from "@/app/components/PageTitle";
 import Header from "@/app/components/Header";

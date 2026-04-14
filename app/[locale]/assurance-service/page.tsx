@@ -25,7 +25,7 @@ interface AuditFlipCardProps {
   index: number;
 }
 
-function AuditFlipCard({ item, index }: AuditFlipCardProps) {
+function AuditFlipCard({ item }: AuditFlipCardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
 
   return (
@@ -76,7 +76,6 @@ export default function AssuranceServicePage() {
   const t = assuranceServicePageTranslations;
   const heroTitle = language === "KOR" ? t.heroTitle.ko : t.heroTitle.en;
   const heroSubtitle = language === "KOR" ? t.heroSubtitle.ko : t.heroSubtitle.en;
-  const auditTitle = language === "KOR" ? t.auditTitle.ko : t.auditTitle.en;
   const externalAuditTitle = language === "KOR" ? t.externalAuditTitle.ko : t.externalAuditTitle.en;
   const externalAuditItems = language === "KOR" ? t.externalAuditItems.ko : t.externalAuditItems.en;
   const otherAssuranceTitle = language === "KOR" ? t.otherAssuranceTitle.ko : t.otherAssuranceTitle.en;

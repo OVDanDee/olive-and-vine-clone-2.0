@@ -6,7 +6,6 @@ import { usePathname, Link } from "@/i18n/navigation";
 import ToggleMenu from "./ToggleMenu";
 import { getTranslatedPageName, getMenuLabel } from "../utils/pageUtils";
 import { useLanguage } from "../contexts/LanguageContext";
-import * as Icons from "../utils/icons";
 
 export default function Header() {
   const pathname = usePathname();

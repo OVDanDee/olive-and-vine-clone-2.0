@@ -9,6 +9,20 @@ interface AnimatedHeadlineProps {
 }
 
 export default function AnimatedHeadline({ words, className = '', interval = 3000 }: AnimatedHeadlineProps) {
+  // Generate a unique key for the words array to force remount when words change
+  const wordsKey = words.join('|');
+
+  return (
+    <AnimatedHeadlineInner
+      key={wordsKey}
+      words={words}
+      className={className}
+      interval={interval}
+    />
+  );
+}
+
+function AnimatedHeadlineInner({ words, className = '', interval = 3000 }: AnimatedHeadlineProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isSwirlingOut, setIsSwirlingOut] = useState(false);
   const [isSwirlingIn, setIsSwirlingIn] = useState(false);
@@ -18,27 +32,21 @@ export default function AnimatedHeadline({ words, className = '', interval = 300
 
   useEffect(() => {
     if (words.length === 0) return;
-    setDisplayWord(words[0]);
-    setCurrentIndex(0);
-  }, [words]);
-
-  useEffect(() => {
-    if (words.length === 0) return;
 
     const timer = setInterval(() => {
       setIsSwirlingOut(true);
-      
+
       timeoutRef.current = setTimeout(() => {
         setCurrentIndex((prevIndex) => {
           const nextIndex = (prevIndex + 1) % words.length;
           setDisplayWord(words[nextIndex]);
           setIsSwirlingOut(false);
           setIsSwirlingIn(true);
-          
+
           nestedTimeoutRef.current = setTimeout(() => {
             setIsSwirlingIn(false);
           }, 600);
-          
+
           return nextIndex;
         });
       }, 600);

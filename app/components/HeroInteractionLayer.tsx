@@ -29,16 +29,20 @@ export default function HeroInteractionLayer({ variant, className = "" }: HeroIn
   const targetRef = useRef({ x: 0.5, y: 0.5 });
   const currentRef = useRef({ x: 0.5, y: 0.5 });
 
-  // Smooth interpolation via rAF
+  // Smooth interpolation via rAF using ref for recursive calls
+  const animateRef = useRef<() => void>(() => {});
+
   const animate = useCallback(() => {
     const lerp = 0.08;
     currentRef.current.x += (targetRef.current.x - currentRef.current.x) * lerp;
     currentRef.current.y += (targetRef.current.y - currentRef.current.y) * lerp;
     setMouse({ x: currentRef.current.x, y: currentRef.current.y });
-    rafRef.current = requestAnimationFrame(animate);
+    rafRef.current = requestAnimationFrame(animateRef.current);
   }, []);
 
   useEffect(() => {
+    // Keep the ref in sync with the callback for recursive calls
+    animateRef.current = animate;
     rafRef.current = requestAnimationFrame(animate);
     return () => cancelAnimationFrame(rafRef.current);
   }, [animate]);

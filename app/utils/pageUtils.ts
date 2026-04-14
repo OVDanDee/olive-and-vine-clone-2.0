@@ -1,6 +1,5 @@
 import {
   getDynamicPageEntry,
-  INSIGHT_TAG_SERVICE_KEY,
   INSIGHTS_PATH_LABELS,
 } from "./dynamicPageConfig";
 import { getLeadershipProfile } from "./leadershipProfileTranslations";
@@ -32,13 +31,6 @@ const pageTranslations: Record<string, { en: string; ko: string }> = {
   Insights: { en: "Insights", ko: "인사이트" },
   Contact: { en: "Contact", ko: "고객지원" },
 };
-
-function getServiceTitleByKey(tagKey: string, language: string): string | null {
-  const entry = servicesTranslations[tagKey as keyof typeof servicesTranslations];
-  if (!entry || typeof entry !== "object" || !("title" in entry)) return null;
-  const title = (entry as { title: { en: string; ko: string } }).title;
-  return language === "KOR" ? title.ko : title.en;
-}
 
 function buildInsightPathSegments(
   pathname: string,

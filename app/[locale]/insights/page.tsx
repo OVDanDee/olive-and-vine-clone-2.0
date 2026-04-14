@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/i18n/navigation";
 import { useLanguage } from "@/app/contexts/LanguageContext";
 import { learnMoreTranslations, servicesTranslations } from "@/app/utils/pageUtils";
 import * as Icons from "@/app/utils/icons";
@@ -54,17 +54,20 @@ export default function Insights() {
   const CARDS_PER_PAGE = 4;
   const pageCount = Math.max(1, Math.ceil(filteredCards.length / CARDS_PER_PAGE));
   const [currentPage, setCurrentPage] = useState(1);
-  const pageCards = useMemo(() => {
-    const start = (currentPage - 1) * CARDS_PER_PAGE;
-    return filteredCards.slice(start, start + CARDS_PER_PAGE);
-  }, [filteredCards, currentPage]);
 
+  // Clamp currentPage to valid range when pageCount changes
+  const clampedPage = currentPage > pageCount && pageCount >= 1 ? pageCount : currentPage;
+
+  const pageCards = useMemo(() => {
+    const start = (clampedPage - 1) * CARDS_PER_PAGE;
+    return filteredCards.slice(start, start + CARDS_PER_PAGE);
+  }, [filteredCards, clampedPage]);
+
+  // Reset page when filter changes - legitimate side effect from external state
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setCurrentPage(1);
   }, [selectedFilter]);
-  useEffect(() => {
-    if (currentPage > pageCount && pageCount >= 1) setCurrentPage(pageCount);
-  }, [pageCount, currentPage]);
 
   const renderCard = (card: InsightCardDefinition, index: number) => {
     const isKo = language === "KOR";

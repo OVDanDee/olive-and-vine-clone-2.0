@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useServiceAccent } from "@/app/contexts/ServiceAccentContext";
 
 type ServiceType = "accounting" | "tax" | "corporate" | "consulting" | "hr" | "assurance";
@@ -71,34 +71,7 @@ export default function DynamicStatStrip({
   const containerRef = useRef<HTMLDivElement>(null);
   const hasAnimated = useRef(false);
 
-  useEffect(() => {
-    if (hasAnimated.current) return;
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && !hasAnimated.current) {
-            hasAnimated.current = true;
-            animateStats();
-            observer.unobserve(entry.target);
-          }
-        });
-      },
-      { threshold: 0.3 }
-    );
-
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-
-    return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
-    };
-  }, []);
-
-  const animateStats = () => {
+  const animateStats = useCallback(() => {
     stats.forEach((stat, index) => {
       const numericValue = parseInt(stat.value.replace(/[^0-9]/g, ""));
 
@@ -152,7 +125,34 @@ export default function DynamicStatStrip({
         requestAnimationFrame(updateValue);
       }, index * 80);
     });
-  };
+  }, [stats]);
+
+  useEffect(() => {
+    if (hasAnimated.current) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !hasAnimated.current) {
+            hasAnimated.current = true;
+            animateStats();
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    if (containerRef.current) {
+      observer.observe(containerRef.current);
+    }
+
+    return () => {
+      if (containerRef.current) {
+        observer.unobserve(containerRef.current);
+      }
+    };
+  }, [animateStats]);
 
   const prefersReducedMotion = () => {
     if (typeof window === "undefined") return false;
