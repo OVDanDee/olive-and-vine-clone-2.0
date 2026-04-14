@@ -1,48 +1,36 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { createContext, useContext, ReactNode } from "react";
+import { useLocale } from "next-intl";
+import { useRouter, usePathname } from "@/i18n/navigation";
 
 type LanguageContextType = {
-  language: string;
-  setLanguage: (lang: string) => void;
+  language: "ENG" | "KOR";
+  setLanguage: (lang: "ENG" | "KOR") => void;
 };
 
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState("ENG");
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    const savedLanguage = localStorage.getItem("language");
-    if (savedLanguage === "ENG" || savedLanguage === "KOR") {
-      setLanguage(savedLanguage);
-    }
-  }, []);
-
-  useEffect(() => {
-    document.documentElement.setAttribute("data-lang", language);
-  }, [language]);
-
-  const handleSetLanguage = (lang: string) => {
-    setLanguage(lang);
-    if (mounted) {
-      localStorage.setItem("language", lang);
-    }
-  };
-
-  return (
-    <LanguageContext.Provider value={{ language, setLanguage: handleSetLanguage }}>
-      {children}
-    </LanguageContext.Provider>
-  );
+  // This is now a pass-through provider. Locale provisioning happens in [locale]/layout.tsx via NextIntlClientProvider.
+  // We keep this for backward compatibility with existing code that wraps components with LanguageProvider.
+  return <>{children}</>;
 }
 
 export function useLanguage() {
-  const context = useContext(LanguageContext);
-  if (context === undefined) {
-    throw new Error("useLanguage must be used within a LanguageProvider");
-  }
-  return context;
+  const locale = useLocale();
+  const router = useRouter();
+  const pathname = usePathname();
+
+  // Convert next-intl locale code ("en"/"ko") to our legacy language constants
+  const language: "ENG" | "KOR" = locale === "ko" ? "KOR" : "ENG";
+
+  const setLanguage = (lang: "ENG" | "KOR") => {
+    const targetLocale = lang === "KOR" ? "ko" : "en";
+    // Push to the same pathname under the new locale
+    // useRouter from @/i18n/navigation handles locale prefix automatically
+    router.push(pathname, { locale: targetLocale });
+  };
+
+  return { language, setLanguage };
 }

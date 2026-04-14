@@ -8,8 +8,8 @@ import PageTitle from "./components/PageTitle";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-import { LanguageProvider } from "./contexts/LanguageContext";
 import StructuredData from "./components/StructuredData";
+import { routing } from "@/i18n/routing";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -59,13 +59,19 @@ export const metadata: Metadata = {
   },
 };
 
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({
+    locale,
+  }));
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="robots" content="index, follow" />
         <meta name="googlebot" content="index, follow" />
@@ -78,15 +84,13 @@ export default function RootLayout({
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <LanguageProvider>
-          <PageTitle />
-          <Header />
-          {children}
-          <Footer />
-          <ScrollToTop />
-          <SpeedInsights />
-          <Analytics />
-        </LanguageProvider>
+        <PageTitle />
+        <Header />
+        {children}
+        <Footer />
+        <ScrollToTop />
+        <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   );
