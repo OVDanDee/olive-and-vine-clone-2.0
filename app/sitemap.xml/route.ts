@@ -24,6 +24,8 @@ const staticRoutes = [
   "/leadership/miyoung",
 ];
 
+const locales = ["en", "ko"];
+
 function escapeXml(s: string): string {
   return s
     .replace(/&/g, "&amp;")
@@ -38,21 +40,33 @@ export function GET() {
   const urls: string[] = [];
 
   for (const path of staticRoutes) {
-    const url = `${root}${path || "/"}`;
-    urls.push(
-      `  <url><loc>${escapeXml(url)}</loc><lastmod>${now}</lastmod><changefreq>${path === "" || path === "/services" || path === "/contact" ? "weekly" : "monthly"}</changefreq><priority>${path === "" ? "1.0" : path === "/services" || path === "/contact" ? "0.9" : "0.8"}</priority></url>`
-    );
+    // Add entries for each locale
+    for (const locale of locales) {
+      const url = `${root}/${locale}${path}`;
+      const isHomepage = path === "" && locale === "en";
+      const isHighPriority = path === "" || path === "/services" || path === "/contact";
+      const changefreq = isHighPriority ? "weekly" : "monthly";
+      const priority = isHomepage ? "1.0" : isHighPriority ? "0.9" : "0.8";
+
+      urls.push(
+        `  <url><loc>${escapeXml(url)}</loc><lastmod>${now}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority></url>`
+      );
+    }
   }
 
   for (const key of Object.keys(INSIGHT_PAGES)) {
-    const url = `${root}/${key}`;
-    urls.push(
-      `  <url><loc>${escapeXml(url)}</loc><lastmod>${now}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`
-    );
+    // Add insight entries for each locale
+    for (const locale of locales) {
+      const url = `${root}/${locale}/insights/${key}`;
+      urls.push(
+        `  <url><loc>${escapeXml(url)}</loc><lastmod>${now}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>`
+      );
+    }
   }
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+     xmlns:xhtml="http://www.w3.org/1999/xhtml">
 ${urls.join("\n")}
 </urlset>`;
 

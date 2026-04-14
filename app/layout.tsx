@@ -28,7 +28,12 @@ const CANONICAL_ORIGIN = (
 export const metadata: Metadata = {
   metadataBase: new URL(CANONICAL_ORIGIN),
   alternates: {
-    canonical: "/",
+    canonical: "/en",
+    languages: {
+      en: `${CANONICAL_ORIGIN}/en`,
+      ko: `${CANONICAL_ORIGIN}/ko`,
+      "x-default": `${CANONICAL_ORIGIN}/en`,
+    },
   },
   title: {
     default: "Olive & Vine | Accounting and Advisory Solutions",
@@ -58,12 +63,6 @@ export const metadata: Metadata = {
     },
   },
 };
-
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({
-    locale,
-  }));
-}
 
 export default function RootLayout({
   children,
