@@ -1,0 +1,28 @@
+{
+  "_meta": {
+    "purpose": "Protection-only glossary — DO NOT use this to enforce translation style. It exists solely to prevent DeepL from 'over-translating' acronyms, proper nouns, and brand/product names that must remain identical in Korean output.",
+    "policy": "Only add a term here if leaving it untranslated is obviously correct REGARDLESS of sentence context. For everything else, let DeepL decide and review the diff report.",
+    "scope": "15 entries — acronyms + proper nouns + product names only.",
+    "rejected_categories": [
+      "General accounting verbs (Assurance, Audit, Compliance, etc.) — DeepL handles these fine, no need to lock",
+      "HK-specific tax names (Profits Tax, Salaries Tax, VAT) — review in diff report instead of pre-committing a guess",
+      "Descriptive phrases (Transfer Pricing, Due Diligence) — same reason"
+    ]
+  },
+  "_review_pending": false,
+  "terms": {
+    "BIR56A": "BIR56A",
+    "BIR": "BIR",
+    "CIA": "CIA",
+    "CPA": "CPA",
+    "HKICPA": "HKICPA",
+    "IR56": "IR56",
+    "IRD": "IRD",
+    "MPF": "MPF",
+    "Miyoung": "Miyoung",
+    "Olive & Vine": "Olive & Vine",
+    "PwC": "PwC",
+    "Rebecca": "Rebecca",
+    "Xero": "Xero"
+  }
+}
