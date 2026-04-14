@@ -30,7 +30,7 @@ export const aboutPageTranslations = {
   },
   leadershipCulture: {
     en: "Our founders don't believe in titles—they believe in trust. Rebecca and Miyoung have spent careers understanding that great leadership is about listening deeply, making decisions with integrity, and empowering their team to grow. They are not distant executives; they are your advisors, your sounding board, your advocates.",
-    ko: "저희 창립자들은 직함을 믿지 않고 신뢰를 믿습니다. Rebecca와 Miyoung은 훌륭한 리더십이란 깊이 경청하고, 정직하게 의사결정을 내리고, 팀이 성장할 수 있도록 힘을 실어주는 것임을 오랜 시간 이해해 왔습니다. 그들은 멀리 떨어져 있는 경영진이 아니라 여러분의 조언자, 공론의 장, 옹호자입니다.",
+    ko: "저희 창립자들은 직함을 믿지 않고 신뢰를 믿습니다. Rebecca와 Miyoung은 훌륭한 리더십이란 깊이 경청하고, 정직하게 의사결정을 내리고, 팀이 성장할 수 있도록 힘을 실어주는 것임을 오랜 시간 이해해 왔습니다. 저희는 멀리 떨어져 있는 경영진이 아니라 여러분의 조언자, 공론자, 그리고 옹호자입니다.",
   },
   viewProfile: { en: "Full Profile", ko: "전체 프로필" },
 

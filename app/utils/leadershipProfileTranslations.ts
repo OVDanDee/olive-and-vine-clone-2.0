@@ -1,6 +1,8 @@
 import { rebeccaProfileTranslations } from "./leadership/rebecca";
 import { miyoungProfileTranslations } from "./leadership/miyoung";
 
+export const LEADERSHIP_SLUGS: string[] = ["rebecca", "miyoung"];
+
 export function getLeadershipProfile(slug: string) {
   const key = slug.toLowerCase();
   if (key === "rebecca") return rebeccaProfileTranslations;
