@@ -12,7 +12,8 @@
     "i18n:glossary:list": "node --experimental-strip-types --no-warnings scripts/deepl-glossary.ts list",
     "i18n:translate": "node --experimental-strip-types --no-warnings scripts/translate-with-deepl.ts",
     "i18n:translate:dry": "DRY_RUN=1 node --experimental-strip-types --no-warnings scripts/translate-with-deepl.ts",
-    "i18n:diff": "node --experimental-strip-types --no-warnings scripts/diff-translations.ts"
+    "i18n:diff": "node --experimental-strip-types --no-warnings scripts/diff-translations.ts",
+    "i18n:apply-deepl": "node --experimental-strip-types --no-warnings scripts/apply-deepl-ast.ts"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
