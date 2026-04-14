@@ -2,21 +2,21 @@ export const taxServicePageTranslations = {
   heroTag: { en: "Services", ko: "서비스" },
   heroTitle: {
     en: "Tax",
-    ko: "세무",
+    ko: "세금",
   },
   heroSubtitle: {
     en: "We understand tax's vital role and complexity. With honesty and efficiency, we handle tedious tasks while collaborating closely with you, highlighting key issues for your informed decisions.",
-    ko: "세무의 중요성과 복잡성을 이해합니다. 정직과 효율로 지루한 업무를 처리하면서 고객과 긴밀히 협력하고, 정보에 입각한 결정을 위한 핵심 사항을 짚어 드립니다.",
+    ko: "저희는 세금의 중요한 역할과 복잡성을 잘 알고 있습니다. 정직하고 효율적으로 지루한 업무를 처리하는 동시에 고객과의 긴밀한 협업을 통해 고객이 정보에 입각한 결정을 내릴 수 있도록 주요 문제를 강조합니다.",
   },
-  taxTitle: { en: "Tax", ko: "세무" },
+  taxTitle: { en: "Tax", ko: "세금" },
   taxServiceIntro: {
     en: "We provide tax services grounded in strict adherence to legal and ethical standards. Our approach prioritises full compliance with all applicable tax regulations, ensuring that filings, computations, and advisory work are carried out transparently and responsibly.<br><br>We do not provide or support any form of tax avoidance strategy, aggressive tax structuring, or practices that fall outside the boundaries of regulatory expectations. Instead, we focus on helping clients understand their obligations clearly, prepare accurate computations, maintain proper documentation, and fulfil their responsibilities to the Inland Revenue Department with confidence.<br><br>Our work aims to minimise risk, uphold integrity, and strengthen long‑term relationships built on trust and compliance for long-term growth.",
-    ko: "법적 및 윤리적 기준을 엄격히 준수하는 세무 서비스를 제공해 드립니다. 적용되는 모든 세무 규정을 완전히 준수하고, 신고, 계산, 자문 업무가 투명하고 책임 있게 수행되도록 합니다.<br><br>세무 회피 전략, 공격적 세무 구조화 또는 규제 기대를 벗어나는 관행을 제공하거나 지원하지 않습니다. 대신 고객이 의무를 명확히 이해하고 정확한 계산을 준비하며 적절한 문서를 유지하고 국세청에 대한 책임을 자신 있게 이행하도록 지원해 드립니다.<br><br>위험을 최소화하고 무결성을 유지하며 신뢰와 준수를 바탕으로 한 장기 관계를 강화하여 장기 성장을 목표로 합니다.",
+    ko: "저희는 법적 및 윤리적 기준을 엄격하게 준수하는 세무 서비스를 제공합니다. 저희의 접근 방식은 모든 관련 세금 규정을 완벽하게 준수하고 신고, 계산 및 자문 업무가 투명하고 책임감 있게 수행되도록 하는 것을 우선시합니다.<br><br>우리는 어떤 형태의 조세 회피 전략, 공격적인 세금 구조화 또는 규제 기대치를 벗어나는 관행도 제공하거나 지원하지 않습니다. 대신 고객이 자신의 의무를 명확하게 이해하고, 정확한 계산을 준비하며, 적절한 문서를 유지하고, 내국세청에 대한 책임을 자신 있게 이행하도록 돕는 데 주력합니다.<br><br>우리의 업무 목표는 위험을 최소화하고, 성실성을 유지하며, 장기적인 성장을 위해 신뢰와 규정 준수를 기반으로 한 장기적인 관계를 강화하는 것입니다.",
   },
-  profitsTaxTitle: { en: "Corporate - Profits tax", ko: "기업 - 이익세" },
+  profitsTaxTitle: { en: "Corporate - Profits tax", ko: "법인 - 이익세" },
   profitsTaxDescription: {
     en: "Our Profits Tax service ensures that corporate entities meet all obligations to the Inland Revenue Department with accuracy and confidence. We handle profit computations based on Hong Kong tax principles, manage the filing process from return preparation to submission, and provide representation for any assessment objections or special applications. We take a proactive approach, staying abreast of IRD queries and supporting you through correspondence and resolution.",
-    ko: "이익세 서비스는 기업이 국세청의 모든 의무를 정확하고 자신감 있게 충족하도록 지원해 드립니다. 홍콩 세무 원칙에 따른 이익 계산, 신고서 준비부터 제출까지 신고 프로세스 관리, 평가 이의 또는 특수 신청에 대한 대리를 담당합니다. 선제적 접근으로 IRD 문의에 적극 대응하며 서신 및 해결 과정을 지원해 드립니다.",
+    ko: "당사의 이익세 서비스는 법인이 정확하고 자신 있게 내국세청에 대한 모든 의무를 이행할 수 있도록 보장합니다. 홍콩 세금 원칙에 따라 수익 계산을 처리하고, 신고서 작성부터 제출까지 신고 절차를 관리하며, 평가 이의신청 또는 특별 신청에 대한 대리를 제공합니다. 저희는 사전 예방적 접근 방식을 취하여 IRD 문의 사항을 파악하고 대응 및 해결을 통해 고객을 지원합니다.",
   },
   profitsTaxItems: {
     en: [
@@ -27,19 +27,12 @@ export const taxServicePageTranslations = {
       "Other profit tax matters (e.g. duplicate of PTR form request)",
       "IRD query prepraation and liason",
     ],
-    ko: [
-      "이익세 계산",
-      "이익세 신고서 준비 및 제출",
-      "이익세 평가 이의 제기",
-      "보류 신청",
-      "기타 이익세 사항 (예: PTR 양식 복사본 요청)",
-      "IRD 쿼리 준비 및 연락",
-    ],
+    ko: ["이익 세금 계산","소득세 신고서 작성 및 제출","이익세 과세 이의 신청","애플리케이션 보류","기타 수익세 관련 사항(예: PTR 양식 요청 중복)","IRD 쿼리 준비 및 법적 책임"],
   },
   salariesTaxTitle: { en: "Individuals - Salaries tax", ko: "개인 - 급여세" },
   salariesTaxDescription: {
     en: "We support individuals and employers in managing Hong Kong salaries tax obligations efficiently and compliantly. For individuals, we prepare and file salaries tax returns through eTAX or paper forms, ensuring all income and allowances are properly reported. For employers, we assist with the generation and management of IR56 forms in coordination with HR services. We also handle assessment reviews and objection applications when required, ensuring you maintain a clear compliance status with the IRD.",
-    ko: "개인과 고용주가 홍콩 급여세 의무를 효율적이고 규정 준수하도록 지원해 드립니다. 개인의 경우 eTAX 또는 용지 양식을 통해 급여세 신고서를 준비하고 제출하여 모든 소득과 공제가 적절히 보고되도록 보장합니다. 고용주의 경우 인사 서비스와 함께 IR56 양식 생성 및 관리를 지원합니다. 필요할 때 평가 검토 및 이의 신청도 처리하여 국세청과의 명확한 규정 준수 상태를 유지할 수 있도록 도와드립니다.",
+    ko: "저희는 개인과 고용주가 홍콩 급여세 의무를 효율적이고 규정을 준수하여 관리할 수 있도록 지원합니다. 개인의 경우, 모든 소득과 수당이 적절하게 신고될 수 있도록 eTAX 또는 종이 양식을 통해 급여세 신고서를 작성하고 제출합니다. 고용주의 경우 HR 서비스와 연계하여 IR56 양식의 생성 및 관리를 지원합니다. 또한 필요한 경우 평가 검토 및 이의 신청도 처리하여 IRD에 대한 명확한 규정 준수 상태를 유지할 수 있도록 지원합니다.",
   },
   salariesTaxItems: {
     en: [
@@ -47,16 +40,12 @@ export const taxServicePageTranslations = {
       "SDigital generation and management of IR56 forms for employers (when engaged with HR service)",
       "Salaries tax assessment review and objection application",
     ],
-    ko: [
-      "급여세 신고서 준비 및 제출 (eTAX 또는 용지 양식)",
-      "주소지 관리 및 IR56 양식 수작업 발급 (인사 서비스 계약 시)",
-      "급여세 평가 검토 및 이의 제기 신청",
-    ],
+    ko: ["급여 세금 신고서 작성 및 제출(eTAX 또는 종이 양식 모두)","고용주를 위한 IR56 양식의 디지털 생성 및 관리(HR 서비스 이용 시)","급여세 과세 검토 및 이의 신청"],
   },
   taxAdvisoryTitle: { en: "Tax Advisory", ko: "세무 자문" },
   taxAdvisoryDescription: {
     en: "Our Tax Advisory service provides targeted guidance on complex tax matters, helping you navigate technical questions and optimise your tax position within regulatory boundaries. We assess offshore claims, liaise with the IRD on challenging matters, and deliver clear, pragmatic advice that balances risk management with compliance. All advisory is grounded in ethical standards and regulatory expectations, ensuring that strategic tax planning strengthens rather than undermines your long‑term business position.",
-    ko: "세무 자문 서비스는 복잡한 세무 문제에 대한 목표 지향적 지도를 제공하여 기술적 문제를 헤쳐나가고 규제 경계 내에서 세무 입지를 최적화할 수 있도록 지원해 드립니다. 해외 청구 평가, 까다로운 문제에 대한 국세청 연락, 위험 관리와 준수의 균형을 맞춘 명확하고 실질적인 조언을 제공합니다. 모든 자문은 윤리적 기준과 규제 요구사항에 기반하여 세무 계획이 사업 입지를 약화시키지 않고 강화할 수 있도록 보장해 드립니다.",
+    ko: "저희의 세무 자문 서비스는 복잡한 세금 문제에 대한 맞춤형 가이드를 제공하여 기술적인 문제를 해결하고 규제 범위 내에서 세무 위치를 최적화할 수 있도록 도와드립니다. 또한 역외 클레임을 평가하고, 까다로운 사안에 대해 IRD와 협력하며, 리스크 관리와 규정 준수 간의 균형을 맞추는 명확하고 실용적인 조언을 제공합니다. 모든 자문은 윤리적 기준과 규제 기대치에 근거하여 전략적 세무 계획이 장기적인 비즈니스 입지를 약화시키지 않고 강화할 수 있도록 보장합니다.",
   },
   taxAdvisoryItems: {
     en: [
@@ -64,11 +53,7 @@ export const taxServicePageTranslations = {
       "Offshore claim assessment and query liason",
       "Strict adherence to ethical standards and regulatory requirements. ",
     ],
-    ko: [
-      "특정 기술적 질문 자문",
-      "해외 청구 평가 및 문의 연락",
-      "윤리적 기준과 규제 요구사항 준수",
-    ],
+    ko: ["특정 기술 관련 질문에 대한 자문","역외 클레임 평가 및 쿼리 책임","윤리 기준 및 규제 요건을 엄격하게 준수합니다."],
   },
   taxTimeline: {
     categories: [
@@ -129,10 +114,10 @@ export const taxServicePageTranslations = {
       },
     ],
   },
-  insightTag: { en: "Tax", ko: "세무" },
+  insightTag: { en: "Tax", ko: "세금" },
   insightPlaceholder: {
     title: { en: "2025 Outlook", ko: "2025 전망" },
-    description: { en: "Looking to the Future", ko: "미래를 바라보며" },
+    description: { en: "Looking to the Future", ko: "미래 전망" },
     date: { en: "January 2025", ko: "2025년 1월" },
   },
 };

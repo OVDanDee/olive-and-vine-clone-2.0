@@ -8,14 +8,14 @@ export const valuesPageTranslations = {
   },
   heroSubtitle: {
     en: "In every decision, every client interaction, every challenge—we return to these core values. They're not statements on a wall. They're how we work.",
-    ko: "모든 결정에서, 모든 클라이언트 상호작용에서, 모든 도전에서—우리는 이 핵심 가치로 돌아갑니다. 그것들은 벽에 붙은 문구가 아닙니다. 그것이 우리의 일하는 방식입니다.",
+    ko: "모든 의사 결정, 모든 고객과의 상호작용, 모든 도전 과제에서 우리는 이러한 핵심 가치로 돌아갑니다. 이는 벽에 걸린 문구가 아닙니다. 우리가 일하는 방식입니다.",
   },
 
   // Mission
-  missionLabel: { en: "Our Mission", ko: "우리의 미션" },
+  missionLabel: { en: "Our Mission", ko: "우리의 사명" },
   missionStatement: {
     en: "To transform financial advisory from transactional to transformational—building partnerships that enable our clients to dream bigger, decide bolder, and deliver greater impact.",
-    ko: "금융 자문을 거래적에서 변혁적으로 전환하기—클라이언트가 더 크게 꿈꾸고, 더 담대하게 결정하고, 더 큰 영향력을 제공할 수 있도록 하는 파트너십을 구축한다.",
+    ko: "고객이 더 큰 꿈을 꾸고, 더 과감한 결정을 내리고, 더 큰 영향력을 발휘할 수 있도록 재무 자문을 거래에서 혁신적 파트너십 구축으로 전환합니다.",
   },
 
   // Values
@@ -86,11 +86,11 @@ export const valuesPageTranslations = {
   promiseLabel: { en: "Our Promise", ko: "우리의 약속" },
   promiseTitle: {
     en: "You're Not Alone in This",
-    ko: "당신은 혼자가 아닙니다",
+    ko: "여러분은 혼자가 아닙니다",
   },
   promiseBody: {
     en: "When you partner with Olive & Vine, you gain more than financial expertise. You gain a team that understands your ambitions, anticipates your challenges, and walks alongside you through every transition. We measure our success by your success—not by billable hours, but by the trust you place in us and the impact we create together. We're not just your advisors. We're your advocates, your partners, and your allies in growth.",
-    ko: "Olive & Vine과 파트너십을 맺으면, 단순 금융 전문성 이상을 얻습니다. 당신의 야망을 이해하고, 도전을 예상하고, 모든 변화 속에서 함께하는 팀을 얻습니다. 우리의 성공은 청구 시간이 아닌 당신의 성공, 당신이 우리에게 두는 신뢰, 그리고 우리가 함께 만드는 영향력으로 측정됩니다. 우리는 단순히 당신의 조언자가 아닙니다. 우리는 당신의 옹호자, 파트너, 그리고 성장의 동맹입니다.",
+    ko: "Olive & Vine과 파트너가 되면 금융 전문성 이상의 것을 얻을 수 있습니다. 여러분의 야망을 이해하고, 도전 과제를 예측하며, 모든 전환점을 함께 걸어갈 수 있는 팀을 얻게 됩니다. 저희의 성공은 청구 가능한 시간이 아니라 파트너가 저희를 신뢰하고 함께 만들어내는 영향력으로 측정합니다. 단순한 조언자가 아닙니다. 저희는 여러분의 옹호자이자 파트너이며 성장의 동반자입니다.",
   },
 
   ctaButton: { en: "Let's Connect", ko: "연결하기" },

@@ -1,21 +1,21 @@
 export const taxTwoTieredSalariesTaxTranslations = {
-  heroTag: { en: "Tax", ko: "세무" },
+  heroTag: { en: "Tax", ko: "세금" },
   heroTitle: {
     en: "Two-Tiered Salaries Tax in Hong Kong (2024/25)",
-    ko: "홍콩 이중 급여세 (2024/25)",
+    ko: "홍콩의 2단계 급여세(2024/25년)",
   },
-  inBrief: { en: "In brief", ko: "요약" },
+  inBrief: { en: "In brief", ko: "요약하자면" },
   inBriefDescription: {
     en: "Starting from the 2024/25 year of assessment (April 1, 2024), Hong Kong introduced a two-tiered standard rate system for Salaries Tax. High-income earners whose net income exceeds HKD 5 million now face a higher standard rate of 16%, while the first HKD 5 million continues to be taxed at 15%. This change affects approximately 12,000 taxpayers and reflects a targeted adjustment to Hong Kong's otherwise simple and flat tax system.",
-    ko: "2024/25 과세연도(2024년 4월 1일)부터 홍콩은 급여세에 대한 이중 표준세율 제도를 도입했습니다. 순소득이 500만 홍콩달러를 초과하는 고소득자는 16%의 높은 표준세율을 적용받으며, 첫 500만 홍콩달러에 대해서는 기존과 같이 15%가 적용됩니다. 이 변경은 약 12,000명의 납세자에게 영향을 미치며, 홍콩의 단순하고 낮은 세제에 대한 표적 조정을 반영합니다.",
+    ko: "홍콩은 2024/25년 과세 연도(2024년 4월 1일)부터 급여세에 2단계 표준 세율 체계를 도입했습니다. 순소득이 500만 홍콩달러를 초과하는 고소득자는 16%의 높은 표준 세율이 적용되며, 첫 500만 홍콩달러까지는 계속 15%로 과세됩니다. 이러한 변화는 약 12,000명의 납세자에게 영향을 미치며, 단순하고 획일적인 홍콩의 세금 시스템에 대한 목표 조정이 반영된 것입니다.",
   },
   aiTaskAutomation: {
     en: "Two-Tiered Salaries Tax in Hong Kong (2024/25)",
-    ko: "홍콩 이중 급여세 (2024/25)",
+    ko: "홍콩의 2단계 급여세(2024/25년)",
   },
   importanceOfAIDescription: {
     en: "Salaries Tax is levied under the Inland Revenue Ordinance (Cap. 112) on income arising from any office, employment, or pension in Hong Kong. Hong Kong operates on a territorial basis — only income sourced from Hong Kong is taxable, regardless of where it is paid or where the employer is incorporated. Taxable income includes salaries, wages, directors' fees, commissions, bonuses, non-cash benefits, share awards and options upon vesting or exercise, and pension income. Exempt income includes severance payments and long-service payments under the Employment Ordinance (Cap. 57).",
-    ko: "급여세는 세무조례(Cap. 112)에 따라 홍콩에서 발생한 모든 직위, 고용 또는 연금 소득에 부과됩니다. 홍콩은 속지주의 원칙을 채택하고 있어, 지급 장소나 고용주의 설립지와 관계없이 홍콩에서 발생한 소득만 과세 대상입니다. 과세 소득에는 급여, 임금, 이사 보수, 수수료, 보너스, 비현금 혜택, 귀속 또는 행사 시 주식 보상 및 옵션, 연금 소득이 포함됩니다. 고용조례(Cap. 57)에 따른 해고 수당과 장기근속 수당은 면세 소득에 해당합니다.",
+    ko: "급여세는 홍콩의 모든 사무실, 고용 또는 연금에서 발생하는 소득에 대해 내륙세 조례(112조)에 따라 부과됩니다. 홍콩은 영토 기준으로 운영되며, 지급 장소나 고용주의 법인 소재지에 관계없이 홍콩에서 발생한 소득만 과세 대상입니다. 과세 대상 소득에는 급여, 임금, 이사 보수, 커미션, 보너스, 비현금성 수당, 주식 보상 및 행사 시 옵션, 연금 소득이 포함됩니다. 비과세 소득에는 고용 조례(57조)에 따른 퇴직금과 장기 근속 수당이 포함됩니다.",
   },
 
   // Section 1 — How Salaries Tax is Calculated
@@ -25,11 +25,11 @@ export const taxTwoTieredSalariesTaxTranslations = {
   },
   section1Description: {
     en: "Hong Kong uses a \"lower of two methods\" approach. The IRD calculates your tax under both methods and charges the lower amount.",
-    ko: "홍콩은 '두 가지 방법 중 낮은 금액' 방식을 사용합니다. 세무국은 두 가지 방법으로 세금을 계산한 후 낮은 금액을 부과합니다.",
+    ko: "홍콩에서는 \"두 가지 방법 중 낮은 방법\" 방식을 사용합니다. IRD는 두 가지 방법 모두에 따라 세금을 계산하고 더 낮은 금액을 부과합니다.",
   },
   section1Method1Title: {
     en: "Method 1 — Progressive Rates (on net chargeable income = income − deductions − allowances)",
-    ko: "방법 1 — 누진세율 (순과세소득 = 소득 − 공제 − 인적공제 적용)",
+    ko: "방법 1 - 누진세율(순 청구 가능 소득 = 소득 - 공제 - 충당금)",
   },
   section1ProgressiveRates: [
     { label: { en: "First HKD 50,000", ko: "첫 50,000 홍콩달러" }, rate: { en: "2%", ko: "2%" } },
@@ -40,7 +40,7 @@ export const taxTwoTieredSalariesTaxTranslations = {
   ],
   section1Method2Title: {
     en: "Method 2 — Standard Rate (on net income = income − deductions, before allowances)",
-    ko: "방법 2 — 표준세율 (순소득 = 소득 − 공제, 인적공제 전)",
+    ko: "방법 2 - 표준 요율(순이익 = 소득 - 공제액, 충당금 전)",
   },
   section1StandardRates: [
     { label: { en: "First HKD 5,000,000", ko: "첫 5,000,000 홍콩달러" }, rate: { en: "15%", ko: "15%" } },
@@ -48,21 +48,21 @@ export const taxTwoTieredSalariesTaxTranslations = {
   ],
   section1Note: {
     en: "The standard rate acts as a cap: high earners who claim few allowances pay at standard rate. Lower-income taxpayers almost always benefit more from progressive rates.",
-    ko: "표준세율은 상한선 역할을 합니다. 인적공제를 거의 신청하지 않는 고소득자는 표준세율을 적용받습니다. 저소득 납세자는 거의 항상 누진세율이 더 유리합니다.",
+    ko: "표준 세율은 상한선 역할을 합니다. 수당을 거의 청구하지 않는 고소득자는 표준 세율로 납부합니다. 저소득 납세자는 거의 항상 누진세율의 혜택을 더 많이 받습니다.",
   },
 
   // Section 2 — The Two-Tiered Change
   section2Title: {
     en: "The New Two-Tiered Standard Rate (2024/25 Change)",
-    ko: "새로운 이중 표준세율 (2024/25 변경 사항)",
+    ko: "새로운 2단계 표준 요금제(2024/25년 변경)",
   },
   section2Description: {
     en: "Prior to 2024/25, a flat 15% standard rate applied to all taxpayers regardless of income level. The 2024/25 Budget introduced a two-tiered regime targeting the highest earners.",
-    ko: "2024/25년 이전에는 소득 수준에 관계없이 모든 납세자에게 15%의 단일 표준세율이 적용되었습니다. 2024/25년 예산안은 최고 소득자를 대상으로 한 이중 세율 제도를 도입했습니다.",
+    ko: "2024/25년 이전에는 소득 수준에 관계없이 모든 납세자에게 15%의 단일 표준 세율이 적용되었습니다. 2024/25 예산안에는 최고 소득자를 대상으로 하는 2단계 세율 체계가 도입되었습니다.",
   },
   section2WhoAffectedTitle: {
     en: "Who Is Affected?",
-    ko: "누가 영향을 받습니까?",
+    ko: "영향을 받는 대상은 누구인가요?",
   },
   section2WhoAffectedItems: [
     {
@@ -84,7 +84,7 @@ export const taxTwoTieredSalariesTaxTranslations = {
   ],
   section2EmployerTitle: {
     en: "Why This Matters for Employers",
-    ko: "고용주에게 중요한 이유",
+    ko: "이것이 고용주에게 중요한 이유",
   },
   section2EmployerItems: [
     {
@@ -104,11 +104,11 @@ export const taxTwoTieredSalariesTaxTranslations = {
   // Section 3 — Deductions and Allowances
   section3Title: {
     en: "Key Deductions and Allowances",
-    ko: "주요 공제 및 인적공제",
+    ko: "주요 공제 및 수당",
   },
   section3DeductionsTitle: {
     en: "Deductions (applied before standard rate calculation):",
-    ko: "공제 항목 (표준세율 계산 전 적용):",
+    ko: "공제(표준 요금 계산 전에 적용):",
   },
   section3DeductionItems: [
     { en: "Mandatory MPF contributions (up to HKD 18,000/year per employee)", ko: "의무적 강제공제기금(MPF) 기여금 (직원 1인당 연간 최대 18,000 홍콩달러)" },
@@ -121,7 +121,7 @@ export const taxTwoTieredSalariesTaxTranslations = {
   ],
   section3AllowancesTitle: {
     en: "Personal Allowances (applied only under progressive rate method):",
-    ko: "인적공제 (누진세율 방법에만 적용):",
+    ko: "개인 수당(누진율 방식에만 적용):",
   },
   section3AllowanceItems: [
     { en: "Basic allowance: HKD 132,000", ko: "기본 인적공제: 132,000 홍콩달러" },
@@ -133,11 +133,11 @@ export const taxTwoTieredSalariesTaxTranslations = {
   // Section 4 — Employer Reporting Obligations
   section4Title: {
     en: "Employer Reporting Obligations",
-    ko: "고용주 신고 의무",
+    ko: "고용주 보고 의무",
   },
   section4Description: {
     en: "Employers play a central role in the salaries tax system. Key obligations under IRO Cap. 112, s.52:",
-    ko: "고용주는 급여세 제도에서 중심적인 역할을 담당합니다. 세무조례 Cap. 112, 제52조에 따른 주요 의무:",
+    ko: "고용주는 급여세 제도에서 중심적인 역할을 합니다. IRO 한도에 따른 주요 의무 112, s.52:",
   },
   section4Items: [
     { en: "BIR56A + IR56B — Annual Employer's Return, issued by IRD on April 1 each year; must be filed within 1 month", ko: "BIR56A + IR56B — 연간 고용주 신고서, 매년 4월 1일 세무국 발급; 1개월 이내 제출 필요" },
@@ -148,16 +148,16 @@ export const taxTwoTieredSalariesTaxTranslations = {
   ],
   section4ExposureTitle: {
     en: "Employer Exposure",
-    ko: "고용주 위험",
+    ko: "고용주 노출",
   },
   section4ExposureDescription: {
     en: "Non-compliance may result in penalties under IRO s.80 and s.82A. Employers who fail to notify the IRD of a departing employee risk personal liability for the employee's unpaid tax under IRO s.52(6).",
-    ko: "미준수 시 세무조례 제80조 및 제82A조에 따른 벌금이 부과될 수 있습니다. 출국하는 직원을 세무국에 신고하지 않은 고용주는 세무조례 제52조 제6항에 따라 직원의 미납 세금에 대한 개인 책임을 질 수 있습니다.",
+    ko: "이를 준수하지 않을 경우 IRO s.80 및 s.82A에 따라 벌금이 부과될 수 있습니다. 퇴사하는 직원에 대해 IRD에 통지하지 않은 고용주는 IRO s.52(6)에 따라 해당 직원의 미납 세금에 대해 개인적인 책임을 져야 할 수 있습니다.",
   },
 
   frequentlyAskedQuestions: {
     en: "Frequently Asked Questions (Q&A)",
-    ko: "자주 묻는 질문 (Q&A)",
+    ko: "자주 묻는 질문(Q&A)",
   },
   faqItems: [
     {
@@ -184,7 +184,7 @@ export const taxTwoTieredSalariesTaxTranslations = {
 
   contactInformationDisclaimer: {
     en: "This material covers general information and does not provide solutions for any specific issues of any company or individual. Differences in legal terms may exist due to the translation into Korean to aid understanding. Olive and Vine does not assume any legal responsibility or guarantee the accuracy, completeness, or usefulness of this information. This material cannot replace legal or consulting advice; please consult with a professional if necessary.",
-    ko: "이 자료는 일반적인 정보로서 특정 회사 또는 개인의 문제에 대한 해결책을 제공하지 않습니다. 이해를 돕기 위해 한국어로 번역된 일부 내용은 정확한 법률 용어와 다를 수 있습니다. Olive and Vine는 이 정보의 정확성, 완전성 또는 유용성에 대한 법적 보장을 제공하지 않습니다. 본 자료는 법률 또는 컨설팅 자문을 대체하지 않으며, 필요시 전문가와 상담하시기 바랍니다.",
+    ko: "본 자료는 일반적인 정보를 다루고 있으며 특정 기업이나 개인의 특정 문제에 대한 해결책을 제시하지 않습니다. 이해를 돕기 위해 한국어로 번역되었기 때문에 법률 용어에 차이가 있을 수 있습니다. 올리브앤바인은 본 정보의 정확성, 완전성, 유용성에 대해 어떠한 법적 책임도 지지 않으며 보증하지 않습니다. 본 자료는 법률 또는 컨설팅 자문을 대체할 수 없으므로 필요한 경우 전문가와 상의하시기 바랍니다.",
   },
   conclusionTitle: {
     en: "Conclusion",
@@ -192,6 +192,6 @@ export const taxTwoTieredSalariesTaxTranslations = {
   },
   conclusionDescription: {
     en: "The two-tiered standard rate is a targeted measure affecting a small percentage of HK's taxpayer base, but its implications for employers — especially those managing expatriate or executive payroll — are real. Accurate reporting of all remuneration forms, particularly share-based compensation, is more important than ever. If you are unsure whether your reporting obligations are being met, or how the new rate affects your tax position, Olive & Vine's tax team is ready to assist.",
-    ko: "이중 표준세율은 홍콩 납세자의 소수에게만 영향을 미치는 표적 조치이지만, 특히 주재원이나 임원 급여를 관리하는 고용주에게는 실질적인 영향이 있습니다. 주식 기반 보상을 포함한 모든 보수 양식의 정확한 신고가 그 어느 때보다 중요합니다. 신고 의무 이행 여부나 새로운 세율이 세금 포지션에 미치는 영향이 불확실하다면, Olive & Vine의 세무팀이 도움을 드릴 준비가 되어 있습니다.",
+    ko: "2단계 표준 세율은 홍콩 납세자 중 일부에게만 영향을 미치는 대상 조치이지만, 고용주, 특히 해외 주재원이나 임원 급여를 관리하는 고용주에게 미치는 영향은 매우 큽니다. 모든 보수 형태, 특히 주식 기반 보상에 대한 정확한 신고가 그 어느 때보다 중요합니다. 신고 의무를 제대로 이행하고 있는지, 또는 새로운 세율이 세무상 어떤 영향을 미치는지 잘 모르겠다면 Olive & Vine의 세무팀이 도와드릴 준비가 되어 있습니다.",
   },
 };

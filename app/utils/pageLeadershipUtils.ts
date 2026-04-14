@@ -1,17 +1,17 @@
 export const leadershipPageTranslations = {
   title: {
     en: "Our Leadership",
-    ko: "우리의 리더십",
+    ko: "리더십",
   },
   culture: {
     en: "Our culture is built on integrity and only motivated by a collective commitment with strong compassion. We truly enjoy providing clients.",
-    ko: "올리브앤바인은 진실함을 바탕으로 고객을 깊이 이해하고 공감하며 함께 발전하는 것에 가치를 둡니다. 공정하고 진실된 고객의 가치 증진을 위해 최선을 다할 것입니다.",
+    ko: "저희의 문화는 정직성을 기반으로 하며, 강한 연민을 바탕으로 한 집단적 헌신에 의해서만 동기가 부여됩니다. 우리는 고객에게 서비스를 제공하는 것을 진정으로 즐깁니다.",
   },
   profiles: {
     rebecca: {
       name: {
         en: "Rebecca, PARK Ji Hyun",
-        ko: "Rebecca, PARK Ji Hyun",
+        ko: "Rebecca, 박지현",
       },
       qualifications: {
         en: "HKICPA (Practising), CIA",
@@ -21,7 +21,7 @@ export const leadershipPageTranslations = {
     miyoung: {
       name: {
         en: "KIM, Mi Young",
-        ko: "KIM, Mi Young",
+        ko: "김미영",
       },
       qualifications: {
         en: "HKICPA, US CPA, CIA, CISA",

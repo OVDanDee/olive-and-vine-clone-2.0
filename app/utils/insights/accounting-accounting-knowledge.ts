@@ -2,39 +2,39 @@ export const accountingAccountingKnowledgeTranslations = {
   heroTag: { en: "Accounting", ko: "회계" },
   heroTitle: {
     en: "Accounting Knowledge: Financial Statements",
-    ko: "회계 지식: 재무제표",
+    ko: "회계 지식: 재무 제표",
   },
   inBrief: {
     en: "In brief",
-    ko: "요약",
+    ko: "요약하자면",
   },
   inBriefDescription: {
     en: "Business owners operating in Hong Kong must thoroughly understand and follow corporate tax filing procedures. Corporate tax filing is a crucial part of business operations, and failure to do so can lead to legal issues. Below, we provide a comprehensive explanation of the corporate tax filing process, including filing documents, filing deadlines, filing fees, filing requirements, filing preparation, and post-filing procedures.",
-    ko: "홍콩에서 사업을 운영하는 사업주는 법인세 신고 절차를 철저히 이해하고 준수하여야 합니다. 법인세 신고는 사업 운영의 중요한 부분이며, 이를 수행하지 않으면 법적 문제가 발생할 수 있습니다. 아래에서는 신고 서류, 신고 기한, 신고 수수료, 신고 요건, 신고 준비 및 신고 후 절차를 포함한 법인세 신고 프로세스에 대한 포괄적인 설명을 제공해 드립니다.",
+    ko: "홍콩에서 사업을 운영하는 비즈니스 소유자는 법인세 신고 절차를 철저히 이해하고 준수해야 합니다. 법인세 신고는 비즈니스 운영에서 매우 중요한 부분이며, 이를 이행하지 않을 경우 법적 문제가 발생할 수 있습니다. 아래에서는 제출 서류, 제출 기한, 신고 수수료, 신고 요건, 신고 준비 및 신고 후 절차 등 법인세 신고 절차에 대한 포괄적인 설명을 제공합니다.",
   },
   aiTaskAutomation: {
     en: "Understanding Financial Statements",
-    ko: "재무제표 이해하기",
+    ko: "재무 제표 이해",
   },
   understandingFinancialStatementsIntro: {
     en: "Accurately understanding and analyzing financial statements is a crucial tool for evaluating a company's financial position and business performance. This enables better decision-making for the company and allows investors and management to assess long-term growth potential.",
-    ko: "재무제표를 정확하게 이해하고 분석하는 것은 기업의 재무 상태와 성과를 평가하는 중요한 도구입니다. 이를 통해 기업은 더 나은 의사결정을 내릴 수 있으며, 투자자와 경영진은 장기적인 성장 가능성을 평가할 수 있습니다.",
+    ko: "재무제표를 정확하게 이해하고 분석하는 것은 회사의 재무 상태와 비즈니스 성과를 평가하는 데 중요한 도구입니다. 이를 통해 회사의 의사결정을 개선하고 투자자와 경영진이 장기적인 성장 잠재력을 평가할 수 있습니다.",
   },
   importanceOfAI: {
     en: "Importance of Financial Statements",
-    ko: "재무제표의 중요성",
+    ko: "재무 제표의 중요성",
   },
   importanceOfAIDescription: {
     en: "Financial statements are crucial documents that reveal a company's financial position and business performance. Through financial statements, stakeholders such as investors, management, and creditors can assess the company's financial health and make strategic decisions. This article explains the components of financial statements and how to understand them.",
-    ko: "재무제표는 기업의 재무 상태와 경영 성과를 드러내는 중요한 문서입니다. 재무제표를 통해 투자자, 경영진, 채권자 등 다양한 이해관계자는 기업의 재무 상태를 평가하고 전략적 결정을 내릴 수 있습니다. 이 글에서는 재무제표의 구성요소와 이해 방법에 대해 설명합니다.",
+    ko: "재무제표는 회사의 재무 상태와 사업 성과를 드러내는 중요한 문서입니다. 재무제표를 통해 투자자, 경영진, 채권자 등 이해관계자는 회사의 재무 상태를 평가하고 전략적 의사 결정을 내릴 수 있습니다. 이 문서에서는 재무제표의 구성 요소와 재무제표를 이해하는 방법에 대해 설명합니다.",
   },
   benefitsOfAutomation: {
     en: "Components of Financial Statements",
-    ko: "재무제표의 구성요소",
+    ko: "재무 제표의 구성 요소",
   },
   efficiencyEnhancement: {
     en: "Balance Sheet",
-    ko: "재무상태표",
+    ko: "대차 대조표",
   },
   balanceSheetBullets: [
     {
@@ -52,11 +52,11 @@ export const accountingAccountingKnowledgeTranslations = {
   ],
   repetitiveTaskAutomation: {
     en: "Assets: Represents all assets owned by the company. Includes cash, inventory, fixed assets, etc. Assets are classified as current assets and non-current assets. Current assets are those convertible to cash within one year, while non-current assets are held long-term.",
-    ko: "자산: 기업이 소유한 모든 자산을 나타냅니다. 현금, 재고, 고정자산 등을 포함합니다. 자산은 유동자산과 비유동자산으로 분류됩니다. 유동자산은 1년 이내에 현금으로 전환 가능한 자산을 의미하며, 비유동자산은 장기간 보유되는 자산을 의미합니다.",
+    ko: "자산: 회사가 소유한 모든 자산을 나타냅니다. 현금, 재고, 고정 자산 등이 포함됩니다. 자산은 유동자산과 비유동자산으로 분류됩니다. 유동자산은 1년 이내에 현금으로 전환할 수 있는 자산이며, 비유동자산은 장기 보유하는 자산입니다.",
   },
   improvedAccuracy: {
     en: "Income Statement",
-    ko: "손익계산서",
+    ko: "손익 계산서",
   },
   incomeStatementBullets: [
     {
@@ -74,7 +74,7 @@ export const accountingAccountingKnowledgeTranslations = {
   ],
   costReduction: {
     en: "Cash Flow Statement",
-    ko: "현금흐름표",
+    ko: "현금 흐름표",
   },
   cashFlowStatementBullets: [
     {
@@ -96,7 +96,7 @@ export const accountingAccountingKnowledgeTranslations = {
   },
   realWorldCasesDescription: {
     en: "Accurately understanding and analyzing financial statements is a crucial tool for evaluating a company's financial position and business performance. This enables better decision-making for the company and allows investors and management to assess long-term growth potential.",
-    ko: "재무제표를 정확하게 이해하고 분석하는 것은 기업의 재무 상태와 성과를 평가하는 중요한 도구입니다. 이를 통해 기업은 더 나은 의사결정을 내릴 수 있으며, 투자자와 경영진은 장기적인 성장 가능성을 평가할 수 있습니다.",
+    ko: "재무제표를 정확하게 이해하고 분석하는 것은 회사의 재무 상태와 비즈니스 성과를 평가하는 데 중요한 도구입니다. 이를 통해 회사의 의사결정을 개선하고 투자자와 경영진이 장기적인 성장 잠재력을 평가할 수 있습니다.",
   },
   financialStatementAnalysisTechniquesTitle: {
     en: "Financial Statement Analysis Techniques",
@@ -104,7 +104,7 @@ export const accountingAccountingKnowledgeTranslations = {
   },
   financialStatementAnalysisTechniquesIntro: {
     en: "Various techniques are used in financial statement analysis to examine a company's financial position and performance from multiple angles.",
-    ko: "재무제표 분석에는 기업의 재무 상태와 성과를 다양한 관점에서 검토하기 위한 여러 기법이 활용됩니다.",
+    ko: "재무제표 분석에는 기업의 재무 상태와 성과를 다각도로 검토하기 위해 다양한 기법이 사용됩니다.",
   },
   analysisTechniquesSections: [
     {
@@ -154,19 +154,19 @@ export const accountingAccountingKnowledgeTranslations = {
   ],
   frequentlyAskedQuestions: {
     en: "Frequently Asked Questions (Q&A)",
-    ko: "자주 묻는 질문 (Q&A)",
+    ko: "자주 묻는 질문(Q&A)",
   },
   contactInformation: {
     en: "Inquiries",
-    ko: "문의사항",
+    ko: "문의 사항",
   },
   contactInformationDescription: {
     en: "Accurately understanding and analyzing financial statements is a crucial tool for evaluating a company's financial position and performance. This enables better decision-making and allows investors and management to assess long-term growth potential. Olive & Vine provides various consulting services related to financial statement analysis—please contact contact@oliveandvinehk.com if needed.",
-    ko: "재무제표를 정확하게 이해하고 분석하는 것은 기업의 재무 상태와 성과를 평가하는 중요한 도구입니다. 이를 통해 더 나은 의사결정이 가능하며, 투자자와 경영진은 장기적인 성장 가능성을 평가할 수 있습니다. Olive & Vine는 재무제표 분석과 관련된 다양한 컨설팅 서비스를 제공합니다—필요한 경우 contact@oliveandvinehk.com으로 연락해 주세요.",
+    ko: "재무제표를 정확하게 이해하고 분석하는 것은 회사의 재무 상태와 성과를 평가하는 데 중요한 도구입니다. 이를 통해 투자자와 경영진은 더 나은 의사결정을 내릴 수 있고 장기적인 성장 잠재력을 평가할 수 있습니다. 올리브앤바인은 재무제표 분석과 관련된 다양한 컨설팅 서비스를 제공하고 있으니 필요한 경우 contact@oliveandvinehk.com 으로 문의하시기 바랍니다.",
   },
   contactInformationDisclaimer: {
     en: "The information provided above is intended for general reference only and does not address specific circumstances for any company or individual. Olive & Vine does not make any legal representations or warranties regarding the accuracy, completeness, or reliability of this content. This material should not be considered a substitute for professional legal or consulting advice. For guidance tailored to your situation, please consult a qualified professional.",
-    ko: "위에 제공된 정보는 일반적인 참고용으로만 제공되며, 특정 회사 또는 개인의 구체적인 상황을 다루지 않습니다. Olive & Vine는 본 내용의 정확성, 완전성 또는 신뢰성에 대해 어떠한 법적 진술이나 보증도 하지 않습니다. 본 자료는 전문 법률 또는 컨설팅 자문을 대체하는 것으로 간주되어서는 안 됩니다. 귀하의 상황에 맞는 안내를 받으시려면 자격을 갖춘 전문가와 상담하시기 바랍니다.",
+    ko: "위에 제공된 정보는 일반적인 참고용으로만 제공되며 특정 회사나 개인의 특정 상황을 다루지 않습니다. Olive & Vine은 이 콘텐츠의 정확성, 완전성 또는 신뢰성과 관련하여 어떠한 법적 진술이나 보증도 하지 않습니다. 이 자료는 전문적인 법률 또는 컨설팅 자문을 대체하는 것으로 간주되어서는 안 됩니다. 귀하의 상황에 맞는 지침은 자격을 갖춘 전문가와 상담하시기 바랍니다.",
   },
   faqItems: [
     {

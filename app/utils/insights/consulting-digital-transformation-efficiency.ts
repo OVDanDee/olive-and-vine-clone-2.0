@@ -2,27 +2,27 @@ export const consultingDigitalTransformationEfficiencyTranslations = {
   heroTag: { en: "Consulting", ko: "컨설팅" },
   heroTitle: {
     en: "Digital Transformation Efficiency Improvement",
-    ko: "디지털 전환 효율 개선",
+    ko: "디지털 혁신 효율성 향상",
   },
   inBrief: {
     en: "In brief",
-    ko: "요약",
+    ko: "요약하자면",
   },
   inBriefDescription: {
     en: "Business owners operating in Hong Kong must thoroughly understand and follow corporate tax filing procedures. Corporate tax filing is a crucial part of business operations, and failure to do so can lead to legal issues. Below, we provide a comprehensive explanation of the corporate tax filing process, including filing documents, filing deadlines, filing fees, filing requirements, filing preparation, and post-filing procedures.",
-    ko: "홍콩에서 사업을 운영하는 사업주는 법인세 신고 절차를 철저히 이해하고 준수하여야 합니다. 법인세 신고는 사업 운영의 중요한 부분이며, 이를 수행하지 않으면 법적 문제가 발생할 수 있습니다. 아래에서는 신고 서류, 신고 기한, 신고 수수료, 신고 요건, 신고 준비 및 신고 후 절차를 포함한 법인세 신고 프로세스에 대한 포괄적인 설명을 제공해 드립니다.",
+    ko: "홍콩에서 사업을 운영하는 비즈니스 소유자는 법인세 신고 절차를 철저히 이해하고 준수해야 합니다. 법인세 신고는 비즈니스 운영에서 매우 중요한 부분이며, 이를 이행하지 않을 경우 법적 문제가 발생할 수 있습니다. 아래에서는 제출 서류, 제출 기한, 신고 수수료, 신고 요건, 신고 준비 및 신고 후 절차 등 법인세 신고 절차에 대한 포괄적인 설명을 제공합니다.",
   },
   aiTaskAutomation: {
     en: "Enhancing Productivity Through Digital Transformation",
-    ko: "디지털 전환을 통한 생산성 향상",
+    ko: "디지털 트랜스포메이션을 통한 생산성 향상",
   },
   importanceOfAI: {
     en: "The Importance of Digital Transformation",
-    ko: "디지털 전환의 중요성",
+    ko: "디지털 트랜스포메이션의 중요성",
   },
   importanceOfAIDescription: {
     en: "Digital transformation goes beyond simple technology upgrades; it represents a comprehensive change that redefines business models, operational processes, and customer experiences. Through digital transformation, companies can increase productivity and strengthen their competitive advantage.",
-    ko: "디지털 전환은 단순한 기술 업그레이드를 넘어서 비즈니스 모델, 운영 프로세스 및 고객 경험을 재정의하는 포괄적인 변화를 의미합니다. 디지털 전환을 통해 기업은 생산성을 높이고 경쟁 우위를 강화할 수 있습니다.",
+    ko: "디지털 트랜스포메이션은 단순한 기술 업그레이드를 넘어 비즈니스 모델, 운영 프로세스, 고객 경험을 재정의하는 포괄적인 변화를 의미합니다. 디지털 트랜스포메이션을 통해 기업은 생산성을 높이고 경쟁 우위를 강화할 수 있습니다.",
   },
   dividendTreatmentInHongKongTitle: {
     en: "Digital Strategies for Productivity Enhancement",
@@ -30,7 +30,7 @@ export const consultingDigitalTransformationEfficiencyTranslations = {
   },
   efficiencyEnhancement: {
     en: "Board Support",
-    ko: "게시판 지원",
+    ko: "이사회 지원",
   },
   boardSupportBullets: [
     {
@@ -44,7 +44,7 @@ export const consultingDigitalTransformationEfficiencyTranslations = {
   ] as { en: string; ko: string }[],
   improvedAccuracy: {
     en: "Data-Driven Decision-Making",
-    ko: "데이터 기반 의사결정",
+    ko: "데이터 기반 의사 결정",
   },
   dataDrivenDecisionMakingBullets: [
     {
@@ -58,11 +58,11 @@ export const consultingDigitalTransformationEfficiencyTranslations = {
   ] as { en: string; ko: string }[],
   errorReduction: {
     en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    ko: "로렘 입숨 돌로르 시트 아멧, 컨섹테투르 아디피스cing 엘리트. 세드 도 아이우스못 템 por incididunt ut labore et dolore magna aliqua.",
+    ko: "로렘 입섬 돌로르 시트 아멧, 콘섹테르 아디피싱 엘리트. Sed do eiusmod tempor incidunt ut 노동과 돌로레 마그나 알퀴아. Ut enim ad minim veniam, quis nostrud 운동 ullamco laboris.",
   },
   costReduction: {
     en: "Collaboration Tools Implementation",
-    ko: "협업 도구 도입",
+    ko: "협업 도구 구현",
   },
   collaborationToolsBullets: [
     {
@@ -76,15 +76,15 @@ export const consultingDigitalTransformationEfficiencyTranslations = {
   ] as { en: string; ko: string }[],
   laborCostSavings: {
     en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    ko: "로렘 입숨 돌로르 시트 아멧, 컨섹테투르 아디피스cing 엘리트. 세드 도 아이우스못 템 por incididunt ut labore et dolore magna aliqua.",
+    ko: "로렘 입섬 돌로르 시트 아멧, 콘섹테르 아디피싱 엘리트. Sed do eiusmod tempor incidunt ut 노동과 돌로레 마그나 알퀴아. Ut enim ad minim veniam, quis nostrud 운동 ullamco laboris.",
   },
   realWorldCases: {
     en: "Real-World Digital Transformation Cases",
-    ko: "실제 디지털 전환 사례",
+    ko: "실제 디지털 혁신 사례",
   },
   realWorldCasesDescription: {
     en: "Digital transformation represents comprehensive change that revolutionizes business models, operations, and customer experiences—not merely technology upgrades. This boosts productivity and competitiveness. This article details methods to enhance productivity through digital transformation.",
-    ko: "디지털 전환은 단순한 기술 업그레이드를 넘어서 비즈니스 모델, 운영 프로세스 및 고객 경험을 재정의하는 포괄적인 변화를 의미합니다. 이는 생산성과 경쟁력을 향상시킵니다. 이 글에서는 디지털 전환을 통해 생산성을 향상시키는 방법을 자세히 설명합니다.",
+    ko: "디지털 트랜스포메이션은 단순한 기술 업그레이드가 아니라 비즈니스 모델, 운영, 고객 경험을 혁신하는 포괄적인 변화를 의미합니다. 이를 통해 생산성과 경쟁력이 향상됩니다. 이 문서에서는 디지털 트랜스포메이션을 통해 생산성을 향상하는 방법을 자세히 설명합니다.",
   },
   customerService: {
     en: "Manufacturing",
@@ -102,7 +102,7 @@ export const consultingDigitalTransformationEfficiencyTranslations = {
   ] as { en: string; ko: string }[],
   chatbotImplementation: {
     en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    ko: "로렘 입숨 돌로르 시트 아멧, 컨섹테투르 아디피스cing 엘리트. 세드 도 아이우스못 템 por incididunt ut labore et dolore magna aliqua.",
+    ko: "로렘 입섬 돌로르 시트 아멧, 콘섹테르 아디피싱 엘리트. Sed do eiusmod tempor incidunt ut 노동과 돌로레 마그나 알퀴아. Ut enim ad minim veniam, quis nostrud 운동 ullamco laboris.",
   },
   marketing: {
     en: "Financial Services",
@@ -120,7 +120,7 @@ export const consultingDigitalTransformationEfficiencyTranslations = {
   ] as { en: string; ko: string }[],
   targetedMarketing: {
     en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    ko: "로렘 입숨 돌로르 시트 아멧, 컨섹테투르 아디피스cing 엘리트. 세드 도 아이우스못 템 por incididunt ut labore et dolore magna aliqua.",
+    ko: "로렘 입섬 돌로르 시트 아멧, 콘섹테르 아디피싱 엘리트. Sed do eiusmod tempor incidunt ut 노동과 돌로레 마그나 알퀴아. Ut enim ad minim veniam, quis nostrud 운동 ullamco laboris.",
   },
   financialManagement: {
     en: "Logistics",
@@ -138,18 +138,18 @@ export const consultingDigitalTransformationEfficiencyTranslations = {
   ] as { en: string; ko: string }[],
   riskManagement: {
     en: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
-    ko: "로렘 입숨 돌로르 시트 아멧, 컨섹테투르 아디피스cing 엘리트. 세드 도 아이우스못 템 por incididunt ut labore et dolore magna aliqua.",
+    ko: "로렘 입섬 돌로르 시트 아멧, 콘섹테르 아디피싱 엘리트. Sed do eiusmod tempor incidunt ut 노동과 돌로레 마그나 알퀴아. Ut enim ad minim veniam, quis nostrud 운동 ullamco laboris.",
   },
   conclusionTitle: {
     en: "Inquiries",
-    ko: "문의사항",
+    ko: "문의 사항",
   },
   conclusionDescription: {
     en: "By improving customer experience through digital transformation, companies can strengthen their competitiveness and increase customer satisfaction and loyalty. For more detailed information on digital transformation, please refer to our previous posts. Olive & Vine offers a wide range of consulting services related to digital transformation. If you require further assistance, please contact us at contact@oliveandvinehk.com",
-    ko: "디지털 전환을 통해 고객 경험을 개선하면 경쟁력을 강화하고 고객 만족도와 만족도를 높일 수 있습니다. 디지털 전환에 대한 자세한 정보는 이전 게시물을 참조해 주세요. Olive & Vine는 디지털 전환과 관련된 다양한 컨설팅 서비스를 제공합니다. 추가 지원이 필요한 경우 contact@oliveandvinehk.com으로 연락해 주세요.",
+    ko: "디지털 트랜스포메이션을 통해 고객 경험을 개선함으로써 기업은 경쟁력을 강화하고 고객 만족도와 충성도를 높일 수 있습니다. 디지털 트랜스포메이션에 대한 자세한 내용은 이전 포스팅을 참고하시기 바랍니다. 올리브앤바인은 디지털 트랜스포메이션과 관련된 다양한 컨설팅 서비스를 제공합니다. 도움이 필요하시면 contact@oliveandvinehk.com 으로 문의해 주세요",
   },
   contactInformationDisclaimer: {
     en: "This material covers general information and does not provide solutions for any specific issues of any company or individual. Differences in legal terms may exist due to the translation into Korean to aid understanding. Olive and Vine does not assume any legal responsibility or guarantee the accuracy, completeness, or usefulness of this information. This material cannot replace legal or consulting advice; please consult with a professional if necessary.",
-    ko: "이 자료는 일반적인 정보로서 특정 회사 또는 개인의 문제에 대한 해결책을 제공하지 않습니다. 이해를 돕기 위해 한국어로 번역된 일부 내용은 정확한 법률 용어와 다를 수 있습니다. Olive and Vine는 이 정보의 정확성, 완전성 또는 유용성에 대한 법적 보장을 제공하지 않습니다. 본 자료는 법률 또는 컨설팅 자문을 대체하지 않으며, 필요시 전문가와 상담하시기 바랍니다.",
+    ko: "본 자료는 일반적인 정보를 다루고 있으며 특정 기업이나 개인의 특정 문제에 대한 해결책을 제시하지 않습니다. 이해를 돕기 위해 한국어로 번역되었기 때문에 법률 용어에 차이가 있을 수 있습니다. 올리브앤바인은 본 정보의 정확성, 완전성, 유용성에 대해 어떠한 법적 책임도 지지 않으며 보증하지 않습니다. 본 자료는 법률 또는 컨설팅 자문을 대체할 수 없으므로 필요한 경우 전문가와 상의하시기 바랍니다.",
   },
 };

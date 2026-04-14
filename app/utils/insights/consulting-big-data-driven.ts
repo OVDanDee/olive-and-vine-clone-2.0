@@ -2,27 +2,27 @@ export const consultingBigDataDrivenTranslations = {
   heroTag: { en: "Consulting", ko: "컨설팅" },
   heroTitle: {
     en: "Big Data Driven",
-    ko: "빅데이터 기반",
+    ko: "빅 데이터 기반",
   },
   inBrief: {
     en: "In brief",
-    ko: "요약",
+    ko: "요약하자면",
   },
   inBriefDescription: {
     en: "Business owners operating in Hong Kong must thoroughly understand and follow corporate tax filing procedures. Corporate tax filing is a crucial part of business operations, and failure to do so can lead to legal issues. Below, we provide a comprehensive explanation of the corporate tax filing process, including filing documents, filing deadlines, filing fees, filing requirements, filing preparation, and post-filing procedures.",
-    ko: "홍콩에서 사업을 운영하는 사업주는 법인세 신고 절차를 철저히 이해하고 준수하여야 합니다. 법인세 신고는 사업 운영의 중요한 부분이며, 이를 수행하지 않으면 법적 문제가 발생할 수 있습니다. 아래에서는 신고 서류, 신고 기한, 신고 수수료, 신고 요건, 신고 준비 및 신고 후 절차를 포함한 법인세 신고 프로세스에 대한 포괄적인 설명을 제공해 드립니다.",
+    ko: "홍콩에서 사업을 운영하는 비즈니스 소유자는 법인세 신고 절차를 철저히 이해하고 준수해야 합니다. 법인세 신고는 비즈니스 운영에서 매우 중요한 부분이며, 이를 이행하지 않을 경우 법적 문제가 발생할 수 있습니다. 아래에서는 제출 서류, 제출 기한, 신고 수수료, 신고 요건, 신고 준비 및 신고 후 절차 등 법인세 신고 절차에 대한 포괄적인 설명을 제공합니다.",
   },
   aiTaskAutomation: {
     en: "Deriving business insights based on big data",
-    ko: "빅데이터 기반 비즈니스 인사이트 도출",
+    ko: "빅데이터를 기반으로 비즈니스 인사이트 도출",
   },
   importanceOfAI: {
     en: "Importance of Big Data",
-    ko: "빅데이터 중요성",
+    ko: "빅 데이터의 중요성",
   },
   importanceOfAIDescription: {
     en: "In the digital era, big data plays a crucial role in helping companies derive business insights and strengthen competitiveness. Through big data analysis, enterprises can identify market trends, predict customer needs, and make strategic decisions. This article provides detailed explanations on deriving business insights through big data analysis.",
-    ko: "디지털 시대에 빅데이터는 기업이 비즈니스 인사이트를 도출하고 경쟁력을 강화하는 데 중요한 역할을 합니다. 빅데이터 분석을 통해 기업은 시장 트렌드를 파악하고 고객 요구를 예측하며 전략적 의사결정을 내릴 수 있습니다. 본 글에서는 빅데이터 분석을 통해 비즈니스 인사이트를 도출하는 방법에 대해 상세히 설명합니다.",
+    ko: "디지털 시대에 빅데이터는 기업이 비즈니스 인사이트를 도출하고 경쟁력을 강화하는 데 중요한 역할을 합니다. 기업은 빅데이터 분석을 통해 시장 트렌드를 파악하고 고객의 니즈를 예측하며 전략적 의사결정을 내릴 수 있습니다. 이 글에서는 빅데이터 분석을 통한 비즈니스 인사이트 도출에 대해 자세히 설명합니다.",
   },
   benefitsOfAutomation: {
     en: "Benefits of Big Data Analysis",
@@ -30,15 +30,15 @@ export const consultingBigDataDrivenTranslations = {
   },
   efficiencyEnhancement: {
     en: "Market Trend Identification",
-    ko: "시장 트렌드 파악",
+    ko: "시장 동향 파악",
   },
   repetitiveTaskAutomation: {
     en: "Data-Driven Analysis: Big data enables market trend analysis to inform strategic decision-making. For example, retailers can analyze sales data to identify popular products and seasonal demand fluctuations.",
-    ko: "데이터 기반 분석: 빅데이터를 활용하면 시장 트렌드 분석을 통해 전략적 의사결정을 지원할 수 있습니다. 예를 들어, 소매업체는 판매 데이터를 분석하여 인기 제품과 계절성 수요 변동을 파악할 수 있습니다.",
+    ko: "데이터 기반 분석: 빅데이터는 시장 트렌드 분석을 통해 전략적 의사결정을 내릴 수 있게 해줍니다. 예를 들어, 소매업체는 판매 데이터를 분석하여 인기 상품과 계절별 수요 변동을 파악할 수 있습니다.",
   },
   increasedProcessingSpeed: {
     en: "Competitor Analysis: Analyzing competitors’ data helps formulate strategies for competitive advantage, expanding market share and strengthening competitiveness.",
-    ko: "경쟁사 분석: 경쟁사의 데이터를 분석하면 경쟁 우위를 확보하고 시장 점유율을 확대하며 경쟁력을 강화하는 전략을 수립할 수 있습니다.",
+    ko: "경쟁사 분석: 경쟁사 데이터를 분석하면 경쟁 우위, 시장 점유율 확대 및 경쟁력 강화를 위한 전략을 수립하는 데 도움이 됩니다.",
   },
   improvedAccuracy: {
     en: "Customer Demand Prediction",
@@ -46,11 +46,11 @@ export const consultingBigDataDrivenTranslations = {
   },
   errorReduction: {
     en: "Customer Behavior Analysis: Analyzing behavior patterns predicts customer needs and enables personalized services. Online retailers, for instance, can examine purchase history and search patterns to offer tailored recommendations.",
-    ko: "고객 행동 분석: 행동 패턴을 분석하면 고객 요구를 예측하고 개인화된 서비스를 제공할 수 있습니다. 온라인 쇼핑몰의 경우, 구매 이력과 검색 패턴을 분석하여 맞춤화된 추천을 제공할 수 있습니다.",
+    ko: "고객 행동 분석: 행동 패턴을 분석하면 고객의 니즈를 예측하고 개인화된 서비스를 제공할 수 있습니다. 예를 들어, 온라인 리테일러는 구매 내역과 검색 패턴을 조사하여 맞춤형 추천을 제공할 수 있습니다.",
   },
   realTimeMonitoring: {
     en: "Customer Segmentation: Big data facilitates customer segmentation and targeted marketing strategies for each group, maximizing campaign effectiveness.",
-    ko: "고객 세그먼트: 빅데이터를 활용하면 고객을 세그먼트로 나누고 각 그룹에 맞춤형 마케팅 전략을 수립하여 캠페인 효과를 극대화할 수 있습니다.",
+    ko: "고객 세분화: 빅 데이터는 고객 세분화와 각 그룹에 대한 타겟 마케팅 전략을 용이하게 하여 캠페인 효과를 극대화합니다.",
   },
   costReduction: {
     en: "Cost Reduction",
@@ -58,19 +58,19 @@ export const consultingBigDataDrivenTranslations = {
   },
   laborCostSavings: {
     en: "Efficient Resource Management: Big data analysis optimizes resource allocation and eliminates unnecessary expenses. Manufacturers can analyze production data to streamline processes and improve inventory management.",
-    ko: "효율적인 자원 관리: 빅데이터 분석을 통해 자원 배분을 최적화하고 불필요한 비용을 제거할 수 있습니다. 제조업체는 생산 데이터를 분석하여 프로세스를 간소화하고 재고 관리를 개선할 수 있습니다.",
+    ko: "효율적인 리소스 관리: 빅데이터 분석은 리소스 할당을 최적화하고 불필요한 비용을 제거합니다. 제조업체는 생산 데이터를 분석하여 프로세스를 간소화하고 재고 관리를 개선할 수 있습니다.",
   },
   operationalCostSavings: {
     en: "Operational Efficiency Enhancement: Data-driven decisions maximize operational efficiency, driving productivity gains and cost savings.",
-    ko: "운영 효율 향상: 데이터 기반 의사결정은 운영 효율을 극대화하여 생산성 향상과 비용 절감을 가능하게 합니다.",
+    ko: "운영 효율성 향상: 데이터 기반 의사 결정은 운영 효율성을 극대화하여 생산성 향상과 비용 절감을 이끌어냅니다.",
   },
   realWorldCases: {
     en: "Real-World Digital Transformation Cases",
-    ko: "실제 디지털 전환 사례",
+    ko: "실제 디지털 혁신 사례",
   },
   realWorldCasesDescription: {
     en: "Big data finds application across diverse industries. Below are practical examples of digital transformation leveraging big data:",
-    ko: "빅데이터는 다양한 산업에서 활용됩니다. 아래는 빅데이터를 활용한 디지털 전환의 실제 사례입니다.",
+    ko: "빅데이터는 다양한 산업 분야에서 활용되고 있습니다. 다음은 빅데이터를 활용한 디지털 혁신의 실제 사례입니다:",
   },
   customerService: {
     en: "Retail Industry",
@@ -78,11 +78,11 @@ export const consultingBigDataDrivenTranslations = {
   },
   chatbotImplementation: {
     en: "Inventory Management Optimization: Big data analysis predicts demand and enables efficient inventory management, resolving issues of stockouts or overstocking.",
-    ko: "재고 관리 최적화: 빅데이터 분석을 통해 수요를 예측하고 효율적인 재고 관리를 통해 재고 부족 또는 과잉 재고 문제를 해결할 수 있습니다.",
+    ko: "재고 관리 최적화: 빅데이터 분석을 통해 수요를 예측하고 효율적인 재고 관리가 가능해져 품절이나 재고 과잉 문제를 해결할 수 있습니다.",
   },
   customerDataAnalysis: {
     en: "Personalized Marketing: Customer data analysis supports tailored marketing campaigns to enhance satisfaction. For instance, targeted discounts for specific customer groups can boost repurchase rates.",
-    ko: "맞춤화된 마케팅: 고객 데이터 분석을 통해 맞춤화된 마케팅 캠페인을 지원하여 만족도를 향상시킬 수 있습니다. 예를 들어, 특정 고객 그룹에 대한 타겟팅 할인은 재구매율을 높일 수 있습니다.",
+    ko: "개인화된 마케팅: 고객 데이터 분석은 맞춤형 마케팅 캠페인을 지원하여 만족도를 높일 수 있습니다. 예를 들어, 특정 고객 그룹에 대한 타겟 할인을 통해 재구매율을 높일 수 있습니다.",
   },
   marketing: {
     en: "Healthcare Industry",
@@ -90,31 +90,31 @@ export const consultingBigDataDrivenTranslations = {
   },
   targetedMarketing: {
     en: "Patient Data Analysis: Analyzing patient data enables personalized treatments and improved medical services. For example, treatment records and genetic data can inform customized care plans.",
-    ko: "환자 데이터 분석: 환자 데이터를 분석하면 개인화된 치료와 의료 서비스 향상이 가능합니다. 예를 들어, 치료 기록과 유전 데이터를 분석하여 맞춤화된 치료 계획을 수립할 수 있습니다.",
+    ko: "환자 데이터 분석: 환자 데이터를 분석하면 개인 맞춤형 치료와 향상된 의료 서비스를 제공할 수 있습니다. 예를 들어, 치료 기록과 유전자 데이터를 통해 맞춤형 치료 계획을 세울 수 있습니다.",
   },
   predictiveAnalytics: {
     en: "Disease Prediction: Big data predicts disease likelihood and supports preventive measures, reducing healthcare costs and improving patient outcomes.",
-    ko: "질병 예측: 빅데이터를 활용하면 질병 발생 가능성을 예측하고 예방 조치를 지원하여 의료 비용을 절감하고 환자 결과를 개선할 수 있습니다.",
+    ko: "질병 예측: 빅 데이터는 질병 발생 가능성을 예측하고 예방 조치를 지원하여 의료 비용을 절감하고 환자 치료 결과를 개선합니다.",
   },
   financialManagement: {
     en: "Financial Sector",
-    ko: "금융 산업",
+    ko: "금융 부문",
   },
   riskManagement: {
     en: "Fraud Detection: Big data analysis identifies financial fraud preemptively. Real-time detection of anomalous transaction patterns can block fraudulent attempts.",
-    ko: "사기 탐지: 빅데이터 분석을 통해 금융 사기를 사전에 탐지할 수 있습니다. 이상 거래 패턴을 실시간으로 감지하여 사기 시도를 방지할 수 있습니다.",
+    ko: "사기 탐지: 빅데이터 분석을 통해 금융 사기를 선제적으로 식별합니다. 비정상적인 거래 패턴을 실시간으로 탐지하여 사기 시도를 차단할 수 있습니다.",
   },
   financialForecasting: {
     en: "Credit Assessment: Analyzing customer financial data provides accurate credit evaluations, minimizing loan approval risks and enabling tailored financial products.",
-    ko: "신용 평가: 고객 재무 데이터를 분석하면 정확한 신용 평가를 제공하여 대출 승인 위험을 최소화하고 맞춤화된 금융 제품을 제공할 수 있습니다.",
+    ko: "신용 평가: 고객 금융 데이터를 분석하면 정확한 신용 평가를 통해 대출 승인 리스크를 최소화하고 맞춤형 금융 상품을 제공할 수 있습니다.",
   },
   additionalBigDataUseCasesTitle: {
     en: "Additional Big Data Analysis Use Cases",
-    ko: "추가 빅데이터 분석 활용 사례",
+    ko: "추가 빅 데이터 분석 사용 사례",
   },
   additionalBigDataUseCasesIntro: {
     en: "Big data applies across public services, energy, education, and other sectors. Below are further practical examples:",
-    ko: "빅데이터는 공공 서비스, 에너지, 교육 등 다양한 분야에 적용됩니다. 아래는 추가 실제 사례입니다.",
+    ko: "빅 데이터는 공공 서비스, 에너지, 교육 및 기타 여러 분야에 적용됩니다. 다음은 몇 가지 실제적인 예시입니다:",
   },
   additionalBigDataUseCases1Title: {
     en: "Public Services",
@@ -146,7 +146,7 @@ export const consultingBigDataDrivenTranslations = {
   ] as { en: string; ko: string }[],
   additionalBigDataUseCases3Title: {
     en: "Education Sector",
-    ko: "교육 분야",
+    ko: "교육 부문",
   },
   additionalBigDataUseCases3Bullets: [
     {
@@ -160,7 +160,7 @@ export const consultingBigDataDrivenTranslations = {
   ] as { en: string; ko: string }[],
   frequentlyAskedQuestions: {
     en: "Frequently Asked Questions (Q&A)",
-    ko: "자주 묻는 질문 (Q&A)",
+    ko: "자주 묻는 질문(Q&A)",
   },
   contactInformation: {
     en: "Contact Information",
@@ -168,11 +168,11 @@ export const consultingBigDataDrivenTranslations = {
   },
   contactInformationDescription: {
     en: "AI-powered business process automation represents a vital strategy that significantly enhances corporate competitiveness. Olive & Vine offers comprehensive consulting services related to AI implementation—please contact contact@oliveandvinehk.com if needed.",
-    ko: "AI 기반 비즈니스 프로세스 자동화는 기업 경쟁력을 크게 강화하는 중요한 전략입니다. Olive & Vine는 AI 구현과 관련된 컨설팅 서비스를 제공합니다—필요한 경우 contact@oliveandvinehk.com으로 문의해 주세요.",
+    ko: "AI 기반 비즈니스 프로세스 자동화는 기업 경쟁력을 크게 향상시키는 중요한 전략입니다. Olive & Vine은 AI 구현과 관련된 종합적인 컨설팅 서비스를 제공합니다. 필요한 경우 contact@oliveandvinehk.com 으로 문의하시기 바랍니다.",
   },
   contactInformationDisclaimer: {
     en: "The above materials address general information and do not provide solutions to specific issues faced by any company or individual. Note that certain sections translated into Korean for better understanding may differ from precise legal terminology. Olive & Vine assumes no legal liability or warranty regarding the accuracy, completeness, or usefulness of this information. These materials do not substitute for legal or consulting advice; please consult a professional when necessary.",
-    ko: "위 자료는 일반적인 정보를 다루며, 특정 회사 또는 개인이 직면한 구체적인 문제에 대한 해결책을 제공하지 않습니다. 이해를 돕기 위해 한국어로 번역된 일부 내용은 정확한 법률 용어와 다를 수 있습니다. Olive & Vine는 이 정보의 정확성, 완전성 또는 유용성에 대해 어떠한 법적 책임이나 보증도 부인합니다. 이 자료는 법률 또는 컨설팅 자문을 대체할 수 없으며, 필요시 전문가와 상담하시기 바랍니다.",
+    ko: "위 자료는 일반적인 정보를 다루고 있으며, 특정 기업이나 개인이 직면한 특정 문제에 대한 해결책을 제시하지 않습니다. 이해를 돕기 위해 한국어로 번역된 특정 부분은 정확한 법률 용어와 다를 수 있습니다. Olive & Vine은 본 정보의 정확성, 완전성 또는 유용성과 관련하여 어떠한 법적 책임이나 보증도 하지 않습니다. 본 자료는 법률 또는 컨설팅 자문을 대체할 수 없으므로 필요한 경우 전문가와 상의하시기 바랍니다.",
   },
   faqItems: [
     {

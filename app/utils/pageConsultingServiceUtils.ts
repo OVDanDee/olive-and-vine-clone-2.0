@@ -6,16 +6,16 @@ export const consultingServicePageTranslations = {
   },
   heroSubtitle: {
     en: "We target to bring you constructive results. We plan for the long future. We listen to your values and support you in making informed decisions. We consider the stakeholders involved in the process, and we will propose ideas that are beneficial for all.",
-    ko: "유용하고 현실적인 성과를 목표로 합니다. 당장의 문제만 해결하는 것이 아니라 장기적인 미래를 계획합니다. 고객의 소리를 듣고 정보에 근거한 의사결정을 지원해 드립니다. 과정에 관여하는 이해관계자를 고려하여 모두에게 이로운 방안을 제안해 드립니다.",
+    ko: "저희는 건설적인 결과를 제공하는 것을 목표로 합니다. 긴 미래를 계획합니다. 고객의 가치에 귀 기울이고 정보에 입각한 결정을 내릴 수 있도록 지원합니다. 프로세스에 관련된 이해관계자를 고려하고 모두에게 이익이 되는 아이디어를 제안합니다.",
   },
   consultingServiceIntro: {
     en: "Consulting at Olive & Vine goes beyond solving operational challenges; it is a discipline rooted in principles, clarity, and long‑term organisational development. We believe that meaningful progress occurs when systems, people, and governance structures align with purpose and integrity. Our consulting practice evaluates not only processes and controls, but also the underlying logic that shapes decision‑making, organisational behaviour, and culture.<br><br>We approach each engagement with a deep sense of responsibility — recognising that internal structures influence a company’s resilience, ethical posture, and capacity for growth.<br><br>Through deliberate analysis and structured redesign, we help organisations strengthen their foundations, elevate their governance maturity, and build operating models that are sustainable, transparent, and capable of supporting strategic ambitions.<br><br>This service line represents our highest level of intervention: thoughtful, principle‑driven, and designed to create enduring impact.",
-    ko: "Olive & Vine 컨설팅은 운영 문제 해결을 넘어 원칙, 명확성, 장기적인 조직 개발을 바탕으로 한 학문입니다. 시스템, 인력, 거버넌스 구조가 목적과 무결성과 일치할 때 의미 있는 진전이 발생한다고 믿습니다. 컨설팅 실무는 프로세스와 제어뿐 아니라 결정 체계, 조직 행동, 문화를 형성하는 기본 논리를 평가합니다.<br><br>각 임무에 대해 책임감 있는 접근을 취합니다. 내부 구조가 기업의 견고성, 윤리적 자세, 성장 능력에 영향을 미친다는 것을 인식합니다.<br><br>계획적인 분석과 구조적 재설계를 통해 조직의 기반을 강화하고 거버넌스 숙련도를 높이며, 지속 가능하고 투명하며 전략적 야망을 지지할 수 있는 운영 모델을 구축해 드립니다.<br><br>이 서비스 라인은 최고 수준의 개입을 나타냅니다: 생각 깊고 원칙 기반의, 영원한 영향을 낳기 위해 설계된 것입니다.",
+    ko: "Olive & Vine의 컨설팅은 운영상의 문제 해결을 넘어 원칙과 명확성, 장기적인 조직 발전에 뿌리를 둔 분야입니다. 우리는 시스템, 사람, 거버넌스 구조가 목적과 무결성에 부합할 때 의미 있는 발전이 이루어진다고 믿습니다. Korn Ferry의 컨설팅 업무는 프로세스와 통제뿐만 아니라 의사결정, 조직 행동, 문화를 형성하는 기본 논리를 평가합니다.<br><br>우리는 내부 구조가 기업의 회복력, 윤리적 자세, 성장 역량에 영향을 미친다는 점을 인식하고 깊은 책임감을 가지고 각 업무에 접근합니다.<BR><BR>신중한 분석과 구조적 재설계를 통해 조직이 기반을 강화하고 거버넌스 성숙도를 높이며 지속 가능하고 투명하며 전략적 야망을 지원할 수 있는 운영 모델을 구축하도록 지원합니다.<br><BR>이 서비스 라인은 사려 깊고 원칙에 기반하며 지속적인 영향력을 창출하도록 설계된 최고 수준의 개입을 대표합니다.",
   },
   methodologyTitle: { en: "Methodology", ko: "방법론" },
   methodologyDescription: {
     en: "Consulting engagements typically follow a structured and evidence‑based methodology designed to strengthen operational integrity, internal controls, and organisational coherence. While the scope varies by client, a disciplined approach generally includes the following components:",
-    ko: "컨설팅 업무는 운영 무결성, 내부 통제 및 조직적 일관성을 강화하도록 설계된 구조화되고 증거 기반의 방법론을 따릅니다. 범위는 고객에 따라 다르지만, 체계적인 접근에는 일반적으로 다음 구성 요소가 포함됩니다:",
+    ko: "컨설팅 계약은 일반적으로 운영 무결성, 내부 통제 및 조직의 일관성을 강화하기 위해 설계된 구조화된 증거 기반 방법론을 따릅니다. 고객에 따라 범위는 다르지만, 일반적으로 체계적인 접근 방식에는 다음과 같은 구성 요소가 포함됩니다:",
   },
   methodologyItems: {
     en: [
@@ -40,28 +40,21 @@ export const consultingServicePageTranslations = {
       "Outsourced internal audit services",
       "Preparation of internal policies and procedures",
     ],
-    ko: [
-      "아웃소싱 내부 감사 서비스",
-      "내부 정책 및 절차 수립",
-    ],
+    ko: ["아웃소싱 내부 감사 서비스","내부 정책 및 절차 준비"],
   },
-  hrServiceTitle: { en: "HR Service", ko: "인사 서비스" },
+  hrServiceTitle: { en: "HR Service", ko: "HR 서비스" },
   hrServiceItems: {
     en: [
       "MPF registration and monthly contribution calculation",
       "Recruitment process and employer's return support",
       "Work visa and dependent visa application assistance",
     ],
-    ko: [
-      "MPF 등록 및 월별 기여금 계산",
-      "채용 절차 및 고용주 신고 지원",
-      "취업 비자 및 부양 비자 신청 지원",
-    ],
+    ko: ["MPF 등록 및 월 납입금 계산","채용 프로세스 및 고용주의 복귀 지원","취업 비자 및 부양 가족 비자 신청 지원"],
   },
   othersTitle: { en: "Others", ko: "기타" },
   innovatingTitle: {
     en: "Innovating strategies that align<br>with your values and goals",
-    ko: "고객의 가치와 목표에 맞는<br>혁신적 전략",
+    ko: "기업의 가치와 목표에 부합하는 혁신 전략",
   },
   othersItems: {
     en: [
@@ -70,17 +63,12 @@ export const consultingServicePageTranslations = {
       "China attestation collaboration with law firms",
       "Statutory declaration and document legalization support",
     ],
-    ko: [
-      "해외 문서 사용을 위한 아포스티유 배치",
-      "홍콩 공증인 공증",
-      "중국 인증 및 법률 사무소 협력",
-      "법적 선언 및 문서 법인증 지원",
-    ],
+    ko: ["해외 문서 사용을 위한 아포스티유 준비","홍콩 공증인의 공증","로펌과의 중국 증명 협업","법정 신고 및 문서 합법화 지원"],
   },
   insightTag: { en: "Consulting", ko: "컨설팅" },
   insightPlaceholder: {
     title: { en: "2025 Outlook", ko: "2025 전망" },
-    description: { en: "Looking to the Future", ko: "미래를 바라보며" },
+    description: { en: "Looking to the Future", ko: "미래 전망" },
     date: { en: "January 2025", ko: "2025년 1월" },
   },
 };

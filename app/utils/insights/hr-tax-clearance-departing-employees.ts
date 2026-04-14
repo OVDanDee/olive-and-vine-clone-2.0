@@ -1,119 +1,119 @@
 export const hrTaxClearanceDepartingEmployeesTranslations = {
-  heroTag: { en: "HR", ko: "인사" },
+  heroTag: { en: "HR", ko: "HR" },
   heroTitle: {
     en: "Tax Clearance for Departing Employees",
-    ko: "홍콩 출국 직원의 세금 정산 절차",
+    ko: "출국 직원을 위한 세금 통관",
   },
-  inBrief: { en: "In brief", ko: "요약" },
+  inBrief: { en: "In brief", ko: "요약하자면" },
   inBriefDescription: {
     en: "Employers in Hong Kong have statutory obligations under Section 52 of the Inland Revenue Ordinance (Cap. 112) when an employee departs. Filing the correct forms, withholding payments, and obtaining a Letter of Release are all time-sensitive steps. Failure to comply can expose the employer to personal liability for the employee's unpaid taxes.",
-    ko: "홍콩에서 직원이 출국할 경우, 고용주는 세무조례(Cap. 112) 제52조에 따른 법적 의무를 이행해야 합니다. 관련 서류를 올바르게 제출하고, 지급금을 보류하며, 석방 서한을 받는 것은 모두 시간에 민감한 절차입니다. 이를 준수하지 않을 경우 고용주가 직원의 미납 세금에 대해 개인적으로 책임을 질 수 있습니다.",
+    ko: "홍콩의 고용주는 직원이 출국할 때 내국세 조례 52조(112조)에 따라 법적 의무가 있습니다. 올바른 양식을 제출하고, 급여를 원천징수하고, 출국 허가서를 받는 것은 모두 시간에 민감한 단계입니다. 이를 준수하지 않을 경우 고용주는 직원의 미납 세금에 대한 개인적 책임을 질 수 있습니다.",
   },
   aiTaskAutomation: {
     en: "Tax Clearance for Departing Employees",
-    ko: "출국 직원의 세금 정산 절차",
+    ko: "출국 직원을 위한 세금 통관",
   },
   importanceOfAIDescription: {
     en: "Employees intending to leave Hong Kong permanently or for an extended period are required to settle all outstanding salaries tax before departure. Employers play a critical role in this process under Section 52 of the Inland Revenue Ordinance (Cap. 112). Below is the chronological workflow, clearly identifying the responsible party at each stage.",
-    ko: "홍콩을 영구적으로 또는 장기간 떠날 예정인 직원은 출국 전에 미납된 급여세를 모두 정산해야 합니다. 고용주는 세무조례(Cap. 112) 제52조에 따라 이 과정에서 중요한 역할을 담당합니다. 아래는 각 단계에서 책임 당사자를 명확히 식별한 시간순 워크플로우입니다.",
+    ko: "영구적으로 또는 장기간 홍콩을 떠나고자 하는 직원은 출국 전에 미지급 급여세를 모두 정산해야 합니다. 고용주는 내륙세 조례 52조(112조)에 따라 이 과정에서 중요한 역할을 담당합니다. 아래는 각 단계의 책임자를 명확하게 식별하는 연대기적 워크플로입니다.",
   },
 
   workflowTitle: {
     en: "Step-by-Step Workflow",
-    ko: "단계별 절차",
+    ko: "단계별 워크플로",
   },
 
   // Step 1
   step1Title: {
     en: "Step 1: Employee Notifies Employer of Departure",
-    ko: "1단계: 직원의 출국 통보",
+    ko: "1단계: 직원이 고용주에게 퇴사를 알립니다",
   },
   step1ResponsibleParty: { en: "Responsible party: Employee", ko: "책임 당사자: 직원" },
   step1Description: {
     en: "The employee should inform the employer as early as possible, ideally at least one month prior to the planned departure. The employee should provide: intended departure date, whether employment will cease before departure, and future return plans (if any). This notification triggers the employer's statutory responsibilities.",
-    ko: "직원은 계획된 출국일로부터 최소 한 달 전에 가능한 한 일찍 고용주에게 알려야 합니다. 직원은 예정된 출국일, 출국 전 고용 종료 여부, 향후 귀국 계획(있는 경우)을 제공해야 합니다. 이 통보는 고용주의 법적 책임을 발생시킵니다.",
+    ko: "직원은 가능한 한 빨리, 이상적으로는 출국 예정일 최소 1개월 전에 고용주에게 알려야 합니다. 직원은 출국 예정일, 출국 전 고용 중단 여부, 향후 복귀 계획(있는 경우)을 제공해야 합니다. 이 통지는 고용주의 법적 책임을 촉발합니다.",
   },
 
   // Step 2
   step2Title: {
     en: "Step 2: Employer Prepares and Files Form IR56G",
-    ko: "2단계: 고용주의 IR56G 양식 준비 및 제출",
+    ko: "2단계: 고용주가 IR56G 양식 준비 및 제출",
   },
   step2ResponsibleParty: { en: "Responsible party: Employer", ko: "책임 당사자: 고용주" },
   step2Description: {
     en: "Upon receiving notice, the employer must prepare and submit Form IR56G to the IRD no later than one month before the expected departure. Submission can be made via eTAX or paper filing. Filing IR56G does not terminate employment automatically. IR56F is not required unless employment cessation is unrelated to departure.",
-    ko: "통보를 받으면 고용주는 예상 출국일로부터 최소 한 달 전까지 세무국(IRD)에 IR56G 양식을 준비하여 제출해야 합니다. 제출은 eTAX 또는 서면 신고를 통해 가능합니다. IR56G 제출이 자동으로 고용을 종료하지는 않습니다. 고용 종료가 출국과 무관한 경우가 아니면 IR56F는 필요하지 않습니다.",
+    ko: "통지를 받은 고용주는 늦어도 출국 예정일 한 달 전까지 IRD에 IR56G 양식을 작성하여 제출해야 합니다. 제출은 eTAX 또는 종이 제출을 통해 할 수 있습니다. IR56G를 제출한다고 해서 고용이 자동으로 종료되는 것은 아닙니다. 고용 중단이 출국과 관련이 없는 경우가 아니라면 IR56F는 필요하지 않습니다.",
   },
   step2WarningTitle: { en: "Employer Risk", ko: "고용주 위험" },
   step2WarningDescription: {
     en: "Under Section 52(6), if the employer fails to lodge IR56G at least one month before departure, the employer becomes personally liable for any taxes payable by the employee.",
-    ko: "제52조 제6항에 따라, 고용주가 출국 최소 1개월 전까지 IR56G를 제출하지 않으면 고용주는 직원이 납부해야 할 세금에 대해 개인적으로 책임을 지게 됩니다.",
+    ko: "섹션 52(6)에 따라 고용주가 출국 최소 1개월 전까지 IR56G를 제출하지 않으면 고용주는 직원이 납부해야 하는 모든 세금에 대해 개인적으로 책임을 져야 합니다.",
   },
 
   // Step 3
   step3Title: {
     en: "Step 3: Employer Withholds All Payments",
-    ko: "3단계: 고용주의 모든 지급금 보류",
+    ko: "3단계: 고용주가 모든 급여를 원천징수합니다",
   },
   step3ResponsibleParty: { en: "Responsible party: Employer", ko: "책임 당사자: 고용주" },
   step3Description: {
     en: "From the date IR56G is submitted, the employer must withhold all monies payable to the employee, including salary, bonus, commission, payment in lieu of notice, leave encashment, and any other termination payments. Withholding continues until a release condition under Section 52(7) is met.",
-    ko: "IR56G 제출일로부터 고용주는 급여, 보너스, 수수료, 예고 대신 지급금, 휴가 환산 금액 및 기타 퇴직 지급금을 포함하여 직원에게 지급해야 할 모든 금액을 보류해야 합니다. 보류는 제52조 제7항에 따른 석방 조건이 충족될 때까지 계속됩니다.",
+    ko: "IR56G를 제출한 날부터 고용주는 급여, 보너스, 커미션, 통지 대신 지급, 휴가 현금화 및 기타 해고 수당을 포함하여 직원에게 지급할 모든 금액을 원천징수해야 합니다. 원천징수는 섹션 52(7)에 따른 해제 조건이 충족될 때까지 계속됩니다.",
   },
 
   // Step 4
   step4Title: {
     en: "Step 4: IRD Reviews the Case",
-    ko: "4단계: 세무국의 사례 검토",
+    ko: "4단계: IRD가 케이스를 검토합니다",
   },
-  step4ResponsibleParty: { en: "Responsible party: IRD", ko: "책임 당사자: 세무국" },
+  step4ResponsibleParty: { en: "Responsible party: IRD", ko: "책임 당사자: IRD" },
   step4Description: {
     en: "The IRD evaluates the taxpayer's position and may request supporting documents from the employer (e.g., updated remuneration data) or the employee (e.g., rental details, deduction claims).",
-    ko: "세무국은 납세자의 상황을 평가하고 고용주(예: 업데이트된 보수 데이터) 또는 직원(예: 임대 세부 사항, 공제 신청)으로부터 지원 서류를 요청할 수 있습니다.",
+    ko: "IRD는 납세자의 입장을 평가하고 고용주(예: 업데이트된 보수 데이터) 또는 직원(예: 임대 세부 정보, 공제 청구서)에게 증빙 서류를 요청할 수 있습니다.",
   },
 
   // Step 5
   step5Title: {
     en: "Step 5: Employee Settles Outstanding Tax",
-    ko: "5단계: 직원의 미납 세금 정산",
+    ko: "5단계: 직원 미납 세금 정산",
   },
   step5ResponsibleParty: { en: "Responsible party: Employee", ko: "책임 당사자: 직원" },
   step5Description: {
     en: "The employee must fully settle final salaries tax up to cessation, adjusted provisional tax, and any other outstanding liabilities. Tax clearance cannot be issued until payment is made.",
-    ko: "직원은 고용 종료 시까지의 최종 급여세, 조정된 예정 세금 및 기타 미납 채무를 완전히 정산해야 합니다. 납부가 완료될 때까지 세금 정산 증명서가 발급되지 않습니다.",
+    ko: "직원은 해고까지의 최종 급여 세금, 조정된 잠정 세금 및 기타 미결제 부채를 완전히 정산해야 합니다. 세금 결제가 완료될 때까지 세금 통관을 발급할 수 없습니다.",
   },
 
   // Step 6
   step6Title: {
     en: "Step 6: IRD Issues the Tax Clearance Letter (Letter of Release)",
-    ko: "6단계: 세무국의 세금 정산 서한 발급",
+    ko: "6단계: IRD에서 세금 통관 서신(면세 증명서) 발급",
   },
-  step6ResponsibleParty: { en: "Responsible party: IRD", ko: "책임 당사자: 세무국" },
+  step6ResponsibleParty: { en: "Responsible party: IRD", ko: "책임 당사자: IRD" },
   step6Description: {
     en: "The IRD issues a Letter of Release authorising the employer to pay withheld amounts when all assessments have been finalised and all tax has been fully settled.",
-    ko: "세무국은 모든 평가가 확정되고 모든 세금이 완전히 정산된 경우, 고용주가 보류된 금액을 지급할 수 있도록 승인하는 석방 서한을 발급합니다.",
+    ko: "모든 평가가 완료되고 모든 세금이 완전히 정산되면 IRD는 고용주에게 원천 징수 금액을 납부할 수 있도록 승인하는 해제 서신을 발행합니다.",
   },
 
   // Step 7
   step7Title: {
     en: "Step 7: Employer Releases the Withheld Amounts",
-    ko: "7단계: 고용주의 보류 금액 지급",
+    ko: "7단계: 고용주가 원천 징수 금액을 지급합니다",
   },
   step7ResponsibleParty: { en: "Responsible party: Employer", ko: "책임 당사자: 고용주" },
   step7Description: {
     en: "The employer may release funds when: the IRD issues the release letter; or one month has elapsed since the IRD received IR56G, per Section 52(7)(b). Either condition is sufficient.",
-    ko: "고용주는 세무국이 석방 서한을 발급한 경우, 또는 제52조 제7항 (b)에 따라 세무국이 IR56G를 수령한 후 1개월이 경과한 경우 자금을 지급할 수 있습니다. 두 조건 중 하나라도 충족되면 됩니다.",
+    ko: "고용주는 IRD가 해제 서신을 발급하거나 섹션 52(7)(b)에 따라 IRD가 IR56G를 수령한 후 1개월이 경과한 경우 자금을 해제할 수 있습니다. 두 조건 중 하나만 충족하면 됩니다.",
   },
 
   // Step 8
   step8Title: {
     en: "Step 8: Final Employer Filings (Only If Employment Ends)",
-    ko: "8단계: 최종 고용주 신고 (고용이 종료되는 경우에만)",
+    ko: "8단계: 최종 고용주 신고(고용이 종료된 경우에만 해당)",
   },
   step8ResponsibleParty: { en: "Responsible party: Employer", ko: "책임 당사자: 고용주" },
   step8Description: {
     en: "If employment ceases because of the departure, the employer must file IR56F (Notification of Cessation). If the employee is only going abroad temporarily but remains employed, IR56F is not required.",
-    ko: "출국으로 인해 고용이 종료되는 경우, 고용주는 IR56F(고용 종료 통보)를 제출해야 합니다. 직원이 일시적으로 해외에 나가더라도 계속 고용 상태인 경우에는 IR56F가 필요하지 않습니다.",
+    ko: "출국으로 인해 고용이 중단되는 경우 고용주는 IR56F(고용 중단 통지서)를 제출해야 합니다. 직원이 일시적으로 해외로 출국할 뿐 계속 고용되어 있는 경우에는 IR56F가 필요하지 않습니다.",
   },
 
   // Summary Table
@@ -123,7 +123,7 @@ export const hrTaxClearanceDepartingEmployeesTranslations = {
   },
   summaryTableHeaders: {
     step: { en: "Step", ko: "단계" },
-    action: { en: "Action", ko: "조치" },
+    action: { en: "Action", ko: "액션" },
     responsibleParty: { en: "Responsible Party", ko: "책임 당사자" },
   },
   summaryTableRows: [
@@ -171,7 +171,7 @@ export const hrTaxClearanceDepartingEmployeesTranslations = {
 
   frequentlyAskedQuestions: {
     en: "Frequently Asked Questions (Q&A)",
-    ko: "자주 묻는 질문 (Q&A)",
+    ko: "자주 묻는 질문(Q&A)",
   },
   faqItems: [
     {
@@ -197,7 +197,7 @@ export const hrTaxClearanceDepartingEmployeesTranslations = {
   ],
   contactInformationDisclaimer: {
     en: "This material covers general information and does not provide solutions for any specific issues of any company or individual. Differences in legal terms may exist due to the translation into Korean to aid understanding. Olive and Vine does not assume any legal responsibility or guarantee the accuracy, completeness, or usefulness of this information. This material cannot replace legal or consulting advice; please consult with a professional if necessary.",
-    ko: "이 자료는 일반적인 정보로서 특정 회사 또는 개인의 문제에 대한 해결책을 제공하지 않습니다. 이해를 돕기 위해 한국어로 번역된 일부 내용은 정확한 법률 용어와 다를 수 있습니다. Olive and Vine는 이 정보의 정확성, 완전성 또는 유용성에 대한 법적 보장을 제공하지 않습니다. 본 자료는 법률 또는 컨설팅 자문을 대체하지 않으며, 필요시 전문가와 상담하시기 바랍니다.",
+    ko: "본 자료는 일반적인 정보를 다루고 있으며 특정 기업이나 개인의 특정 문제에 대한 해결책을 제시하지 않습니다. 이해를 돕기 위해 한국어로 번역되었기 때문에 법률 용어에 차이가 있을 수 있습니다. 올리브앤바인은 본 정보의 정확성, 완전성, 유용성에 대해 어떠한 법적 책임도 지지 않으며 보증하지 않습니다. 본 자료는 법률 또는 컨설팅 자문을 대체할 수 없으므로 필요한 경우 전문가와 상의하시기 바랍니다.",
   },
   conclusionTitle: {
     en: "Conclusion",
@@ -205,6 +205,6 @@ export const hrTaxClearanceDepartingEmployeesTranslations = {
   },
   conclusionDescription: {
     en: "Tax clearance for departing employees is a multi-party process involving the employee, employer, and the IRD. Employers must act promptly after receiving notice to file IR56G, withhold payments, and await either IRD authorisation or the expiry of the 30-day period. Proactive compliance protects both parties and prevents employer personal liability under Section 52(6).",
-    ko: "출국 직원의 세금 정산은 직원, 고용주, 세무국이 참여하는 다자간 절차입니다. 고용주는 통보를 받은 후 즉시 IR56G를 제출하고, 지급금을 보류하며, 세무국의 승인 또는 30일 기간 만료를 기다려야 합니다. 사전 예방적 준수는 양 당사자를 보호하고 제52조 제6항에 따른 고용주의 개인적 책임을 방지합니다.",
+    ko: "퇴사하는 직원의 세금 신고는 직원, 고용주, IRD가 관련된 다자간 프로세스입니다. 고용주는 통지를 받은 후 즉시 조치를 취하여 IR56G를 제출하고 급여를 원천징수한 후 IRD의 승인 또는 30일의 기간이 만료될 때까지 기다려야 합니다. 선제적인 규정 준수는 양 당사자를 보호하고 섹션 52(6)에 따른 고용주의 개인적 책임을 방지합니다.",
   },
 };

@@ -1,11 +1,11 @@
 export const hrServicePageTranslations = {
   heroTitle: {
     en: "HR",
-    ko: "인사",
+    ko: "HR",
   },
   heroSubtitle: {
     en: "Hong Kong businesses must comply with employment regulations, payroll requirements, and statutory benefits. We provide HR support to help you manage payroll, MPF, recruitment, and visa processes in accordance with local laws.",
-    ko: "홍콩 기업은 고용 규정, 급여 요구사항, 법정 혜택을 준수하여야 합니다. 현지 법률에 따라 급여, MPF, 채용, 비자 프로세스를 관리할 수 있도록 인사 지원을 제공해 드립니다.",
+    ko: "홍콩 비즈니스는 고용 규정, 급여 요건 및 법정 복리후생을 준수해야 합니다. Workday는 현지 법률에 따라 급여, MPF, 채용 및 비자 프로세스를 관리할 수 있도록 HR 지원을 제공합니다.",
   },
   cards: {
     payroll: {
@@ -16,11 +16,7 @@ export const hrServicePageTranslations = {
           "Calculation of salaries, allowances, and deductions",
           "Generation of payslips in accordance with Hong Kong requirements",
         ],
-        ko: [
-          "월별 급여 준비",
-          "급여, 수당 및 공제 계산",
-          "홍콩 요건에 따른 급여명세서 작성",
-        ],
+        ko: ["월별 급여 지급 준비","급여, 수당 및 공제액 계산","홍콩 요건에 따른 급여 명세서 생성"],
       },
       tags: [
         { label: { en: "Monthly Payroll", ko: "월별 급여" }, variant: "green" as const },
@@ -36,11 +32,7 @@ export const hrServicePageTranslations = {
           "Monthly contribution calculation and filing",
           "Compliance with MPF ordinance requirements",
         ],
-        ko: [
-          "MPF 제도 직원 등록",
-          "월별 기여금 계산 및 신고",
-          "MPF 조례 준수",
-        ],
+        ko: ["MPF 제도에 대한 직원 등록","월별 기여금 계산 및 제출","MPF 조례 요건 준수"],
       },
       tags: [
         { label: { en: "Employee Registration", ko: "직원 등록" }, variant: "green" as const },
@@ -57,11 +49,7 @@ export const hrServicePageTranslations = {
           "Interview coordination and selection support",
           "Onboarding in line with local practices",
         ],
-        ko: [
-          "직무 설명서 작성 및 후보자 서류 심사",
-          "면접 조정 및 선발 지원",
-          "현지 관행에 따른 온보딩",
-        ],
+        ko: ["직무 설명 초안 작성 및 후보자 선별하기","면접 조정 및 선발 지원","현지 관행에 따른 온보딩"],
       },
       tags: [
         { label: { en: "Drafting JD", ko: "JD 작성" }, variant: "green" as const },
@@ -70,18 +58,14 @@ export const hrServicePageTranslations = {
       image: "/hr/recruitment support.png",
     },
     ir56: {
-      title: { en: "Employer's Tax Return (Form IR56)", ko: "고용주 세무 신고서 (양식 IR56)" },
+      title: { en: "Employer's Tax Return (Form IR56)", ko: "고용주 세금 신고서(양식 IR56)" },
       description: {
         en: [
           "Preparation of Employer's Return of Remuneration and Pensions",
           "Filing of Form IR56 and related documents",
           "Annual reporting in accordance with Hong Kong requirements",
         ],
-        ko: [
-          "고용주 보수 및 연금 신고서 작성",
-          "양식 IR56 및 관련 서류 제출",
-          "홍콩 요건에 따른 연간 보고",
-        ],
+        ko: ["고용주의 보수 및 연금 환급 준비","IR56 양식 및 관련 서류 제출","홍콩 요건에 따른 연례 보고"],
       },
       tags: [
         { label: { en: "Filing", ko: "제출" }, variant: "green" as const },
@@ -90,18 +74,14 @@ export const hrServicePageTranslations = {
       image: "/hr/employers tax return.png",
     },
     compliance: {
-      title: { en: "HR Compliance Advisory", ko: "인사 규정 준수 자문" },
+      title: { en: "HR Compliance Advisory", ko: "HR 규정 준수 자문" },
       description: {
         en: [
           "Advice on employment contracts and HR policies",
           "Statutory compliance guidance",
           "Practices aligned with Hong Kong law",
         ],
-        ko: [
-          "고용 계약 및 인사 정책 자문",
-          "법정 준수 안내",
-          "홍콩 법에 맞춘 운영 지원",
-        ],
+        ko: ["고용 계약 및 인사 정책에 대한 조언","법적 규정 준수 지침","홍콩 법률에 부합하는 관행"],
       },
       tags: [
         { label: { en: "Employment Contracts", ko: "고용 계약" }, variant: "green" as const },
@@ -110,9 +90,9 @@ export const hrServicePageTranslations = {
       image: "/hr/hr compliance.png",
     },
   },
-  insightTag: { en: "HR", ko: "인사" },
+  insightTag: { en: "HR", ko: "HR" },
   faq: {
-    title: { en: "FAQ", ko: "FAQ" },
+    title: { en: "FAQ", ko: "자주 묻는 질문" },
     subtitle: { en: "Frequently asked questions", ko: "자주 묻는 질문" },
     items: [
       {

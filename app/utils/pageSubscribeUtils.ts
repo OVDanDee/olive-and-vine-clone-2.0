@@ -1,7 +1,7 @@
 export const subscribePageTranslations = {
   requiredFields: {
     en: "All fields are required",
-    ko: "모든 항목을 입력해 주세요",
+    ko: "모든 필드는 필수 입력 사항입니다",
   },
   form: {
     firstName: {
@@ -14,7 +14,7 @@ export const subscribePageTranslations = {
     },
     title: {
       en: "Title",
-      ko: "호칭",
+      ko: "제목",
     },
     email: {
       en: "Email",
@@ -23,6 +23,6 @@ export const subscribePageTranslations = {
   },
   button: {
     en: "Submit",
-    ko: "제출",
+    ko: "제출하기",
   },
 };
