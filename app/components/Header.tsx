@@ -1,9 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import { usePathname, Link } from "@/i18n/navigation";
 import ToggleMenu from "./ToggleMenu";
 import { getTranslatedPageName, getMenuLabel } from "../utils/pageUtils";
 import { useLanguage } from "../contexts/LanguageContext";
@@ -53,7 +52,7 @@ export default function Header() {
             <Link href="/" className="flex-shrink-0">
               <Image className="cursor-pointer flex-shrink-0" src="/logo.png" alt="Olive & Vine Logo" width={30} height={30} priority/>
             </Link>
-            <Link href="/" className="flex-shrink-0">
+            <Link href="/" className="flex-shrink-0 no-underline">
               <h1 className="font-lang-toggle text-lg sm:text-xl md:text-[26px] font-bold text-[#495F2B] cursor-pointer flex-shrink-0">OLIVE & VINE</h1>
             </Link>
             <span className="text-xs sm:text-sm md:text-base font-semibold text-[#495F2B] pl-2 sm:pl-4 md:pl-6 truncate">
@@ -83,13 +82,13 @@ export default function Header() {
                         {item.drawerItems && (
                           <div className="pl-4">
                             {item.drawerItems.map((drawerItem) => (
-                              <a key={drawerItem.href} href={drawerItem.href} onClick={() => setIsMenuOpen(false)} className="block px-4 py-1 text-[16px] text-[#495F2B] hover:text-[#495F2B]/70 transition-colors focus:outline-none">{drawerItem.translatedLabel}</a>
+                              <Link key={drawerItem.href} href={drawerItem.href} onClick={() => setIsMenuOpen(false)} className="block px-4 py-1 text-[16px] text-[#495F2B] hover:text-[#495F2B]/70 transition-colors focus:outline-none no-underline">{drawerItem.translatedLabel}</Link>
                             ))}
                           </div>
                         )}
                       </>
                     ) : (
-                      <a href={item.href} onClick={() => setIsMenuOpen(false)} className="block px-4 xl:px-0 py-2 text-[20px] font-medium text-[#495F2B] hover:text-[#495F2B]/70 transition-colors focus:outline-none">{item.translatedLabel}</a>
+                      <Link href={item.href} onClick={() => setIsMenuOpen(false)} className="block px-4 xl:px-0 py-2 text-[20px] font-medium text-[#495F2B] hover:text-[#495F2B]/70 transition-colors focus:outline-none no-underline">{item.translatedLabel}</Link>
                     )}
                   </div>
                 ))}
