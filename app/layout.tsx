@@ -4,10 +4,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import "./animations.css";
-import PageTitle from "./components/PageTitle";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
 import StructuredData from "./components/StructuredData";
 
 const geistSans = Geist({
@@ -82,11 +78,8 @@ export default function RootLayout({
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <PageTitle />
-        <Header />
+        <StructuredData />
         {children}
-        <Footer />
-        <ScrollToTop />
         <SpeedInsights />
         <Analytics />
       </body>

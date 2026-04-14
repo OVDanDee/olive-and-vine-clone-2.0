@@ -6,6 +6,10 @@ import { getMessages } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { routing, Locale } from "@/i18n/routing";
 import { hasLocale } from "next-intl";
+import PageTitle from "@/app/components/PageTitle";
+import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
+import ScrollToTop from "@/app/components/ScrollToTop";
 
 type LocaleLayoutProps = {
   children: ReactNode;
@@ -75,7 +79,11 @@ export default async function LocaleLayout({
 
   return (
     <NextIntlClientProvider messages={messages}>
+      <PageTitle />
+      <Header />
       {children}
+      <Footer />
+      <ScrollToTop />
     </NextIntlClientProvider>
   );
 }
