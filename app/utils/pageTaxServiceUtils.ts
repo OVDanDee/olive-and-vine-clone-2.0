@@ -59,8 +59,8 @@ export const taxServicePageTranslations = {
     categories: [
       { key: "all", label: { en: "All", ko: "모두" }, color: "#627F38" },
       { key: "profits", label: { en: "Profits Tax", ko: "이익세" }, color: "#495F2B" },
-      { key: "salaries", label: { en: "Salaries Tax", ko: "급여 세금" }, color: "#B08FCA" },
-      { key: "employer", label: { en: "Employer's Return", ko: "고용주의 수익률" }, color: "#B5A332" },
+      { key: "salaries", label: { en: "Salaries Tax", ko: "급여세" }, color: "#B08FCA" },
+      { key: "employer", label: { en: "Employer's Return", ko: "고용주 신고" }, color: "#B5A332" },
       { key: "general", label: { en: "General", ko: "일반" }, color: "#627F38" },
     ],
     items: [

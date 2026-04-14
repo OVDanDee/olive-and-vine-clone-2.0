@@ -26,7 +26,7 @@ export const servicesPageTranslations = {
     },
     service6: {
       en: "Hong Kong businesses must comply with employment regulations, payroll requirements, and statutory benefits. We provide HR support to help you manage payroll, MPF, recruitment, and visa processes in accordance with local laws.",
-      ko: "홍콩 비즈니스는 고용 규정, 급여 요건 및 법정 복리후생을 준수해야 합니다. Workday는 현지 법률에 따라 급여, MPF, 채용 및 비자 프로세스를 관리할 수 있도록 HR 지원을 제공합니다.",
+      ko: "홍콩 비즈니스는 고용 규정, 급여 요건 및 법정 복리후생을 준수해야 합니다. 저희는 현지 법률에 따라 급여, MPF, 채용 및 비자 프로세스를 관리할 수 있도록 HR 지원을 제공합니다.",
     },
   },
 };

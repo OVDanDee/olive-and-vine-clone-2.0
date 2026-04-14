@@ -160,20 +160,20 @@ export const portfolioTranslations = {
 
 export const statStripTranslations = {
   yearsValue: { en: "25+", ko: "25+" },
-  yearsLabel: { en: "Years of Experience", ko: "수년간의 경험" },
+  yearsLabel: { en: "Years of Experience", ko: "경험 연수" },
   clientsValue: { en: "500+", ko: "500+" },
   clientsLabel: { en: "Clients Served", ko: "서비스 대상 고객" },
   hkValue: { en: "HK", ko: "HK" },
-  hkLabel: { en: "Focused Practice", ko: "집중 연습" },
+  hkLabel: { en: "Focused Practice", ko: "홍콩 집중 운영" },
   big4Value: { en: "Big 4", ko: "빅 4" },
-  big4Label: { en: "Trained Alumni", ko: "교육받은 동문" },
+  big4Label: { en: "Trained Alumni", ko: "빅4 출신 전문가" },
 };
 
 export const ctaTranslations = {
   heading: { en: "Ready to Get Started?", ko: "시작할 준비가 되셨나요?" },
   description: {
     en: "Let our experienced team help you navigate your business needs with confidence.",
-    ko: "숙련된 팀이 비즈니스 요구 사항을 자신 있게 탐색할 수 있도록 도와드립니다.",
+    ko: "저희의 경험 많은 팀이 비즈니스 도전을 함께 극복할 수 있도록 도와드립니다.",
   },
   button: { en: "Book a Consultation", ko: "상담 예약하기" },
 };

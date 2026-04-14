@@ -15,7 +15,7 @@ export const aboutPageTranslations = {
   storyLabel: { en: "Our Story", ko: "우리의 이야기" },
   storyTitle: {
     en: "Built on Trust,\nLived Every Day",
-    ko: "신뢰를 바탕으로 구축,\n매일의 삶",
+    ko: "신뢰 위에 세워진\n매일의 실천",
   },
   storyBody: {
     en: "Rebecca and Miyoung founded Olive & Vine not to build another accounting firm, but to create a sanctuary where trust is paramount. In 20+ years of experience across continents, they discovered that the most valuable relationships aren't transactional—they're transformational. This story began as a simple conviction: clients deserve more than compliance. They deserve a partner who understands their dreams, challenges their thinking, and celebrates their victories.",
@@ -26,7 +26,7 @@ export const aboutPageTranslations = {
   leadershipLabel: { en: "Our Founders", ko: "창립자" },
   leadershipTitle: {
     en: "Built on Vision,\nLed by Integrity",
-    ko: "비전을 기반으로 구축,\n무결성이 이끄는 비전",
+    ko: "비전에 기초해\n정직함으로 이끌다",
   },
   leadershipCulture: {
     en: "Our founders don't believe in titles—they believe in trust. Rebecca and Miyoung have spent careers understanding that great leadership is about listening deeply, making decisions with integrity, and empowering their team to grow. They are not distant executives; they are your advisors, your sounding board, your advocates.",
@@ -101,9 +101,9 @@ export const aboutPageTranslations = {
 
   // Stats — Enhanced impact-focused labels
   stats: [
-    { value: 25, suffix: "+", label: { en: "Years of Partnership", ko: "수년간의 파트너십" } },
-    { value: 500, suffix: "+", label: { en: "Clients Transformed", ko: "변화된 고객" } },
-    { value: 4, suffix: "", label: { en: "Jurisdictions Served", ko: "서비스 관할 지역" } },
+    { value: 25, suffix: "+", label: { en: "Years of Partnership", ko: "파트너십의 역사" } },
+    { value: 500, suffix: "+", label: { en: "Clients Transformed", ko: "함께 성장한 고객" } },
+    { value: 4, suffix: "", label: { en: "Jurisdictions Served", ko: "활동 중인 국가/지역" } },
     { value: 99, suffix: "%", label: { en: "Client Retention Rate", ko: "고객 유지율" } },
   ],
 

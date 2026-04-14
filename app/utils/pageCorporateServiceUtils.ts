@@ -44,7 +44,7 @@ export const corporateServicePageTranslations = {
     en: ["Incorporation", "Business Registration", "Opening a bank account"],
     ko: ["법인 설립","사업자 등록","은행 계좌 개설"],
   },
-  inBusiness: { en: "In Business", ko: "비즈니스에서" },
+  inBusiness: { en: "In Business", ko: "운영 중" },
   inBusinessDescription: {
     en: "We manage statutory filings, annual and board meetings, share transfers, policy documentation, and administrative workflows with precision and accountability. System‑generated documents and structured process, while digital record‑keeping ensures a clear and organised corporate history.",
     ko: "법적인 서류 제출, 연례 및 이사회 회의, 공유 이전, 정책 문서, 관리 워크플로우를 정확하고 책임감 있게 관리합니다. 시스템에서 생성된 문서와 구조화된 프로세스를 활용하고, 디지털 기록 보관으로 명확하고 체계적인 기업 내역을 관리합니다.",

@@ -58,14 +58,14 @@ export const valuesPageTranslations = {
     },
     {
       number: "4",
-      title: { en: "Compassion", ko: "동정심" },
+      title: { en: "Compassion", ko: "공감" },
       statement: {
         en: "Behind every number is a person, a dream, a story.",
-        ko: "모든 숫자 뒤에는 사람, 꿈, 이야기가 있습니다.",
+        ko: "모든 수치 뒤에는 사람의 삶, 꿈, 그리고 그 이야기가 있습니다.",
       },
       body: {
         en: "Compassion is what separates great advisory from transactional advice. We take time to understand your world—your pressures, your ambitions, your vision. We listen with genuine care, not just to check a box. When you're facing a challenge, we empathize before we strategize. When you celebrate a victory, we celebrate with you. Compassion makes us human. It's what drives us to serve our clients with genuine dedication, and it's what builds the trust that transforms our relationships from professional to personal.",
-        ko: "연민은 훌륭한 자문과 거래 조언을 구분하는 요소입니다. 우리는 고객의 압박감, 야망, 비전 등 고객의 세계를 이해하는 데 시간을 할애합니다. 단순히 체크박스에 체크하는 것이 아니라 진정성을 가지고 귀를 기울입니다. 고객이 어려움에 직면했을 때 전략을 세우기 전에 먼저 공감합니다. 여러분이 승리를 축하할 때는 함께 축하합니다. 연민은 우리를 인간답게 만듭니다. 이것이 바로 우리가 진정성 있는 헌신으로 고객에게 서비스를 제공할 수 있는 원동력이며, 업무적인 관계에서 개인적인 관계로 전환하는 신뢰를 구축하는 원동력입니다.",
+        ko: "공감이 진정한 자문과 거래적 조언을 구분하는 핵심입니다. 저희는 고객의 어려움, 꿈, 비전을 이해하는 데 시간을 들입니다. 단순한 절차가 아니라 진정성 있게 귀를 기울입니다. 고객이 도전에 직면할 때 먼저 공감하고 그 다음 전략을 세웁니다. 고객의 성공을 함께 축하합니다. 공감이 저희를 인간답게 만들고, 이것이 진정한 헌신으로 고객을 섬기는 원동력이며, 업무적 관계를 개인적 신뢰로 변화시키는 토대입니다.",
       },
     },
     {
