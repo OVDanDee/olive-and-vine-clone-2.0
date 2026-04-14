@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 /**
  * Root-level catch-all for unmatched routes.
  * Since all routes are under [locale], this should not be reached.
@@ -12,13 +14,13 @@ export default function RootNotFound() {
             <h1 className="text-6xl font-bold text-[#495F2B] mb-4">404</h1>
             <p className="text-2xl text-[#111B12] mb-8">Page not found</p>
             <p className="text-lg text-[#627F38] mb-8">
-              The page you're looking for doesn't exist.
+              The page you&apos;re looking for doesn&apos;t exist.
             </p>
-            <a
+            <Link
               href="/en"
               className="inline-block px-6 py-3 bg-[#495F2B] text-white rounded-lg hover:bg-[#495F2B]/90 transition-colors">
               Back to home
-            </a>
+            </Link>
           </div>
         </div>
       </body>

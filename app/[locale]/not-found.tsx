@@ -1,4 +1,7 @@
+"use client";
+
 import { useLocale } from "next-intl";
+import { Link } from "@/i18n/navigation";
 
 export default function NotFound() {
   const locale = useLocale();
@@ -13,13 +16,13 @@ export default function NotFound() {
         <p className="text-lg text-[#627F38] mb-8">
           {locale === "ko"
             ? "申し訳ございませんが、お探しのページは存在しません。"
-            : "Sorry, the page you're looking for doesn't exist."}
+            : "Sorry, the page you&apos;re looking for doesn&apos;t exist."}
         </p>
-        <a
-          href={locale === "ko" ? "/ko" : "/en"}
+        <Link
+          href="/"
           className="inline-block px-6 py-3 bg-[#495F2B] text-white rounded-lg hover:bg-[#495F2B]/90 transition-colors">
           {locale === "ko" ? "ホームに戻る" : "Back to home"}
-        </a>
+        </Link>
       </div>
     </div>
   );
