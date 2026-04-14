@@ -10,66 +10,17 @@
  * Run: npx ts-node scripts/apply-deepl-to-source.ts
  */
 
-const fs = require("fs");
-const path = require("path");
+import fs from "fs";
+import path from "path";
 
 const REPO_ROOT = path.resolve(__dirname, "..");
-
-interface TranslationEntry {
-  en: string | string[] | Record<string, any>;
-  ko: string | string[] | Record<string, any>;
-}
-
-interface FlatMessage {
-  path: string[];
-  enValue: string;
-  koValue: string;
-}
-
-/**
- * Flatten a nested JSON object into a list of { path, enValue, koValue } entries
- */
-function flattenMessages(obj: any, path_arr: string[] = []): FlatMessage[] {
-  const result: FlatMessage[] = [];
-
-  if (typeof obj !== "object" || obj === null) {
-    return result;
-  }
-
-  for (const key in obj) {
-    const val = obj[key];
-    const currentPath = [...path_arr, key];
-
-    if (typeof val === "string") {
-      result.push({
-        path: currentPath,
-        enValue: val,
-        koValue: val,
-      });
-    } else if (Array.isArray(val)) {
-      val.forEach((item: any, idx: number) => {
-        if (typeof item === "string") {
-          result.push({
-            path: [...currentPath, idx.toString()],
-            enValue: item,
-            koValue: item,
-          });
-        }
-      });
-    } else if (typeof val === "object") {
-      result.push(...flattenMessages(val, currentPath));
-    }
-  }
-
-  return result;
-}
 
 /**
  * Load en.json and ko.json, flatten them, and return a lookup map
  */
 function loadTranslationMaps(): {
-  enMessages: Record<string, any>;
-  koMessages: Record<string, any>;
+  enMessages: Record<string, unknown>;
+  koMessages: Record<string, unknown>;
   enToKoMap: Map<string, string>;
 } {
   const enPath = path.join(REPO_ROOT, "messages", "en.json");
@@ -81,18 +32,20 @@ function loadTranslationMaps(): {
   // Build a map from en string value to ko string value
   const enToKoMap = new Map<string, string>();
 
-  function mapEntries(en: any, ko: any) {
+  function mapEntries(en: unknown, ko: unknown) {
     if (typeof en === "string" && typeof ko === "string") {
       enToKoMap.set(en, ko);
     } else if (Array.isArray(en) && Array.isArray(ko)) {
-      en.forEach((e: any, i: number) => {
+      en.forEach((e: unknown, i: number) => {
         if (typeof e === "string" && typeof ko[i] === "string") {
           enToKoMap.set(e, ko[i]);
         }
       });
-    } else if (typeof en === "object" && typeof ko === "object") {
+    } else if (typeof en === "object" && typeof ko === "object" && en !== null && ko !== null) {
       for (const key in en) {
-        mapEntries(en[key], ko[key]);
+        if (key in ko) {
+          mapEntries((en as Record<string, unknown>)[key], (ko as Record<string, unknown>)[key]);
+        }
       }
     }
   }
@@ -238,7 +191,6 @@ function main() {
   let filesModified = 0;
 
   for (const filePath of filesToProcess) {
-    const fileReportStart = reportLines.length;
     const { modified, newContent } = processSourceFile(filePath, enToKoMap, reportLines);
 
     if (modified) {

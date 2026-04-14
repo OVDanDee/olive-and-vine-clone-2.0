@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, ReactNode } from "react";
+import { ReactNode } from "react";
 import { useLocale } from "next-intl";
 import { useRouter, usePathname } from "@/i18n/navigation";
 
@@ -8,8 +8,6 @@ type LanguageContextType = {
   language: "ENG" | "KOR";
   setLanguage: (lang: "ENG" | "KOR") => void;
 };
-
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   // This is now a pass-through provider. Locale provisioning happens in [locale]/layout.tsx via NextIntlClientProvider.

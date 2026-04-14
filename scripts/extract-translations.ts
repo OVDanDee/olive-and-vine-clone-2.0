@@ -84,7 +84,7 @@ function propName(p: ts.PropertyAssignment): string | null {
 function isEnKoPair(obj: ts.ObjectLiteralExpression): { en: ts.Expression; ko: ts.Expression } | null {
   let en: ts.Expression | undefined;
   let ko: ts.Expression | undefined;
-  let extraTranslationKey = false;
+  const extraTranslationKey = false;
   for (const p of obj.properties) {
     if (!ts.isPropertyAssignment(p)) return null;
     const name = propName(p);
