@@ -56,19 +56,19 @@ export const hrEmployersReturnBir56aTranslations = {
   section2Items: [
     {
       en: "Single employees earning an annual income of HKD 132,000 or more",
-      ko: "연간 소득이 132,000 홍콩달러 이상인 미혼 직원",
+      ko: "연간 소득이 132,000홍콩달러 이상인 독신 직원",
     },
     {
       en: "Married employees (regardless of income amount)",
-      ko: "기혼 직원 (소득 금액 무관)",
+      ko: "기혼 직원(소득 금액과 무관)",
     },
     {
       en: "Part-time employees (regardless of income amount)",
-      ko: "파트타임 직원 (소득 금액 무관)",
+      ko: "시간제 직원(소득 금액과 무관)",
     },
     {
       en: "Company directors (regardless of income amount)",
-      ko: "회사 이사 (소득 금액 무관)",
+      ko: "회사 이사(소득 금액과 무관)",
     },
   ],
   section2WhatToReportTitle: {
@@ -100,23 +100,23 @@ export const hrEmployersReturnBir56aTranslations = {
   section3FormItems: [
     {
       form: { en: "BIR56A + IR56B", ko: "BIR56A + IR56B" },
-      purpose: { en: "Annual return — all employees who meet reporting criteria", ko: "연간 신고서 — 보고 기준을 충족하는 모든 직원" },
-      deadline: { en: "Within 1 month of issue (1 April)", ko: "발급일로부터 1개월 이내 (4월 1일)" },
+      purpose: { en: "Annual return — all employees who meet reporting criteria", ko: "연간 수익률 - 보고 기준을 충족하는 모든 직원" },
+      deadline: { en: "Within 1 month of issue (1 April)", ko: "발행 후 1개월 이내(4월 1일)" },
     },
     {
       form: { en: "IR56E", ko: "IR56E" },
-      purpose: { en: "New employee likely to be chargeable to Salaries Tax", ko: "급여세 과세 대상이 될 가능성이 있는 신규 직원" },
+      purpose: { en: "New employee likely to be chargeable to Salaries Tax", ko: "급여세가 부과될 가능성이 있는 신규 직원" },
       deadline: { en: "Within 3 months of employment start date", ko: "고용 시작일로부터 3개월 이내" },
     },
     {
       form: { en: "IR56F", ko: "IR56F" },
-      purpose: { en: "Employee ceasing employment but remaining in Hong Kong", ko: "홍콩에 잔류하는 퇴직 직원" },
-      deadline: { en: "Not later than 1 month before the last day of employment", ko: "고용 마지막 날로부터 최소 1개월 전" },
+      purpose: { en: "Employee ceasing employment but remaining in Hong Kong", ko: "고용을 종료하지만 홍콩에 남아있는 직원" },
+      deadline: { en: "Not later than 1 month before the last day of employment", ko: "늦어도 고용 마지막 날 1개월 전까지" },
     },
     {
       form: { en: "IR56G", ko: "IR56G" },
-      purpose: { en: "Employee leaving Hong Kong permanently or for a substantial period", ko: "홍콩을 영구적으로 또는 상당 기간 떠나는 직원" },
-      deadline: { en: "Not later than 1 month before expected departure date", ko: "예상 출국일로부터 최소 1개월 전" },
+      purpose: { en: "Employee leaving Hong Kong permanently or for a substantial period", ko: "영구적으로 또는 상당한 기간 동안 홍콩을 떠나는 직원" },
+      deadline: { en: "Not later than 1 month before expected departure date", ko: "늦어도 출발 예정일 1개월 전까지" },
     },
   ],
   section3WithholdingTitle: {
@@ -182,27 +182,27 @@ export const hrEmployersReturnBir56aTranslations = {
   section5RecordItems: [
     {
       en: "Personal particulars: name, address, HKID or passport number, marital status",
-      ko: "개인 정보: 이름, 주소, 홍콩 신분증 또는 여권 번호, 혼인 여부",
+      ko: "개인 정보: 이름, 주소, 홍콩 주민등록번호 또는 여권 번호, 결혼 여부",
     },
     {
       en: "Nature and capacity of employment: full-time or part-time; job title",
-      ko: "고용의 성격 및 직책: 정규직 또는 파트타임; 직함",
+      ko: "고용의 성격 및 정원: 풀타임 또는 파트타임; 직책",
     },
     {
       en: "Cash remuneration: all amounts in any currency, including remuneration paid outside Hong Kong",
-      ko: "현금 보수: 홍콩 외부에서 지급된 보수를 포함한 모든 통화의 모든 금액",
+      ko: "현금 보수: 홍콩 외 지역에서 지급되는 보수를 포함한 모든 통화로 표시된 모든 금액",
     },
     {
       en: "Non-cash and fringe benefits: quarters, holiday journey benefits, share awards, share options",
-      ko: "비현금 및 부가급여: 숙소, 휴가 여행 수당, 주식 보상, 주식 옵션",
+      ko: "비현금 및 부가 혜택: 숙소, 휴가 여행 혜택, 공유 보너스, 공유 옵션",
     },
     {
       en: "MPF contributions: both employer and employee contributions",
-      ko: "MPF 기여금: 고용주 및 직원 기여금 모두",
+      ko: "MPF 기여금: 고용주와 직원 모두의 기여금",
     },
     {
       en: "Employment contract and any amendments to terms of employment",
-      ko: "고용 계약서 및 고용 조건의 모든 개정 사항",
+      ko: "고용 계약 및 고용 조건의 수정 사항",
     },
     {
       en: "Period of employment",
@@ -230,15 +230,15 @@ export const hrEmployersReturnBir56aTranslations = {
   section6LateFilingItems: [
     {
       en: "Fine of up to HKD 10,000 under IRO section 80(1)",
-      ko: "세무조례 제80(1)조에 따라 최대 10,000 홍콩달러의 벌금",
+      ko: "IRO 섹션 80(1)에 따라 최대 HKD 10,000의 벌금 부과",
     },
     {
       en: "The IRD may issue an estimated tax assessment without deductions or exemptions",
-      ko: "세무국은 공제 또는 면제 없이 예상 세금 사정을 발행할 수 있습니다",
+      ko: "IRD는 공제 또는 면제 없이 추정세 과세표준을 발행할 수 있습니다",
     },
     {
       en: "Court may order additional penalties",
-      ko: "법원이 추가 벌칙을 명령할 수 있습니다",
+      ko: "법원은 추가 벌금을 명령할 수 있습니다",
     },
   ],
   section6IncorrectTitle: {
@@ -248,11 +248,11 @@ export const hrEmployersReturnBir56aTranslations = {
   section6IncorrectItems: [
     {
       en: "Fine of up to HKD 10,000",
-      ko: "최대 10,000 홍콩달러의 벌금",
+      ko: "최대 HKD 10,000의 벌금",
     },
     {
       en: "Additional tax of up to 3 times the amount of tax undercharged (IRO sections 80(2) and 82A)",
-      ko: "과소 부과된 세금의 최대 3배에 해당하는 추가 세금 (세무조례 제80(2)조 및 제82A조)",
+      ko: "과소 부과된 세금의 최대 3배에 해당하는 추가 세금(IRO 섹션 80(2) 및 82A)",
     },
   ],
   section6ContinuedTitle: {
@@ -266,7 +266,7 @@ export const hrEmployersReturnBir56aTranslations = {
     },
     {
       en: "Company officers — directors and secretaries — may be held personally liable",
-      ko: "회사 임원 — 이사 및 비서 — 이 개인적으로 책임을 질 수 있습니다",
+      ko: "회사 임원(이사 및 비서)은 개인적으로 책임을 질 수 있습니다",
     },
   ],
   section6NilReminder: {
@@ -279,51 +279,51 @@ export const hrEmployersReturnBir56aTranslations = {
     {
       question: {
         en: "Q1: Do I need to file BIR56A if I have no employees?",
-        ko: "Q1: 직원이 없어도 BIR56A를 제출해야 합니까?",
+        ko: "Q1: 직원이 없는 경우 BIR56A를 제출해야 하나요?",
       },
       answer: {
         en: "Yes. If the IRD issues you a Form BIR56A, you are legally required to return it — even if you have no employees, the business has not started, or has already ceased operations. Simply tick the \"NO\" box on the form to submit a NIL return. Failure to file can still result in a penalty.",
-        ko: "네. 세무국이 BIR56A 양식을 발급했다면 직원이 없거나, 사업을 시작하지 않았거나, 이미 종료한 경우에도 법적으로 제출해야 합니다. 양식의 'NO' 란에 체크하여 NIL 신고서를 제출하면 됩니다. 제출하지 않으면 벌칙을 받을 수 있습니다.",
+        ko: "예. 직원이 없거나 사업을 시작하지 않았거나 이미 운영을 중단한 경우에도 IRD에서 양식 BIR56A를 발행하면 법적으로 신고해야 합니다. 양식의 '아니오' 상자를 선택하기만 하면 NIL 신고서를 제출할 수 있습니다. 신고하지 않더라도 과태료가 부과될 수 있습니다.",
       },
     },
     {
       question: {
         en: "Q2: When is the deadline to file BIR56A for 2024/25?",
-        ko: "Q2: 2024/25년 BIR56A 제출 기한은 언제입니까?",
+        ko: "Q2: 2024/25년도 BIR56A 제출 마감일은 언제인가요?",
       },
       answer: {
         en: "Form BIR56A for the year ended 31 March 2025 was issued on 1 April 2025. The filing deadline was 2 May 2025 — one month from the date of issue. Note that the Block Extension Scheme does not apply; the one-month deadline cannot be extended.",
-        ko: "2025년 3월 31일 종료 연도의 BIR56A 양식은 2025년 4월 1일에 발급되었습니다. 신고 기한은 발급일로부터 1개월인 2025년 5월 2일이었습니다. 일괄 연장 제도는 적용되지 않으며, 1개월 기한은 연장될 수 없습니다.",
+        ko: "2025년 3월 31일에 마감된 회계연도의 BIR56A 양식은 2025년 4월 1일에 발행되었습니다. 제출 기한은 발행일로부터 1개월 후인 2025년 5월 2일이었습니다. 블록 연장 제도는 적용되지 않으며, 1개월 기한은 연장할 수 없습니다.",
       },
     },
     {
       question: {
         en: "Q3: Which employees need an IR56B — what is the income threshold?",
-        ko: "Q3: 어떤 직원에게 IR56B가 필요합니까 — 소득 기준은 무엇입니까?",
+        ko: "Q3: IR56B가 필요한 직원은 누구인가요 - 소득 한도는 얼마인가요?",
       },
       answer: {
         en: "For the 2024/25 tax year, you must file an IR56B for any employee who is: (a) single and earned HKD 132,000 or more; (b) married, regardless of income; (c) part-time, regardless of income; or (d) a director, regardless of income. If in doubt, include the employee — omission carries more risk than inclusion.",
-        ko: "2024/25 과세연도의 경우, 다음에 해당하는 직원에 대해 IR56B를 제출해야 합니다: (a) 소득이 132,000 홍콩달러 이상인 미혼 직원; (b) 소득에 관계없이 기혼 직원; (c) 소득에 관계없이 파트타임 직원; (d) 소득에 관계없이 이사. 확실하지 않은 경우 포함하는 것이 좋습니다 — 누락은 포함보다 더 큰 위험을 수반합니다.",
+        ko: "2024/25 과세 연도에는 (a) 미혼이고 소득이 132,000홍콩달러 이상인 직원, (b) 소득에 관계없이 기혼인 직원, (c) 소득에 관계없이 파트타임인 직원, (d) 소득에 관계없이 이사에 해당하는 모든 직원에 대해 IR56B를 제출해야 합니다. 확실하지 않은 경우 직원을 포함하세요. 누락하면 포함할 때보다 위험이 더 커집니다.",
       },
     },
     {
       question: {
         en: "Q4: What happens if I file the Employer's Return late?",
-        ko: "Q4: 고용주 신고서를 늦게 제출하면 어떻게 됩니까?",
+        ko: "질문 4: 고용주 신고서를 늦게 제출하면 어떻게 되나요?",
       },
       answer: {
         en: "Late or non-filing can result in a fine of up to HKD 10,000. The IRD may also raise a tax assessment without applying deductions or exemptions. In serious cases, prosecution is possible and company officers may be personally liable. Early filing — ideally via eTAX — is strongly recommended.",
-        ko: "지연 또는 미신고는 최대 10,000 홍콩달러의 벌금을 초래할 수 있습니다. 세무국은 공제나 면제를 적용하지 않고 세금 사정을 할 수도 있습니다. 심각한 경우 기소가 가능하며 회사 임원이 개인적으로 책임을 질 수 있습니다. eTAX를 통한 조기 신고를 강력히 권장합니다.",
+        ko: "세금 신고를 늦게 하거나 신고하지 않으면 최대 HKD 10,000의 벌금이 부과될 수 있습니다. 또한 IRD는 공제 또는 면제를 적용하지 않고 세금 부과를 할 수도 있습니다. 심각한 경우에는 기소될 수 있으며 회사 임원이 개인적으로 책임을 져야 할 수도 있습니다. 조기 신고(이상적으로는 eTAX를 통한 신고)를 적극 권장합니다.",
       },
     },
     {
       question: {
         en: "Q5: Can I file IR56 forms electronically?",
-        ko: "Q5: IR56 양식을 전자적으로 제출할 수 있습니까?",
+        ko: "Q5: IR56 양식을 전자적으로 제출할 수 있나요?",
       },
       answer: {
         en: "Yes. The IRD's eTAX platform supports online submission of BIR56A, IR56B, IR56E, IR56F, and IR56G. The IR56 Forms Preparation Tool is available from 1 March each year, allowing employers to prepare IR56B data files before the BIR56A is even issued. Electronic filing is recommended for accuracy and instant acknowledgement.",
-        ko: "네. 세무국의 eTAX 플랫폼은 BIR56A, IR56B, IR56E, IR56F 및 IR56G의 온라인 제출을 지원합니다. IR56 양식 준비 도구는 매년 3월 1일부터 사용 가능하여 BIR56A가 발급되기 전에 IR56B 데이터 파일을 준비할 수 있습니다. 정확성과 즉각적인 확인을 위해 전자 신고를 권장합니다.",
+        ko: "예. IRD의 eTAX 플랫폼은 BIR56A, IR56B, IR56E, IR56F 및 IR56G의 온라인 제출을 지원합니다. IR56 양식 준비 도구는 매년 3월 1일부터 제공되므로 고용주는 BIR56A가 발행되기 전에 IR56B 데이터 파일을 준비할 수 있습니다. 정확성과 즉각적인 승인을 위해 전자 제출을 권장합니다.",
       },
     },
   ],

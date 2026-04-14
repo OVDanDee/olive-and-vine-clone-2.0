@@ -106,16 +106,16 @@ export const taxDividendLegalConsiderationsTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: What is the impact on the company's financial statements when distributing retained profits as dividends?", ko: "Q1: 이익잉여금을 배당으로 분배할 때 기업의 재무제표에 미치는 영향은 무엇인가요?" },
-      answer: { en: "Distributing retained profits as dividends is reflected in the company’s financial statements, resulting in a reduction of retained earnings. This signifies a decrease in the company’s capital, and if remaining assets are not managed appropriately post-dividend, it may lead to liquidity issues. Therefore, companies must verify sufficient cash reserves and financial condition before declaring dividends.", ko: "이익잉여금을 배당으로 분배하는 것은 재무제표에 잉여금(이익잉여금)의 감소를 초래합니다. 이는 기업의 자본 감소를 의미하며, 배당 후 잔여 자산이 적절히 관리되지 않으면 유동성 문제가 발생할 수 있습니다. 따라서, 기업은 배당 선언 전에 충분한 현금 예비금과 재무 상태를 확인해야 합니다." },
+      question: { en: "Q1: What is the impact on the company's financial statements when distributing retained profits as dividends?", ko: "질문: 이익잉여금을 배당금으로 분배할 때 회사의 재무제표에 미치는 영향은 무엇인가요?" },
+      answer: { en: "Distributing retained profits as dividends is reflected in the company’s financial statements, resulting in a reduction of retained earnings. This signifies a decrease in the company’s capital, and if remaining assets are not managed appropriately post-dividend, it may lead to liquidity issues. Therefore, companies must verify sufficient cash reserves and financial condition before declaring dividends.", ko: "이익잉여금을 배당으로 분배하면 회사의 재무제표에 반영되어 이익잉여금이 감소하게 됩니다. 이는 회사의 자본 감소를 의미하며, 배당 후 잔여 자산을 적절히 관리하지 않으면 유동성 문제로 이어질 수 있습니다. 따라서 기업은 배당을 선언하기 전에 충분한 현금 보유량과 재무 상태를 확인해야 합니다." },
     },
     {
-      question: { en: "Q2: Hong Kong exempts dividend income from tax, but does the same rule apply to dividends from overseas income?", ko: "Q2: 홍콩은 배당 소득에 대해 세금을 면제하지만, 해외 소득으로부터 배당을 받는 경우에도 동일한 규칙이 적용되나요?" },
-      answer: { en: "Dividend income arising in Hong Kong is tax-exempt, but overseas income may be subject to taxation under the laws of the source country. Additionally, tax benefits may be available under international tax treaties such as Double Taxation Agreements (DTA) to avoid double taxation. Overseas dividend income must therefore be handled with consideration of each country’s tax regulations.", ko: "홍콩에서 발생한 배당 소득은 세금이 면제되지만, 해외 소득으로부터 배당을 받는 경우에는 소스 국의 법률에 따라 세금이 부과될 수 있습니다. 또한, 이중 세금을 방지하기 위한 국제 세무 협정(예: DTA: 이중 세금 협정)에 따라 세금 혜택이 적용될 수 있습니다. 해외 배당 소득은 각 국의 세법을 고려하여 처리해야 합니다." },
+      question: { en: "Q2: Hong Kong exempts dividend income from tax, but does the same rule apply to dividends from overseas income?", ko: "질문 2: 홍콩은 배당 소득에 대해 세금을 면제하는데, 해외 소득의 배당금에도 동일한 규정이 적용되나요?" },
+      answer: { en: "Dividend income arising in Hong Kong is tax-exempt, but overseas income may be subject to taxation under the laws of the source country. Additionally, tax benefits may be available under international tax treaties such as Double Taxation Agreements (DTA) to avoid double taxation. Overseas dividend income must therefore be handled with consideration of each country’s tax regulations.", ko: "홍콩에서 발생하는 배당 소득은 비과세되지만 해외 소득은 원천지 국가의 법률에 따라 과세될 수 있습니다. 또한 이중 과세를 피하기 위해 이중 과세 방지 협약(DTA)과 같은 국제 조세 조약에 따라 세금 혜택을 받을 수 있습니다. 따라서 해외 배당 소득은 각 국가의 세금 규정을 고려하여 처리해야 합니다." },
     },
     {
-      question: { en: "Q3: Is it a legal obligation to distribute dividends without discrimination among shareholders?", ko: "Q3: 주주 간 차별 없이 배당을 분배하는 것은 법적 의무인가요?" },
-      answer: { en: "Distributing dividends without discrimination among shareholders is not legally required, but it is a common practice to maintain fairness and harmony among shareholders. Companies should carefully consider tax implications and shareholder relationships when deciding on dividend distribution.", ko: "주주 간 차별 없이 배당을 분배하는 것은 법적 의무가 아니지만, 공정하고 조화로운 주주 관계를 유지하는 일반적인 관행입니다. 기업은 배당 분배 결정 시 세무 영향과 주주 관계를 신중히 고려해야 합니다." },
+      question: { en: "Q3: Is it a legal obligation to distribute dividends without discrimination among shareholders?", ko: "질문 3: 주주 간 차별 없이 배당금을 분배하는 것이 법적 의무인가요?" },
+      answer: { en: "Distributing dividends without discrimination among shareholders is not legally required, but it is a common practice to maintain fairness and harmony among shareholders. Companies should carefully consider tax implications and shareholder relationships when deciding on dividend distribution.", ko: "주주 간 차별 없이 배당금을 분배하는 것은 법적으로 의무 사항은 아니지만, 주주 간의 공정성과 화합을 유지하기 위한 일반적인 관행입니다. 회사는 배당금 분배를 결정할 때 세금 관련 사항과 주주 관계를 신중하게 고려해야 합니다." },
     },
   ],
 };

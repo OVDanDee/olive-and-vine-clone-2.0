@@ -118,16 +118,16 @@ export const taxVatTranslations = {
   },
   faqItems: [
     {
-      question: { en: "How does the absence of VAT in Hong Kong benefit import/export companies?", ko: "홍콩에서 VAT가 없는 것이 수입/수출 기업에 미치는 이점은 무엇인가요?" },
-      answer: { en: "The lack of VAT reduces tax burdens for import/export companies and provides opportunities for logistics cost savings, particularly for those conducting global trade through Hong Kong. This contributes to strengthening Hong Kong’s role as a global trade hub.", ko: "VAT가 없는 것은 수입/수출 기업의 세금 부담을 줄이고, 특히 홍콩을 통해 세계적인 무역을 영유하는 기업에 대한 물류 비용 절감 기회를 제공합니다. 이는 홍콩이 세계적인 무역 센터로서의 역할을 강화하는 데 기여합니다." },
+      question: { en: "How does the absence of VAT in Hong Kong benefit import/export companies?", ko: "홍콩에서 부가가치세가 없는 것이 수출입 회사에 어떤 이점이 있나요?" },
+      answer: { en: "The lack of VAT reduces tax burdens for import/export companies and provides opportunities for logistics cost savings, particularly for those conducting global trade through Hong Kong. This contributes to strengthening Hong Kong’s role as a global trade hub.", ko: "부가가치세가 없기 때문에 수출입 기업의 세금 부담이 줄어들고, 특히 홍콩을 통해 글로벌 무역을 하는 기업에게는 물류 비용 절감의 기회가 제공됩니다. 이는 글로벌 무역 허브로서 홍콩의 역할을 강화하는 데 기여합니다." },
     },
     {
-      question: { en: "How does the Hong Kong government secure revenue without VAT?", ko: "홍콩 정부는 어떻게 VAT가 없는 상태에서 수익을 보장할 수 있나요?" },
-      answer: { en: "Hong Kong sustains its robust economic structure without VAT, primarily relying on profits tax, salaries tax, and property tax as main revenue sources. Additionally, its efficient tax system and low rates play a crucial role in stimulating foreign investment and trade.", ko: "홍콩은 VAT가 없는 상태에서 견고한 경제 구조를 유지하며, 주요 수익 원천으로 이익세, 월급세, 부동산세를 주로 의존합니다. 또한, 효율적인 세금 시스템과 저렴한 세율이 외국 투자와 무역을 자극하는 데 중요한 역할을 합니다." },
+      question: { en: "How does the Hong Kong government secure revenue without VAT?", ko: "홍콩 정부는 부가세 없이 어떻게 수익을 확보하나요?" },
+      answer: { en: "Hong Kong sustains its robust economic structure without VAT, primarily relying on profits tax, salaries tax, and property tax as main revenue sources. Additionally, its efficient tax system and low rates play a crucial role in stimulating foreign investment and trade.", ko: "홍콩은 부가가치세 없이도 탄탄한 경제 구조를 유지하고 있으며, 주로 소득세, 급여세, 재산세를 주요 세원으로 삼고 있습니다. 또한 효율적인 세금 시스템과 낮은 세율은 외국인 투자와 무역을 촉진하는 데 중요한 역할을 합니다." },
     },
     {
-      question: { en: "Is the absence of VAT advantageous for all companies?", ko: "홍콩에서 사업을 운영하는 기업에게 VAT가 없는 것의 영향은 무엇인가요?" },
-      answer: { en: "For most companies, the lack of VAT reduces tax burdens favorably; however, some may be unable to claim VAT refunds in transactions abroad. This can be a limiting factor particularly for businesses trading with VAT-active regions like the European Union.", ko: "대부분의 기업에게 VAT가 없는 것은 세금 부담을 줄여주지만, 일부 기업은 해외 거래에서 VAT 환불을 청구할 수 없을 수 있습니다. 이는 특히 유럽 연합과 같은 VAT가 적용되는 지역과 거래하는 기업에 대한 제한 요인이 될 수 있습니다." },
+      question: { en: "Is the absence of VAT advantageous for all companies?", ko: "부가가치세가 없는 것이 모든 회사에 유리한가요?" },
+      answer: { en: "For most companies, the lack of VAT reduces tax burdens favorably; however, some may be unable to claim VAT refunds in transactions abroad. This can be a limiting factor particularly for businesses trading with VAT-active regions like the European Union.", ko: "대부분의 기업은 부가가치세가 없기 때문에 세금 부담을 줄일 수 있지만, 일부 기업은 해외 거래에서 부가가치세 환급을 받을 수 없을 수도 있습니다. 이는 특히 유럽연합과 같이 부가가치세가 활성화된 지역과 거래하는 비즈니스의 경우 제한적인 요소가 될 수 있습니다." },
     },
   ],
 };

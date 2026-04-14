@@ -28,40 +28,40 @@ export const hrTerminationRegulationTranslations = {
   },
   monetaryCompensationItems: [
     {
-      title: { en: "1. Payment in Lieu of Notice", ko: "1. 통보 대신 금전 지급" },
+      title: { en: "1. Payment in Lieu of Notice", ko: "1. 통지 대신 결제" },
       description: {
         en: "Where termination occurs without notice, the employer must pay compensation equivalent to the notice period. For instance, with a 30-day notice period, an additional 30 days' salary must be paid. This compensation is typically calculated based on the employee's average daily wages.",
-        ko: "통보 없이 해고가 발생하는 경우, 고용주는 통보 기간에 상응하는 보상을 지급하여야 합니다. 예를 들어, 30일 통보 기간의 경우, 추가 30일분의 급여를 지급하여야 합니다. 이 보상은 일반적으로 직원의 일평균 급여를 기준으로 계산됩니다.",
+        ko: "사전 통지 없이 해고하는 경우, 고용주는 통지 기간에 해당하는 보상을 지급해야 합니다. 예를 들어 30일의 통지 기간이 있는 경우 30일분의 급여를 추가로 지급해야 합니다. 이 보상은 일반적으로 직원의 평균 일일 임금을 기준으로 계산됩니다.",
       },
     },
     {
-      title: { en: "2. Notice Period or Payment in Lieu", ko: "2. 통보 기간 또는 대신 금전 지급" },
+      title: { en: "2. Notice Period or Payment in Lieu", ko: "2. 통지 기간 또는 대납" },
       description: {
         en: "When an employee's performance falls short of expectations or they are deemed unsuitable for the role, the employer may terminate after providing the contractual notice period or equivalent payment in lieu.",
-        ko: "직원의 성과가 기대에 미치지 못하거나 역할에 부적합하다고 판단되는 경우, 고용주는 계약상 통보 기간을 준수하거나 대신 금전을 지급한 후 해고할 수 있습니다.",
+        ko: "직원의 성과가 기대에 미치지 못하거나 해당 직무에 부적합하다고 판단되는 경우, 고용주는 계약상 통지 기간 또는 이에 상응하는 대가를 지급한 후 해고할 수 있습니다.",
       },
       bullets: [
         {
           label: { en: "", ko: "" },
           description: {
             en: "If the notice period is 30 days, serve 30 days' prior notice to the employee before effecting dismissal.",
-            ko: "통보 기간이 30일인 경우, 해고를 실행하기 전에 직원에게 30일 전 통보를 하여야 합니다.",
+            ko: "통지 기간이 30일인 경우 해고를 시행하기 30일 전에 직원에게 사전 통지합니다.",
           },
         },
         {
           label: { en: "", ko: "" },
           description: {
             en: "Where the notice period is 30 days, provide the employee with 30 days’ advance notice, followed by termination.",
-            ko: "통보 기간이 30일인 경우, 직원에게 30일 사전 통보를 제공한 후 해고를 진행합니다.",
+            ko: "통지 기간이 30일인 경우 직원에게 30일 전에 미리 통지한 후 해고합니다.",
           },
         },
       ],
     },
     {
-      title: { en: "3. Severance Payment (Dismissal Allowance)", ko: "3. 퇴직금 (해고 수당)" },
+      title: { en: "3. Severance Payment (Dismissal Allowance)", ko: "3. 퇴직금(해고 수당)" },
       description: {
         en: "Employees with at least 2 years of continuous service qualify for severance payment if dismissed due to redundancy or similar business reasons. The amount is calculated based on the employee's last monthly wages and length of service. This entitlement does not apply to general dismissals for poor performance or unsuitability, but rather to layoffs driven by operational necessities.",
-        ko: "2년 이상 연속 근무한 직원은 인력 감축 또는 유사한 사업상 이유로 해고되는 경우 퇴직금 수령 자격이 있습니다. 금액은 직원의 마지막 월급 및 근속 기간을 기준으로 계산됩니다. 이 혜택은 성과 부족 또는 부적합성에 따른 일반 해고에는 적용되지 않으며, 사업적 필요에 따른 인력 감축에 적용됩니다.",
+        ko: "2년 이상 계속 근무한 직원은 정리해고 또는 이와 유사한 경영상의 이유로 해고된 경우 퇴직금을 받을 수 있습니다. 금액은 직원의 마지막 월급과 근속 기간에 따라 계산됩니다. 이 자격은 성과 부진이나 부적합으로 인한 일반적인 해고에는 적용되지 않으며, 운영상의 필요에 의한 해고에는 적용되지 않습니다.",
       },
     },
   ],
@@ -75,17 +75,17 @@ export const hrTerminationRegulationTranslations = {
   },
   legalResponsibilitiesBullets: [
     {
-      label: { en: "Probation Period:", ko: "시정기:" },
+      label: { en: "Probation Period:", ko: "보호 관찰 기간:" },
       description: {
         en: "If the employment contract stipulates a probation period, shorter notice applies during this time. For example, a 7-day notice period may apply to an employee during a 3-month probation.",
-        ko: "고용 계약에 시정기가 명시된 경우, 그 기간 동안 더 짧은 통보 기간이 적용됩니다. 예를 들어, 3개월 시정기 동안 직원에게 7일의 통보 기간이 적용될 수 있습니다.",
+        ko: "고용 계약에 수습 기간이 명시되어 있는 경우 이 기간 동안에는 더 짧은 통지 기간이 적용됩니다. 예를 들어 3개월 수습 기간 중인 직원에게는 7일의 통지 기간이 적용될 수 있습니다.",
       },
     },
     {
       label: { en: "No Contract:", ko: "계약 없음:" },
       description: {
         en: "Absent a formal contract, the statutory 30-day notice period applies. Employers must therefore maintain proper contracts.",
-        ko: "정식 계약이 없는 경우, 법정 30일 통보 기간이 적용됩니다. 따라서 고용주는 적절한 계약을 유지하여야 합니다.",
+        ko: "정식 계약서가 없는 경우, 법정 30일의 통지 기간이 적용됩니다. 따라서 고용주는 반드시 적절한 계약서를 유지해야 합니다.",
       },
     },
   ],
@@ -134,14 +134,14 @@ export const hrTerminationRegulationTranslations = {
       label: { en: "", ko: "" },
       description: {
         en: "If the notice period is 30 days, serve 30 days' prior notice to the employee before effecting dismissal.",
-        ko: "통보 기간이 30일인 경우, 해고를 실행하기 전에 직원에게 30일 전 통보를 하여야 합니다.",
+        ko: "통지 기간이 30일인 경우 해고를 시행하기 30일 전에 직원에게 사전 통지합니다.",
       },
     },
     {
       label: { en: "", ko: "" },
       description: {
         en: "Where the notice period is 30 days, provide the employee with 30 days’ advance notice, followed by termination.",
-        ko: "통보 기간이 30일인 경우, 직원에게 30일 사전 통보를 제공한 후 해고를 진행합니다.",
+        ko: "통지 기간이 30일인 경우 직원에게 30일 전에 미리 통지한 후 해고합니다.",
       },
     },
   ],
@@ -151,20 +151,20 @@ export const hrTerminationRegulationTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: Is 30-day notice required during probation?", ko: "Q1: 시정기 동안 30일 통보가 필요한가요?" },
-      answer: { en: "No. During the probationary period, the notice period may be shorter depending on the employment contract. Typically, a seven-day notice period applies during the probationary period. However, a contract specifying the probationary period must be in place. If there is no contract, the statutory notice period of 30 days applies.", ko: "아니요. 시정기 동안, 통보 기간은 고용 계약에 따라 달라질 수 있습니다. 일반적으로, 시정기 동안 7일의 통보 기간이 적용됩니다. 그러나, 시정기를 명시하는 계약이 있어야 합니다. 계약이 없으면, 30일의 법적 통보 기간이 적용됩니다." },
+      question: { en: "Q1: Is 30-day notice required during probation?", ko: "질문 1: 보호 관찰 기간 동안 30일 전에 통지해야 하나요?" },
+      answer: { en: "No. During the probationary period, the notice period may be shorter depending on the employment contract. Typically, a seven-day notice period applies during the probationary period. However, a contract specifying the probationary period must be in place. If there is no contract, the statutory notice period of 30 days applies.", ko: "아니요. 수습 기간 중에는 고용 계약에 따라 통지 기간이 더 짧아질 수 있습니다. 일반적으로 수습 기간에는 7일의 통지 기간이 적용됩니다. 하지만 수습 기간을 명시한 계약서가 있어야 합니다. 계약서가 없는 경우 법정 통지 기간인 30일이 적용됩니다." },
     },
     {
-      question: { en: "Q2: What payments are due on dismissal?", ko: "Q2: 해고 시 회사가 지불해야 하는 금액은 무엇인가요?" },
-      answer: { en: "Upon dismissal, employers must pay salary up to the last day of employment, compensation for unused annual leave, and monetary compensation commensurate with the notice period. For example, if an employee has worked for nine months, the remaining salary for the last month of nine months, plus 30 days’ notice compensation, and compensation for unused annual leave must be paid.", ko: "해고 시, 사업주는 임금을 고용 마지막 날까지 지불해야 하며, 미사용 연차 보상 및 통보 기간에 따라 적절한 금전 보상을 지불해야 합니다. 예를 들어, 직원이 9개월 동안 근무했다면, 9개월의 마지막 월 임금, 30일 통보 보상 및 미사용 연차 보상을 지불해야 합니다." },
+      question: { en: "Q2: What payments are due on dismissal?", ko: "Q2: 해고 시 지불해야 하는 금액은 무엇인가요?" },
+      answer: { en: "Upon dismissal, employers must pay salary up to the last day of employment, compensation for unused annual leave, and monetary compensation commensurate with the notice period. For example, if an employee has worked for nine months, the remaining salary for the last month of nine months, plus 30 days’ notice compensation, and compensation for unused annual leave must be paid.", ko: "해고 시 고용주는 마지막 근무일까지의 급여, 미사용 연차휴가에 대한 보상금, 예고 기간에 상응하는 금전적 보상금을 지급해야 합니다. 예를 들어 직원이 9개월 동안 근무한 경우 9개월 중 마지막 달의 잔여 급여와 30일간의 예고 수당, 미사용 연차 휴가에 대한 보상금을 지급해야 합니다." },
     },
     {
-      question: { en: "Q3: Can immediate dismissal occur without notice?", ko: "Q3: 통보 없이 즉시 해고가 가능한가요?" },
-      answer: { en: "Yes, for gross misconduct, provided clear evidence exists. Without proof, it risks being deemed unfair dismissal.", ko: "예, 중대한 과실이 있는 경우, 증거가 존재하는 경우 즉시 해고가 가능합니다. 증거가 없으면, 부당 해고로 간주될 위험이 있습니다." },
+      question: { en: "Q3: Can immediate dismissal occur without notice?", ko: "Q3: 사전 통지 없이 즉시 해고할 수 있나요?" },
+      answer: { en: "Yes, for gross misconduct, provided clear evidence exists. Without proof, it risks being deemed unfair dismissal.", ko: "예, 중대한 위법 행위의 경우 명확한 증거가 있는 경우 가능합니다. 증거가 없으면 부당 해고로 간주될 위험이 있습니다." },
     },
     {
-      question: { en: "Q4: How to handle dismissal without a contract?", ko: "Q4: 계약 없이 해고를 처리하는 방법은 무엇인가요?" },
-      answer: { en: "MPF mandatory contributions for the final working period must still be settled and paid within 10 days of termination, regardless of contract status.", ko: "MPF 의무 납부는 계약 상태에 관계없이, 해고 후 10일 이내에 정산 및 납부해야 합니다." },
+      question: { en: "Q4: How to handle dismissal without a contract?", ko: "Q4: 계약서 없이 해고하는 경우 어떻게 처리하나요?" },
+      answer: { en: "MPF mandatory contributions for the final working period must still be settled and paid within 10 days of termination, regardless of contract status.", ko: "최종 근무 기간에 대한 MPF 의무 부담금은 계약 상태와 관계없이 해지 후 10일 이내에 정산 및 납부해야 합니다." },
     },
   ],
 };

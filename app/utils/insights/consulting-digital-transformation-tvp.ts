@@ -34,31 +34,31 @@ export const consultingDigitalTransformationTVPTranslations = {
   },
   scopeAndBenefitsOfDigitalTransformationItems: [
     {
-      label: { en: "Operational Efficiency Improvement:", ko: "운영 효율성 향상:" },
+      label: { en: "Operational Efficiency Improvement:", ko: "운영 효율성 개선:" },
       description: {
         en: "Digital transformation across finance, HR, production, and distribution reduces redundant tasks and minimizes manpower allocation time, enhancing overall efficiency.",
-        ko: "재무, HR, 생산, 유통 전반의 디지털 전환은 중복 업무를 줄이고 인력 배치 시간을 최소화하여 전반적인 효율성을 높입니다.",
+        ko: "재무, HR, 생산, 유통 전반에 걸친 디지털 혁신은 중복 업무를 줄이고 인력 할당 시간을 최소화하여 전반적인 효율성을 향상시킵니다.",
       },
     },
     {
       label: { en: "Accurate Data Management:", ko: "정확한 데이터 관리:" },
       description: {
         en: "Real-time data collection and analysis provide precise information, enabling management to make more informed decisions.",
-        ko: "실시간 데이터 수집 및 분석은 정확한 정보를 제공하여 경영진이 더 나은 의사결정을 할 수 있게 합니다.",
+        ko: "실시간 데이터 수집 및 분석은 정확한 정보를 제공하여 경영진이 정보에 입각한 의사 결정을 내릴 수 있도록 지원합니다.",
       },
     },
     {
       label: { en: "Cost Reduction:", ko: "비용 절감:" },
       description: {
         en: "Efficient resource management and process optimization eliminate unnecessary expenses while boosting productivity.",
-        ko: "효율적인 자원 관리와 프로세스 최적화는 불필요한 비용을 제거하고 생산성을 높입니다.",
+        ko: "효율적인 리소스 관리와 프로세스 최적화를 통해 불필요한 비용을 없애고 생산성을 높일 수 있습니다.",
       },
     },
     {
       label: { en: "Enhanced Customer Service:", ko: "향상된 고객 서비스:" },
       description: {
         en: "Digital systems respond swiftly to customer needs, integrate and manage customer data, and deliver personalized services.",
-        ko: "디지털 시스템은 고객 요구에 신속히 대응하고, 고객 데이터를 통합·관리하며, 맞춤형 서비스를 제공합니다.",
+        ko: "디지털 시스템은 고객의 요구에 신속하게 대응하고, 고객 데이터를 통합 및 관리하며, 개인화된 서비스를 제공합니다.",
       },
     },
   ],
@@ -75,28 +75,28 @@ export const consultingDigitalTransformationTVPTranslations = {
       label: { en: "Accounting Management:", ko: "회계 관리:" },
       description: {
         en: "Digital accounting solutions integrate financial data to enhance processing accuracy. Cloud-based software enables automated report generation and real-time data analysis.",
-        ko: "디지털 회계 솔루션은 재무 데이터를 통합하여 처리 정확도를 높입니다. 클라우드 기반 소프트웨어는 자동화된 보고서 생성과 실시간 데이터 분석을 가능하게 합니다.",
+        ko: "디지털 회계 솔루션은 재무 데이터를 통합하여 처리 정확도를 높입니다. 클라우드 기반 소프트웨어는 자동화된 보고서 생성 및 실시간 데이터 분석을 지원합니다.",
       },
     },
     {
       label: { en: "HR Management:", ko: "HR 관리:" },
       description: {
         en: "Digital HR systems efficiently handle employee information, payroll, performance evaluations, and other personnel tasks. Cloud-based HR platforms allow employees to directly update information, submit leave requests, and conduct performance reviews seamlessly.",
-        ko: "디지털 HR 시스템은 직원 정보, 급여, 성과 평가 및 기타 인사 업무를 효율적으로 처리합니다. 클라우드 기반 HR 플랫폼을 통해 직원이 직접 정보를 업데이트하고, 휴가 신청을 제출하며, 성과 평가를 원활히 진행할 수 있습니다.",
+        ko: "디지털 HR 시스템은 직원 정보, 급여, 성과 평가 및 기타 인사 업무를 효율적으로 처리합니다. 클라우드 기반 HR 플랫폼을 사용하면 직원이 직접 정보를 업데이트하고, 휴가 요청을 제출하고, 성과 검토를 원활하게 수행할 수 있습니다.",
       },
     },
     {
       label: { en: "Production Management:", ko: "생산 관리:" },
       description: {
         en: "Digital production systems optimize processes through production planning, material requirements planning, and process tracking. IoT technology enables real-time machine monitoring to minimize unexpected downtime.",
-        ko: "디지털 생산 시스템은 생산 계획, 자재 소요 계획 및 공정 추적을 통해 프로세스를 최적화합니다. IoT 기술은 실시간 기계 모니터링을 통해 예기치 않은 가동 중단을 최소화합니다.",
+        ko: "디지털 생산 시스템은 생산 계획, 자재 요구 사항 계획, 공정 추적을 통해 공정을 최적화합니다. IoT 기술은 실시간 기계 모니터링을 통해 예기치 않은 다운타임을 최소화합니다.",
       },
     },
     {
       label: { en: "Inventory Management:", ko: "재고 관리:" },
       description: {
         en: "Digital inventory systems track and manage stock levels in real time. Barcode scanning and RFID technology automate inbound/outbound operations while optimizing inventory turnover.",
-        ko: "디지털 재고 시스템은 재고 수준을 실시간으로 추적하고 관리합니다. 바코드 스캔 및 RFID 기술은 입출고 작업을 자동화하고 재고 회전율을 최적화합니다.",
+        ko: "디지털 재고 시스템은 실시간으로 재고 수준을 추적하고 관리합니다. 바코드 스캔 및 RFID 기술은 인바운드/아웃바운드 작업을 자동화하는 동시에 재고 회전율을 최적화합니다.",
       },
     },
   ],

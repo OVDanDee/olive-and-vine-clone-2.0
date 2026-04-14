@@ -39,24 +39,24 @@ export const hrIr56Translations = {
   },
   ir56WhyImportantBullets: [
     {
-      label: { en: "Legal Compliance", ko: "법적 준수" },
+      label: { en: "Legal Compliance", ko: "법률 준수" },
       description: {
         en: "Employers are obligated to report to the Hong Kong Inland Revenue Department upon hiring new employees, when employees resign, and during employment. This prevents fines and penalties for regulatory violations while safeguarding the company's reputation.",
-        ko: "고용주는 신규 직원 채용 시, 직원 퇴직 시, 그리고 재직 중에 홍콩 세무서에 신고할 의무가 있습니다. 이는 규제 위반에 대한 벌금과 처벌을 방지하고 회사의 평판을 보호합니다.",
+        ko: "고용주는 신규 직원을 채용할 때, 직원이 퇴사할 때, 그리고 고용 중에도 홍콩 내국세청에 신고해야 할 의무가 있습니다. 이를 통해 규정 위반으로 인한 벌금 및 처벌을 방지하고 회사의 평판을 보호할 수 있습니다.",
       },
     },
     {
       label: { en: "Information Transparency", ko: "정보 투명성" },
       description: {
         en: "It enhances transparency between employees and the company. Employees gain accurate insights into salaries, leave, and other details, preventing unnecessary legal disputes in the future.",
-        ko: "직원과 회사 간의 투명성을 높입니다. 직원들은 급여, 휴가 및 기타 세부 사항에 대한 정확한 정보를 얻어 향후 불필요한 법적 분쟁을 예방할 수 있습니다.",
+        ko: "직원과 회사 간의 투명성이 향상됩니다. 직원들은 급여, 휴가 및 기타 세부 사항에 대한 정확한 인사이트를 확보하여 향후 불필요한 법적 분쟁을 예방할 수 있습니다.",
       },
     },
     {
       label: { en: "Efficient Organizational Management", ko: "효율적인 조직 관리" },
       description: {
         en: "By fulfilling reporting requirements, companies can efficiently manage the entire employment lifecycle—from hiring to resignation.",
-        ko: "보고 의무를 이행함으로써 회사는 채용부터 퇴직까지 전체 고용 수명 주기를 효율적으로 관리할 수 있습니다.",
+        ko: "보고 요건을 충족함으로써 기업은 채용부터 퇴사까지 전체 고용 라이프사이클을 효율적으로 관리할 수 있습니다.",
       },
     },
   ],
@@ -81,13 +81,13 @@ export const hrIr56Translations = {
     ko: "일반적으로 필요한 정보에는 다음이 포함됩니다:",
   },
   ir56InformationGatheringBullets: [
-    { en: "Each employee's HKID", ko: "각 직원의 홍콩 신분증" },
-    { en: "Each employee's employment contract", ko: "각 직원의 고용 계약서" },
-    { en: "Each employee's visa copy (only if not a Hong Kong permanent resident/citizen)", ko: "각 직원의 비자 사본 (홍콩 영주권자/시민이 아닌 경우에만)" },
-    { en: "Each employee's residential address", ko: "각 직원의 거주 주소" },
-    { en: "Each employee's marital status, and if married, spouse's Hong Kong ID number and English name", ko: "각 직원의 혼인 여부, 기혼 시 배우자의 홍콩 신분증 번호 및 영문 이름" },
-    { en: "Salary and MPF calculation details from April of the current year to March of the following year", ko: "당해 연도 4월부터 다음 해 3월까지의 급여 및 MPF 계산 세부 내역" },
-    { en: "Accommodation details (if provided)", ko: "숙소 제공 내역 (제공된 경우)" },
+    { en: "Each employee's HKID", ko: "각 직원의 HKID" },
+    { en: "Each employee's employment contract", ko: "각 직원의 고용 계약" },
+    { en: "Each employee's visa copy (only if not a Hong Kong permanent resident/citizen)", ko: "각 직원의 비자 사본(홍콩 영주권자/시민권자가 아닌 경우에만 해당)" },
+    { en: "Each employee's residential address", ko: "각 직원의 거주지 주소" },
+    { en: "Each employee's marital status, and if married, spouse's Hong Kong ID number and English name", ko: "각 직원의 결혼 여부, 기혼인 경우 배우자의 홍콩 신분증 번호 및 영문 이름" },
+    { en: "Salary and MPF calculation details from April of the current year to March of the following year", ko: "당해 연도 4월부터 다음 연도 3월까지의 급여 및 MPF 계산 내역" },
+    { en: "Accommodation details (if provided)", ko: "숙박 정보(제공된 경우)" },
   ],
   ir56InformationGatheringNote: {
     en: "(Note: Copies among the required documents are recommended for verification purposes but do not need to be submitted with the reporting forms.)",
@@ -163,37 +163,37 @@ export const hrIr56Translations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: What are the submission deadlines for each form?", ko: "Q1: 각 신청서의 제출 마감일은 언제인가요?" },
+      question: { en: "Q1: What are the submission deadlines for each form?", ko: "Q1: 각 양식의 제출 마감일은 언제인가요?" },
       answer: {
         en: "IR56E: Within 3 months from the new hire's start date<br />IR56F: One month before the resignation date<br />IR56G: One month before the resignation date or departure date (whichever is earlier)<br />IR56A&B: End of April each year",
-        ko: "IR56E: 신규 채용자의 입사일로부터 3개월 이내<br />IR56F: 퇴직일 1개월 전<br />IR56G: 퇴직일 또는 출국일 중 빠른 날짜로부터 1개월 전<br />IR56A&B: 매년 4월 말",
+        ko: "IR56E: 신입사원 입사일로부터 3개월 이내<br />IR56F: 퇴직일 1개월 전<br />IR56G: 퇴직일 또는 출국일 1개월 전(둘 중 빠른 날)<br />IR56A&B: 매년 4월 말",
       },
     },
     {
-      question: { en: "Q2: What if the reporting deadline has already passed?", ko: "Q2: 만약 보고 마감일이 이미 지났다면 어떻게 해야 할까요?" },
-      answer: { en: "Submit as soon as possible. There are no exemptions for missed deadlines.", ko: "가능한 빨리 제출하세요. 미제출 시 마감 기한에 대한 예외는 없습니다." },
+      question: { en: "Q2: What if the reporting deadline has already passed?", ko: "Q2: 보고 기한이 이미 지났다면 어떻게 하나요?" },
+      answer: { en: "Submit as soon as possible. There are no exemptions for missed deadlines.", ko: "가능한 한 빨리 제출하세요. 마감일을 놓쳤다고 해서 면제되는 것은 없습니다." },
     },
     {
-      question: { en: "Q3: How about short-term part-time employees?", ko: "Q3: 단기 시간제 직원은 어떻습니까?" },
-      answer: { en: "There are no provisions exempting part-time employees from employment reporting requirements. Report them if they meet the criteria.", ko: "단기 시간제 직원은 고용 보고 요건에서 제외되지 않습니다. 조건을 충족하면 신고하세요." },
+      question: { en: "Q3: How about short-term part-time employees?", ko: "Q3: 단기 아르바이트 직원은 어떤가요?" },
+      answer: { en: "There are no provisions exempting part-time employees from employment reporting requirements. Report them if they meet the criteria.", ko: "시간제 직원의 고용 신고 요건을 면제하는 조항은 없습니다. 기준을 충족하는 경우 신고하세요." },
     },
     {
-      question: { en: "Q4: What if a new employee resigns before the 3-month reporting deadline?", ko: "Q4: 만약 신규 직원이 3개월 보고 마감일 전에 퇴직한다면 어떻게 해야 할까요?" },
-      answer: { en: "In practice, reporting is often skipped, but if they meet legal requirements, reporting is necessary. Verify reportability and either report or retain supporting documentation if not required.", ko: "실제로는 보고가 종종 건너뛰지만, 법적 요건을 충족하는 경우 보고가 필요합니다. 보고 가능성을 확인하고 필요하지 않은 경우 보고하거나 지원 서류를 보관하세요." },
+      question: { en: "Q4: What if a new employee resigns before the 3-month reporting deadline?", ko: "Q4: 신규 직원이 3개월 보고 기한 전에 퇴사하면 어떻게 되나요?" },
+      answer: { en: "In practice, reporting is often skipped, but if they meet legal requirements, reporting is necessary. Verify reportability and either report or retain supporting documentation if not required.", ko: "실제로는 보고를 생략하는 경우가 많지만 법적 요건을 충족하는 경우에는 보고가 필요합니다. 보고 여부를 확인하고 필요하지 않은 경우 보고하거나 증빙 서류를 보관하세요." },
     },
     {
-      question: { en: "Q5: What if an employee has already left Hong Kong after resignation?", ko: "Q5: 만약 직원이 퇴직 후 이미 홍콩을 떠났다면 어떻게 해야 할까요?" },
-      answer: { en: "There are no exemptions for missed reports. Submit as soon as possible, even for departed employees. Fines may apply at the discretion of authorities.", ko: "미제출 보고에 대한 예외는 없습니다. 이미 퇴직한 직원에 대해서도 가능한 빨리 제출하세요. 권한에 따라 벌금이 부과될 수 있습니다." },
+      question: { en: "Q5: What if an employee has already left Hong Kong after resignation?", ko: "Q5: 직원이 퇴사 후 이미 홍콩을 떠난 경우 어떻게 해야 하나요?" },
+      answer: { en: "There are no exemptions for missed reports. Submit as soon as possible, even for departed employees. Fines may apply at the discretion of authorities.", ko: "누락된 보고에 대한 면제는 없습니다. 퇴사한 직원의 경우에도 가능한 한 빨리 제출하세요. 당국의 재량에 따라 벌금이 부과될 수 있습니다." },
     },
     {
-      question: { en: "Q6: What if some employees are missing from IR56A&B (employer reports)?", ko: "Q6: 만약 일부 직원이 IR56A&B(고용주 보고서)에서 누락되었다면 어떻게 해야 할까요?" },
-      answer: { en: "There are no exemptions for missed reports. Submit additional reports as quickly as possible. Fines may apply at the discretion of authorities.", ko: "미제출 보고에 대한 예외는 없습니다. 가능한 빨리 추가 보고서를 제출하세요. 권한에 따라 벌금이 부과될 수 있습니다." },
+      question: { en: "Q6: What if some employees are missing from IR56A&B (employer reports)?", ko: "Q6: IR56A&B(고용주 보고서)에서 일부 직원이 누락된 경우 어떻게 해야 하나요?" },
+      answer: { en: "There are no exemptions for missed reports. Submit additional reports as quickly as possible. Fines may apply at the discretion of authorities.", ko: "누락된 신고에 대한 면제는 없습니다. 가능한 한 빨리 추가 신고서를 제출하세요. 당국의 재량에 따라 벌금이 부과될 수 있습니다." },
     },
     {
-      question: { en: "Q7: Can IR56G be handled the same as IR56F?", ko: "Q7: IR56G는 IR56F와 동일하게 처리할 수 있나요?" },
+      question: { en: "Q7: Can IR56G be handled the same as IR56F?", ko: "Q7: IR56G를 IR56F와 동일하게 취급할 수 있나요?" },
       answer: {
         en: "No, IR56G applies when an employee is expected to leave Hong Kong, differing from IR56F. Employers must withhold the final month's salary until tax clearance is completed. The resigning employee must visit the Inland Revenue Department at least one month before departure (or earlier) with:<br />• Completed IR56G form copy<br />• Employment termination letter<br />• Details of amounts due (final salary, bonuses, etc.)<br /><br />Typically, submission results in same-day issuance of the year's tax assessment. After settling the amount, a tax clearance certificate is issued. Upon submission to the employer, final payments (salary, bonuses, leave pay, etc.) are released.",
-        ko: "아니요, IR56G는 직원이 홍콩을 떠날 예정인 경우에 적용되며 IR56F와 다릅니다. 고용주는 세금 정산이 완료될 때까지 마지막 달 급여를 보류해야 합니다. 퇴직 예정 직원은 출국일 최소 1개월 전(또는 그 이전)에 세무서를 방문하여 다음 서류를 제출해야 합니다:<br />• 작성 완료된 IR56G 양식 사본<br />• 고용 종료 확인서<br />• 미지급액 세부 내역(최종 급여, 상여금 등)<br /><br />일반적으로 제출 시 당일 해당 연도 세금 평가서가 발급됩니다. 금액을 납부한 후 세금 정산 증명서가 발급됩니다. 고용주에게 제출하면 최종 지급액(급여, 상여금, 휴가 수당 등)이 지급됩니다.",
+        ko: "아니요, IR56G는 직원이 홍콩을 떠날 것으로 예상되는 경우에 적용되며 IR56F와는 다릅니다. 고용주는 세금 통관이 완료될 때까지 마지막 달 급여를 원천징수해야 합니다. 퇴사하는 직원은 출국 최소 1개월 전(또는 그 이전)에 내국세청을 방문하여 다음과 같은 서류를 제출해야 합니다:<br />- IR56G 양식 사본<br />- 고용 해지서<br />- 납부할 금액(최종 급여, 보너스 등)<br /><br />일반적으로 제출하면 당일에 당해 연도의 세금 평가서가 발급됩니다. 금액을 정산한 후 세금 납부 증명서가 발급됩니다. 고용주에게 제출하면 최종 지급액(급여, 상여금, 휴가 수당 등)이 공개됩니다.",
       },
     },
   ],

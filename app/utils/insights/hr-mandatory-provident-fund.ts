@@ -168,40 +168,40 @@ export const hrMandatoryProvidentFundTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: Are part-time employees required to enroll in MPF?", ko: "Q1: 파트타임 직원들에게 MPF 제도 참여가 필요한가요?" },
-      answer: { en: "Yes. For regular employees, enrollment is mandatory if the employment period is 60 days or more, regardless of working hours. For casual employees, MPF enrollment is required regardless of the length of employment. (Please note that the definitions of regular and casual employees in Hong Kong differ from those in Korea, so careful interpretation is required.)", ko: "예. 정규직 직원의 경우, 근무 기간이 60일 이상인 경우 가입이 의무적입니다. 일용직 직원의 경우, 근무 기간에 관계없이 가입이 필요합니다. (홍콩의 정규직과 일용직의 정의는 한국과 다르므로 주의 깊은 해석이 필요합니다.)" },
+      question: { en: "Q1: Are part-time employees required to enroll in MPF?", ko: "Q1: 파트타임 직원도 MPF에 등록해야 하나요?" },
+      answer: { en: "Yes. For regular employees, enrollment is mandatory if the employment period is 60 days or more, regardless of working hours. For casual employees, MPF enrollment is required regardless of the length of employment. (Please note that the definitions of regular and casual employees in Hong Kong differ from those in Korea, so careful interpretation is required.)", ko: "예. 정규직 직원의 경우 근무 시간에 관계없이 고용 기간이 60일 이상인 경우 의무적으로 가입해야 합니다. 일반 직원의 경우 고용 기간에 관계없이 MPF 가입이 필요합니다. (홍콩의 정규직과 임시직의 정의는 한국과 상이하므로 신중한 해석이 필요합니다.)" },
     },
     {
-      question: { en: "Q2: If contracts of less than 60 days are continuously renewed, is MPF enrollment still not required?", ko: "Q2: 60일 미만의 계약이 계속해서 갱신되는 경우에도 MPF 가입은 의무가 아닌가요?" },
-      answer: { en: "For regular employees, even if each contract is less than 60 days, continuous employment will be regarded as maintaining an employment relationship of 60 days or more, and MPF enrollment is therefore required. The 60-day condition applies only to regular employees. Casual employees must enroll in MPF regardless of the employment period. (As the distinction between regular and casual employees in Hong Kong differs from Korea, careful interpretation is necessary.)", ko: "정규직 직원의 경우, 각 계약이 60일 미만이더라도 연속 고용은 60일 이상의 고용 관계를 유지하는 것으로 간주되며, 따라서 MPF 가입이 의무적입니다. 60일 조건은 정규직 직원에만 적용됩니다. 일용직 직원은 근무 기간에 관계없이 MPF 가입이 필요합니다. (홍콩의 정규직과 일용직의 정의는 한국과 다르므로 주의 깊은 해석이 필요합니다.)" },
+      question: { en: "Q2: If contracts of less than 60 days are continuously renewed, is MPF enrollment still not required?", ko: "Q2: 60일 미만의 계약이 계속 갱신되는 경우에도 MPF 등록이 필요하지 않나요?" },
+      answer: { en: "For regular employees, even if each contract is less than 60 days, continuous employment will be regarded as maintaining an employment relationship of 60 days or more, and MPF enrollment is therefore required. The 60-day condition applies only to regular employees. Casual employees must enroll in MPF regardless of the employment period. (As the distinction between regular and casual employees in Hong Kong differs from Korea, careful interpretation is necessary.)", ko: "정규직의 경우 각 계약 기간이 60일 미만인 경우에도 계속 고용하면 60일 이상의 고용 관계가 유지되는 것으로 간주되므로 MPF 가입이 필요합니다. 60일 조건은 정규직 직원에게만 적용됩니다. 비정규직 직원은 고용 기간에 관계없이 MPF에 가입해야 합니다. (홍콩에서는 정규직과 임시직의 구분이 한국과 다르기 때문에 신중한 해석이 필요합니다.)" },
     },
     {
-      question: { en: "Q3: I changed jobs and my previous and new employers use different MPF trustees. What should I do?", ko: "Q3: 직장을 바꾸었는데 이전과 새 직장의 MPF 수탁자가 다릅니다. 어떻게 해야 하나요?" },
-      answer: { en: "In this case, you will have MPF accounts under more than one scheme. You may choose to transfer and consolidate your existing MPF assets into the new MPF scheme, or retain them in the existing scheme. If you do not have the details of your previous MPF at the time of joining the new employer (which often happens immediately after changing jobs), you may apply for the transfer personally at a later stage without your employer’s assistance. The decision is entirely up to the individual.", ko: "이 경우, 여러 제도에 대한 MPF 계좌가 생성됩니다. 기존 MPF 자산을 새 MPF 제도로 이전하고 통합하거나, 기존 제도에 유지할 수 있습니다. 새 직장에 가입할 때 이전 MPF의 상세 정보를 가지고 있지 않은 경우(종종 직장 변경 직후 발생), 직원의 도움 없이 나중에 개인적으로 이전을 신청할 수 있습니다. 결정은 개인에게 전적으로 달려 있습니다." },
+      question: { en: "Q3: I changed jobs and my previous and new employers use different MPF trustees. What should I do?", ko: "Q3: 직장을 옮겼는데 이전 고용주와 새 고용주가 서로 다른 MPF 수탁업체를 사용하고 있습니다. 어떻게 해야 하나요?" },
+      answer: { en: "In this case, you will have MPF accounts under more than one scheme. You may choose to transfer and consolidate your existing MPF assets into the new MPF scheme, or retain them in the existing scheme. If you do not have the details of your previous MPF at the time of joining the new employer (which often happens immediately after changing jobs), you may apply for the transfer personally at a later stage without your employer’s assistance. The decision is entirely up to the individual.", ko: "이 경우 두 개 이상의 계획에 따라 MPF 계정을 보유하게 됩니다. 기존 MPF 자산을 새로운 MPF 제도로 이전 및 통합하거나 기존 제도에 그대로 유지할 수 있습니다. 새 직장에 입사할 당시 이전 MPF의 세부 정보가 없는 경우(이직 직후에 주로 발생), 나중에 고용주의 도움 없이 개인적으로 이전을 신청할 수 있습니다. 결정은 전적으로 개인에게 달려 있습니다." },
     },
     {
-      question: { en: "Q4: As a self-employed person, do I need to enroll in MPF?", ko: "Q4: 자영업자인 경우에도 MPF에 가입해야 하나요?" },
-      answer: { en: "Yes. Self-employed persons in Hong Kong must enroll in the Mandatory Provident Fund (MPF) scheme.", ko: "예. 홍콩의 자영업자는 강제적 공제 기금(MPF) 제도에 가입해야 합니다." },
+      question: { en: "Q4: As a self-employed person, do I need to enroll in MPF?", ko: "Q4: 자영업자로서 MPF에 등록해야 하나요?" },
+      answer: { en: "Yes. Self-employed persons in Hong Kong must enroll in the Mandatory Provident Fund (MPF) scheme.", ko: "예. 홍콩의 자영업자는 의무적 사업자 기금(MPF) 제도에 가입해야 합니다." },
     },
     {
-      question: { en: "Q5: The MPF proposed by my employer does not suit me. Can I not enroll in a different MPF?", ko: "Q5: 내 직장이 제안한 MPF가 나에게 맞지 않습니다. 다른 MPF에 가입할 수 없나요?" },
-      answer: { en: "The company’s MPF trustee is selected by the employer, and during the employment period, the employer contributes to the MPF scheme chosen by the employer. Employees may transfer their own contributions (excluding the employer’s portion) to a personally selected MPF scheme once per calendar year. Even after such a transfer, the employer continues to make contributions to the employer-selected MPF scheme.", ko: "회사의 MPF 수탁자는 고용주가 선택하며, 고용 기간 동안 고용주는 고용주가 선택한 MPF 제도에 기여합니다. 직원은 1년에 한 번, 직원 자신의 기여금(고용주 부분 제외)을 개인이 선택한 MPF 제도로 이전할 수 있습니다. 이러한 이전 후에도 고용주는 고용주가 선택한 MPF 제도에 기여를 계속합니다." },
+      question: { en: "Q5: The MPF proposed by my employer does not suit me. Can I not enroll in a different MPF?", ko: "Q5: 고용주가 제안한 MPF가 저에게 적합하지 않습니다. 다른 MPF에 등록할 수 없나요?" },
+      answer: { en: "The company’s MPF trustee is selected by the employer, and during the employment period, the employer contributes to the MPF scheme chosen by the employer. Employees may transfer their own contributions (excluding the employer’s portion) to a personally selected MPF scheme once per calendar year. Even after such a transfer, the employer continues to make contributions to the employer-selected MPF scheme.", ko: "회사의 MPF 수탁자는 고용주가 선정하며, 고용 기간 동안 고용주는 고용주가 선택한 MPF 제도에 기여합니다. 직원은 1년에 한 번씩 자신의 기여금(고용주 부담금 제외)을 개인적으로 선택한 MPF 제도로 이전할 수 있습니다. 이러한 이전 후에도 고용주는 고용주가 선택한 MPF 제도에 계속 기여금을 납부합니다." },
     },
     {
-      question: { en: "Q6: I am an expatriate. Do I need to enroll in MPF?", ko: "Q6: 외국인인 경우에도 MPF에 가입해야 하나요?" },
-      answer: { en: "Enrollment in MPF is exempt if covered by an overseas retirement scheme or if the employment period in Hong Kong is 13 months or less. If employment is initially 13 months or less without enrollment but is extended, MPF enrollment is required starting from the 14th month.", ko: "해외 퇴직 제도에 가입되어 있거나 홍콩에서의 고용 기간이 13개월 이하인 경우, MPF 가입이 면제됩니다. 초기 고용 기간이 13개월 이하이지만 연장된 경우, 14개월부터 MPF 가입이 필요합니다." },
+      question: { en: "Q6: I am an expatriate. Do I need to enroll in MPF?", ko: "Q6: 저는 국외 거주자입니다. MPF에 등록해야 하나요?" },
+      answer: { en: "Enrollment in MPF is exempt if covered by an overseas retirement scheme or if the employment period in Hong Kong is 13 months or less. If employment is initially 13 months or less without enrollment but is extended, MPF enrollment is required starting from the 14th month.", ko: "해외 퇴직 제도의 적용을 받거나 홍콩에서의 고용 기간이 13개월 이하인 경우 MPF 가입이 면제됩니다. 처음에 가입하지 않고 고용 기간이 13개월 이하였으나 연장된 경우, 14개월째부터 MPF 가입이 필요합니다." },
     },
     {
-      question: { en: "Q7: I have lost my MPF information. What should I do?", ko: "Q7: MPF 정보를 잃어버렸습니다. 어떻게 해야 하나요?" },
-      answer: { en: "If MPF information is lost, contact the Mandatory Provident Fund Schemes Authority (MPFA) at <a href=\"https://www.mpfa.org.hk\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#627F38] hover:underline\">www.mpfa.org.hk</a>.", ko: "MPF 정보가 잃어버렸다면, <a href=\"https://www.mpfa.org.hk\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#627F38] hover:underline\">www.mpfa.org.hk</a>에 연락하세요." },
+      question: { en: "Q7: I have lost my MPF information. What should I do?", ko: "Q7: MPF 정보를 분실했습니다. 어떻게 해야 하나요?" },
+      answer: { en: "If MPF information is lost, contact the Mandatory Provident Fund Schemes Authority (MPFA) at <a href=\"https://www.mpfa.org.hk\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#627F38] hover:underline\">www.mpfa.org.hk</a>.", ko: "MPF 정보를 분실하신 경우, 의무적립금제도청(MPFA)에 <a href=\"https://www.mpfa.org.hk\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"text-[#627F38] hover:underline\">www.mpfa.org.hk</a>로 문의하세요." },
     },
     {
-      question: { en: "Q8: I am a low-income employee receiving salary but have not made MPF contributions. Is it missing?", ko: "Q8: 월급직 직원인데 MPF 기여금을 납부하지 않았습니다. 누락된 것인가요?" },
-      answer: { en: "Mandatory contributions for employees with monthly income below HKD 7,100 are exempt; however, the employer must still enroll and make their mandatory contributions. If personal MPF account details are lost, refer to the response for Q7.", ko: "월급직 직원 중 월 7,100홍콩 달러 미만의 소득을 받는 직원은 의무 기여금이 면제됩니다. 그러나, 고용주는 여전히 가입하고 의무 기여금을 납부해야 합니다. 개인 MPF 계좌 상세 정보가 잃어버렸다면, Q7의 답변을 참조하세요." },
+      question: { en: "Q8: I am a low-income employee receiving salary but have not made MPF contributions. Is it missing?", ko: "Q8: 급여를 받는 저소득층 직원이지만 MPF 기부금을 납부하지 않았습니다. 누락되었나요?" },
+      answer: { en: "Mandatory contributions for employees with monthly income below HKD 7,100 are exempt; however, the employer must still enroll and make their mandatory contributions. If personal MPF account details are lost, refer to the response for Q7.", ko: "월 소득이 7,100홍콩달러 미만인 직원의 의무 납입금은 면제되지만, 고용주는 여전히 의무 납입금을 등록하고 납부해야 합니다. 개인 MPF 계정 정보를 분실한 경우 7번 질문에 대한 답변을 참조하세요." },
     },
     {
-      question: { en: "Q9: My employer says they will contribute more than the mandatory amount but requires me to match the same amount. Must I contribute?", ko: "Q9: 내 직장이 나에게 더 많은 기여금을 요구하지만 나에게 같은 금액을 요구합니다. 나는 기여금을 납부해야 하나요?" },
-      answer: { en: "Additional contributions are voluntary and determined by the employment contract or the employer’s welfare policy between the employer and employee, with no legal requirement.", ko: "추가 기여금은 임금 계약 또는 고용주와 직원 간의 복리후생 정책에 따라 자유롭게 결정되며, 법적 의무는 없습니다." },
+      question: { en: "Q9: My employer says they will contribute more than the mandatory amount but requires me to match the same amount. Must I contribute?", ko: "Q9: 고용주가 의무 금액보다 더 많은 금액을 기부하겠다고 하면서 저에게도 같은 금액을 매칭해 달라고 요구합니다. 저도 기부해야 하나요?" },
+      answer: { en: "Additional contributions are voluntary and determined by the employment contract or the employer’s welfare policy between the employer and employee, with no legal requirement.", ko: "추가 부담금은 고용주와 직원 간의 고용 계약 또는 고용주의 복지 정책에 따라 자발적으로 결정되며 법적 요건은 없습니다." },
     },
   ],
 };

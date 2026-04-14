@@ -83,20 +83,20 @@ export const accountingIntroductionXeroTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: How long is Xero's free trial period?", ko: "Q1: Xero의 무료 평가판 기간은 얼마나 됩니까?" },
-      answer: { en: "Xero provides new users with a 30-day free trial, allowing unrestricted access to all features during this time.", ko: "Xero는 새로운 사용자에게 30일간의 무료 평가판을 제공하여, 이 기간 동안 모든 기능에 무제한 접근을 허용합니다." },
+      question: { en: "Q1: How long is Xero's free trial period?", ko: "Q1: Xero의 무료 평가판 기간은 얼마나 되나요?" },
+      answer: { en: "Xero provides new users with a 30-day free trial, allowing unrestricted access to all features during this time.", ko: "Xero는 신규 사용자에게 30일 무료 평가판을 제공하며, 이 기간 동안 모든 기능을 제한 없이 이용할 수 있습니다." },
     },
     {
-      question: { en: "Q2: Which financial institutions integrate with Xero?", ko: "Q2: Xero와 연동할 수 있는 은행은 어떤 것들이 있나요?" },
-      answer: { en: "Xero integrates with major financial institutions worldwide, including Hong Kong’s primary banks, enabling automatic transaction imports.", ko: "Xero는 주요 금융 기관들과 연동되어 있으며, 홍콩의 주요 은행을 포함한 전 세계의 금융 기관들과 연동되어 있어, 자동 거래 수입을 가능하게 합니다." },
+      question: { en: "Q2: Which financial institutions integrate with Xero?", ko: "Q2: 어떤 금융 기관이 Xero와 통합되나요?" },
+      answer: { en: "Xero integrates with major financial institutions worldwide, including Hong Kong’s primary banks, enabling automatic transaction imports.", ko: "Xero는 홍콩의 주요 은행을 포함한 전 세계 주요 금융 기관과 통합되어 자동 거래 가져오기를 지원합니다." },
     },
     {
-      question: { en: "Q3: Can VAT returns be filed through Xero?", ko: "Q3: Xero를 통해 부가가치세 신고를 할 수 있나요?" },
-      answer: { en: "Yes, Xero offers VAT reporting functionality, facilitating easy compliance in regions outside Hong Kong where VAT applies.", ko: "네, Xero는 부가가치세 신고 기능을 제공하여, 홍콩 외 부가가치세가 적용되는 지역에서 쉽게 준수할 수 있도록 지원합니다." },
+      question: { en: "Q3: Can VAT returns be filed through Xero?", ko: "Q3: Xero를 통해 부가가치세 신고서를 제출할 수 있나요?" },
+      answer: { en: "Yes, Xero offers VAT reporting functionality, facilitating easy compliance in regions outside Hong Kong where VAT applies.", ko: "예, Xero는 부가세 신고 기능을 제공하여 부가세가 적용되는 홍콩 이외의 지역에서도 쉽게 규정을 준수할 수 있도록 지원합니다." },
     },
     {
-      question: { en: "Q4: How secure is Xero's data?", ko: "Q4: Xero의 데이터는 얼마나 안전합니까?" },
-      answer: { en: "Xero adheres to top-tier security standards, with all data encrypted and securely stored. Regular backups and security updates ensure ongoing data protection.", ko: "Xero는 최고 수준의 보안 표준을 준수하며, 모든 데이터는 암호화되어 안전하게 저장됩니다. 정기적인 백업과 보안 업데이트를 통해 지속적인 데이터 보호를 보장합니다." },
+      question: { en: "Q4: How secure is Xero's data?", ko: "Q4: Xero의 데이터는 얼마나 안전한가요?" },
+      answer: { en: "Xero adheres to top-tier security standards, with all data encrypted and securely stored. Regular backups and security updates ensure ongoing data protection.", ko: "Xero는 모든 데이터를 암호화하여 안전하게 저장하는 최고 수준의 보안 표준을 준수합니다. 정기적인 백업과 보안 업데이트를 통해 지속적인 데이터 보호를 보장합니다." },
     },
   ],
   aiTaskAutomation: {

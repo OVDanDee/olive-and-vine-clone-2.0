@@ -141,21 +141,21 @@ export const consultingLegalConsiderationsMATranslations = {
       label: { en: "Proper Due diligence:", ko: "적절한 실사:" },
       description: {
         en: "M&A involves complex legal and financial issues, making collaboration with professionals such as accountants, lawyers, and legal advisors essential. These experts can identify potential risks in advance and propose effective strategies to mitigate them.",
-        ko: "M&A는 복잡한 법적 및 재무 문제를 수반하므로, 회계사, 변호사 및 법률 자문가와 같은 전문가와의 협력이 필수적입니다. 이러한 전문가들은 잠재적 위험을 사전에 파악하고 이를 완화하기 위한 효과적인 전략을 제안할 수 있습니다.",
+        ko: "M&A에는 복잡한 법률 및 재무 문제가 수반되므로 회계사, 변호사, 법률 고문과 같은 전문가와의 협업이 필수적입니다. 이러한 전문가들은 잠재적 위험을 사전에 파악하고 이를 완화하기 위한 효과적인 전략을 제안할 수 있습니다.",
       },
     },
     {
       label: { en: "Thorough Due Diligence:", ko: "철저한 실사:" },
       description: {
         en: "Due diligence is the cornerstone of successful M&A. Beyond the target company's financial status, legal and operational risks must be meticulously examined, with negotiation strategies flexibly adjusted based on findings.",
-        ko: "실사는 성공적인 M&A의 초석입니다. 대상 회사의 재무 상태를 넘어 법적 및 운영상의 위험을 꼼꼼히 검토하고, 발견 사항을 기반으로 협상 전략을 유연하게 조정해야 합니다.",
+        ko: "실사는 성공적인 M&A의 초석입니다. 인수 대상 회사의 재무 상태 외에도 법적 및 운영상의 리스크를 꼼꼼하게 조사하고, 조사 결과에 따라 협상 전략을 유연하게 조정해야 합니다.",
       },
     },
     {
       label: { en: "Integration Planning:", ko: "통합 계획:" },
       description: {
         en: "To minimize post-M&A integration challenges, developing a comprehensive integration plan beforehand is crucial. This should encompass strategies for organizational structure, HR systems, IT infrastructure, and other key areas.",
-        ko: "M&A 이후 통합 과제를 최소화하기 위해, 사전에 포괄적인 통합 계획을 수립하는 것이 중요합니다. 이는 조직 구조, HR 시스템, IT 인프라 및 기타 핵심 영역에 대한 전략을 포함해야 합니다.",
+        ko: "M&A 후 통합 문제를 최소화하려면 사전에 종합적인 통합 계획을 수립하는 것이 중요합니다. 여기에는 조직 구조, 인사 시스템, IT 인프라 및 기타 주요 영역에 대한 전략이 포함되어야 합니다.",
       },
     },
   ],

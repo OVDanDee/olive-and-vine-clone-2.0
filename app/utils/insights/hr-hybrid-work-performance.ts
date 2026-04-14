@@ -118,16 +118,16 @@ export const hrHybridWorkPerformanceTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: What performance evaluation methods are primarily used in hybrid work environments?", ko: "Q1: 하이브리드 근무 환경에서 주로 사용되는 성과 평가 방법은 무엇인가요?" },
-      answer: { en: "Hybrid environments primarily employ results-based management approaches. Rather than focusing on work hours, outcome-oriented methods like OKR (Objectives and Key Results) or SMART goal setting are preferred. These enable concrete evaluation of employee achievements and performance management based on goal attainment.", ko: "하이브리드 환경에서는 주로 결과 기반 관리 접근 방식이 사용됩니다. 근무 시간에 집중하는 대신, OKR(Objectives and Key Results) 또는 SMART 목표 설정과 같은 결과 중심의 방법이 선호됩니다. 이러한 방법은 직원의 성과를 구체적으로 평가하고 목표 달성에 기반한 성과 관리를 가능하게 합니다." },
+      question: { en: "Q1: What performance evaluation methods are primarily used in hybrid work environments?", ko: "Q1: 하이브리드 업무 환경에서는 주로 어떤 성과 평가 방법을 사용하나요?" },
+      answer: { en: "Hybrid environments primarily employ results-based management approaches. Rather than focusing on work hours, outcome-oriented methods like OKR (Objectives and Key Results) or SMART goal setting are preferred. These enable concrete evaluation of employee achievements and performance management based on goal attainment.", ko: "하이브리드 환경에서는 주로 결과 기반 관리 방식을 사용합니다. 근무 시간에 초점을 맞추기보다는 OKR(목표 및 핵심 결과) 또는 SMART 목표 설정과 같은 결과 지향적인 방법을 선호합니다. 이를 통해 직원의 성과를 구체적으로 평가하고 목표 달성을 기반으로 성과 관리를 할 수 있습니다." },
     },
     {
-      question: { en: "Q2: How can remote workers avoid feeling isolated?", ko: "Q2: 원격 근무자가 고립감을 느끼지 않도록 하는 방법은 무엇인가요?" },
-      answer: { en: "To maintain a sense of belonging and engagement for remote workers, actively utilize regular team-building activities and internal communication tools. Additionally, conduct periodic one-on-one feedback sessions to ensure employees feel continuously connected to the company.", ko: "원격 근무자가 고립감을 느끼지 않도록 하기 위해, 정기적인 팀 구성 활동과 내부 커뮤니케이션 도구를 활용하세요. 또한, 정기적인 일대일 피드백 세션을 통해 직원들이 지속적으로 회사에 연결되어 있음을 확인하세요." },
+      question: { en: "Q2: How can remote workers avoid feeling isolated?", ko: "Q2: 원격 근무자가 고립감을 느끼지 않으려면 어떻게 해야 하나요?" },
+      answer: { en: "To maintain a sense of belonging and engagement for remote workers, actively utilize regular team-building activities and internal communication tools. Additionally, conduct periodic one-on-one feedback sessions to ensure employees feel continuously connected to the company.", ko: "원격 근무자의 소속감과 참여도를 유지하기 위해 정기적인 팀 빌딩 활동과 사내 커뮤니케이션 도구를 적극 활용하세요. 또한 주기적인 일대일 피드백 세션을 실시하여 직원들이 회사와 지속적으로 연결되어 있다고 느낄 수 있도록 하세요." },
     },
     {
-      question: { en: "Q3: How should performance rewards be structured in hybrid work environments?", ko: "Q3: 하이브리드 근무 환경에서 성과 보상은 어떻게 구성해야 합니까?" },
-      answer: { en: "Fair and transparent results-based rewards remain essential in hybrid settings. Compensation can take various forms beyond monetary incentives. Most importantly, evaluations must remain equitable regardless of work location.", ko: "하이브리드 환경에서는 공정하고 투명한 결과 기반 보상이 필수적입니다. 보상은 금전 인centives. 가장 중요한 것은, 평가는 장소에 관계없이 공정해야 합니다." },
+      question: { en: "Q3: How should performance rewards be structured in hybrid work environments?", ko: "Q3: 하이브리드 업무 환경에서는 성과 보상을 어떻게 구성해야 하나요?" },
+      answer: { en: "Fair and transparent results-based rewards remain essential in hybrid settings. Compensation can take various forms beyond monetary incentives. Most importantly, evaluations must remain equitable regardless of work location.", ko: "공정하고 투명한 결과 기반 보상은 하이브리드 환경에서도 여전히 필수적입니다. 보상은 금전적 인센티브 외에도 다양한 형태로 이루어질 수 있습니다. 가장 중요한 것은 근무 위치에 관계없이 평가가 공평하게 이루어져야 한다는 점입니다." },
     },
   ],
 };

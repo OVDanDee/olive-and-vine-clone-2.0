@@ -146,24 +146,24 @@ export const hrLeavePolicyTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: Can annual leave be paid in cash instead of being taken as leave?", ko: "Q1: 연차 휴가를 휴가로 사용하지 않고 현금으로 지급할 수 있나요?" },
-      answer: { en: "Statutory annual leave must generally be granted as leave days. However, if the entitlement exceeds 10 days, the portion beyond 10 days may be paid in cash, subject to the company’s internal policies.", ko: "법정 연차 휴가는 일반적으로 휴가 일수로 부여되어야 합니다. 그러나, 권리가 10일을 초과하는 경우, 10일을 초과한 부분은 회사의 내부 정책에 따라 현금으로 지급될 수 있습니다." },
+      question: { en: "Q1: Can annual leave be paid in cash instead of being taken as leave?", ko: "Q1: 연차를 휴가로 사용하지 않고 현금으로 지급할 수 있나요?" },
+      answer: { en: "Statutory annual leave must generally be granted as leave days. However, if the entitlement exceeds 10 days, the portion beyond 10 days may be paid in cash, subject to the company’s internal policies.", ko: "법정 연차휴가는 일반적으로 휴가 일수로 부여해야 합니다. 단, 10일을 초과하는 경우 회사 내부 정책에 따라 10일을 초과하는 부분은 현금으로 지급할 수 있습니다." },
     },
     {
-      question: { en: "Q2: An employee who has worked for less than one year is resigning and is requesting payment for annual leave. Isn’t annual leave only granted after 12 months of service?", ko: "Q2: 1년 미만 근무한 직원이 퇴사하고 연차 휴가 금액을 요청하고 있습니다. 연차 휴가는 12개월 이상 근무한 직원에게만 부여되나요?" },
-      answer: { en: "If an employee has worked for more than three months, they are entitled to pro-rata annual leave pay based on the length of service completed.", ko: "직원이 3개월 이상 근무한 경우, 근속 기간에 따라 비례 연차 휴가 금액을 받을 수 있습니다." },
+      question: { en: "Q2: An employee who has worked for less than one year is resigning and is requesting payment for annual leave. Isn’t annual leave only granted after 12 months of service?", ko: "Q2: 1년 미만 근무한 직원이 퇴사하면서 연차 휴가 지급을 요청하고 있습니다. 연차는 12개월을 근무해야만 부여되지 않나요?" },
+      answer: { en: "If an employee has worked for more than three months, they are entitled to pro-rata annual leave pay based on the length of service completed.", ko: "3개월 이상 근무한 직원은 근무한 기간에 따라 비례 배분된 연차 수당을 받을 수 있습니다." },
     },
     {
-      question: { en: "Q3: Are employees on a working holiday visa entitled to annual leave?", ko: "Q3: 휴가 정책 준수를 위해 고용주는 무엇을 해야 하나요?" },
-      answer: { en: "Yes. Legally, there is no distinction in leave entitlements based on employment type or visa status.", ko: "예. 법적으로, 고용 유형 또는 비자 상태에 따라 휴가 권리에 차이가 없습니다." },
+      question: { en: "Q3: Are employees on a working holiday visa entitled to annual leave?", ko: "Q3: 워킹홀리데이 비자를 소지한 직원도 연차 휴가를 받을 수 있나요?" },
+      answer: { en: "Yes. Legally, there is no distinction in leave entitlements based on employment type or visa status.", ko: "예. 법적으로 고용 형태나 비자 상태에 따라 휴가 자격에 차이가 있는 것은 아닙니다." },
     },
     {
-      question: { en: "Q4: Is half-day leave allowed?", ko: "Q4: 반일 휴가가 허용되나요?" },
-      answer: { en: "There are no legal restrictions on half-day leave. Its availability depends on the company’s internal policies.", ko: "법적 제한이 없습니다. 반일 휴가의 가용성은 회사의 내부 정책에 따라 결정됩니다." },
+      question: { en: "Q4: Is half-day leave allowed?", ko: "Q4: 반나절 휴가가 허용되나요?" },
+      answer: { en: "There are no legal restrictions on half-day leave. Its availability depends on the company’s internal policies.", ko: "반일 휴가에 대한 법적 제한은 없습니다. 사용 가능 여부는 회사 내부 정책에 따라 다릅니다." },
     },
     {
-      question: { en: "Q5: How is paid annual leave determined in Hong Kong?", ko: "Q5: 홍콩에서 금액이 지불된 연차 휴가는 어떻게 결정되나요?" },
-      answer: { en: "Employees in Hong Kong are entitled to a minimum of 7 days of paid annual leave for every 12 months of service. Starting from the third year of service, the entitlement increases by one additional day per year, up to a maximum of 14 days.", ko: "홍콩 직원은 12개월 근무마다 최소 7일의 금액이 지불된 연차 휴가를 받을 수 있습니다. 근무 3년차부터 매년 1일씩 증가하여, 최대 14일까지 권리가 증가합니다." },
+      question: { en: "Q5: How is paid annual leave determined in Hong Kong?", ko: "Q5: 홍콩에서 연차 유급 휴가는 어떻게 결정되나요?" },
+      answer: { en: "Employees in Hong Kong are entitled to a minimum of 7 days of paid annual leave for every 12 months of service. Starting from the third year of service, the entitlement increases by one additional day per year, up to a maximum of 14 days.", ko: "홍콩의 직원은 근속 12개월마다 최소 7일의 연차 유급 휴가를 받을 수 있습니다. 근속 3년차부터는 매년 1일씩 추가되어 최대 14일까지 연차가 늘어납니다." },
     },
   ],
 };

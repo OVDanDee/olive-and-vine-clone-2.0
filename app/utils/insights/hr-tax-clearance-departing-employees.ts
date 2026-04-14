@@ -129,23 +129,23 @@ export const hrTaxClearanceDepartingEmployeesTranslations = {
   summaryTableRows: [
     {
       step: { en: "1", ko: "1" },
-      action: { en: "Notify employer", ko: "고용주에게 통보" },
+      action: { en: "Notify employer", ko: "고용주에게 알리기" },
       responsible: { en: "Employee", ko: "직원" },
     },
     {
       step: { en: "2", ko: "2" },
-      action: { en: "File IR56G", ko: "IR56G 제출" },
+      action: { en: "File IR56G", ko: "IR56G 파일" },
       responsible: { en: "Employer", ko: "고용주" },
     },
     {
       step: { en: "3", ko: "3" },
-      action: { en: "Withhold payments", ko: "지급금 보류" },
+      action: { en: "Withhold payments", ko: "지급 보류" },
       responsible: { en: "Employer", ko: "고용주" },
     },
     {
       step: { en: "4", ko: "4" },
-      action: { en: "IRD assessment", ko: "세무국 평가" },
-      responsible: { en: "IRD", ko: "세무국" },
+      action: { en: "IRD assessment", ko: "IRD 평가" },
+      responsible: { en: "IRD", ko: "IRD" },
     },
     {
       step: { en: "5", ko: "5" },
@@ -154,17 +154,17 @@ export const hrTaxClearanceDepartingEmployeesTranslations = {
     },
     {
       step: { en: "6", ko: "6" },
-      action: { en: "Issue release letter", ko: "석방 서한 발급" },
-      responsible: { en: "IRD", ko: "세무국" },
+      action: { en: "Issue release letter", ko: "발행 릴리스 편지" },
+      responsible: { en: "IRD", ko: "IRD" },
     },
     {
       step: { en: "7", ko: "7" },
-      action: { en: "Release payment", ko: "지급금 지급" },
+      action: { en: "Release payment", ko: "릴리스 결제" },
       responsible: { en: "Employer", ko: "고용주" },
     },
     {
       step: { en: "8", ko: "8" },
-      action: { en: "File IR56F (if applicable)", ko: "IR56F 제출 (해당 시)" },
+      action: { en: "File IR56F (if applicable)", ko: "IR56F 제출(해당되는 경우)" },
       responsible: { en: "Employer", ko: "고용주" },
     },
   ],
@@ -175,24 +175,24 @@ export const hrTaxClearanceDepartingEmployeesTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: What happens if the employer does not file IR56G at least one month before the employee's departure?", ko: "Q1: 고용주가 직원 출국 최소 한 달 전에 IR56G를 제출하지 않으면 어떻게 됩니까?" },
-      answer: { en: "Under Section 52(6) of the Inland Revenue Ordinance, the employer becomes personally liable for any salaries tax owed by the departing employee. Filing on time is essential to avoid this exposure.", ko: "세무조례 제52조 제6항에 따라, 고용주는 출국 직원이 납부해야 할 급여세에 대해 개인적으로 책임을 지게 됩니다. 이 위험을 피하기 위해 제때 제출하는 것이 필수적입니다." },
+      question: { en: "Q1: What happens if the employer does not file IR56G at least one month before the employee's departure?", ko: "Q1: 고용주가 직원이 출국하기 최소 한 달 전에 IR56G를 제출하지 않으면 어떻게 되나요?" },
+      answer: { en: "Under Section 52(6) of the Inland Revenue Ordinance, the employer becomes personally liable for any salaries tax owed by the departing employee. Filing on time is essential to avoid this exposure.", ko: "내국세 조례 52(6)조에 따라 고용주는 퇴사하는 직원이 납부해야 할 급여세에 대해 개인적으로 책임을 집니다. 이러한 노출을 피하려면 제때 신고하는 것이 필수적입니다." },
     },
     {
-      question: { en: "Q2: Is IR56F always required when an employee departs Hong Kong?", ko: "Q2: 직원이 홍콩을 떠날 때 항상 IR56F가 필요합니까?" },
-      answer: { en: "No. IR56F is only required if the employment relationship is also ending. If the employee is going abroad temporarily but remains employed, IR56G alone is sufficient.", ko: "아닙니다. IR56F는 고용 관계도 종료되는 경우에만 필요합니다. 직원이 일시적으로 해외에 나가더라도 계속 고용 상태인 경우에는 IR56G만으로 충분합니다." },
+      question: { en: "Q2: Is IR56F always required when an employee departs Hong Kong?", ko: "Q2: 직원이 홍콩을 출국할 때 항상 IR56F가 필요한가요?" },
+      answer: { en: "No. IR56F is only required if the employment relationship is also ending. If the employee is going abroad temporarily but remains employed, IR56G alone is sufficient.", ko: "아니요. IR56F는 고용 관계도 종료되는 경우에만 필요합니다. 직원이 일시적으로 해외로 출국하지만 고용 관계는 유지되는 경우 IR56G만으로도 충분합니다." },
     },
     {
-      question: { en: "Q3: Can the employer release withheld payments before the IRD issues a Letter of Release?", ko: "Q3: 세무국이 석방 서한을 발급하기 전에 고용주가 보류된 지급금을 지급할 수 있습니까?" },
-      answer: { en: "Yes — but only after one full month has elapsed since the IRD received IR56G, per Section 52(7)(b). The employer must be able to verify the exact receipt date.", ko: "네 — 단, 제52조 제7항 (b)에 따라 세무국이 IR56G를 수령한 후 만 1개월이 경과한 경우에만 가능합니다. 고용주는 정확한 수령 날짜를 확인할 수 있어야 합니다." },
+      question: { en: "Q3: Can the employer release withheld payments before the IRD issues a Letter of Release?", ko: "Q3: IRD에서 해제 서신을 발급하기 전에 고용주가 원천 징수된 급여를 해제할 수 있나요?" },
+      answer: { en: "Yes — but only after one full month has elapsed since the IRD received IR56G, per Section 52(7)(b). The employer must be able to verify the exact receipt date.", ko: "예 - 그러나 섹션 52(7)(b)에 따라 IRD가 IR56G를 수령한 후 1개월이 경과한 후에만 가능합니다. 고용주는 정확한 수령 날짜를 확인할 수 있어야 합니다." },
     },
     {
-      question: { en: "Q4: What payments must be withheld after IR56G is filed?", ko: "Q4: IR56G 제출 후 어떤 지급금을 보류해야 합니까?" },
-      answer: { en: "All monies payable to the employee, including salary, bonus, commission, payment in lieu of notice, leave encashment, and any other termination payments.", ko: "급여, 보너스, 수수료, 예고 대신 지급금, 휴가 환산 금액 및 기타 퇴직 지급금을 포함하여 직원에게 지급해야 할 모든 금액을 보류해야 합니다." },
+      question: { en: "Q4: What payments must be withheld after IR56G is filed?", ko: "Q4: IR56G를 제출한 후에는 어떤 지급을 원천징수해야 하나요?" },
+      answer: { en: "All monies payable to the employee, including salary, bonus, commission, payment in lieu of notice, leave encashment, and any other termination payments.", ko: "급여, 보너스, 커미션, 통지 대신 지급, 휴직금 및 기타 해고 수당을 포함하여 직원에게 지급해야 하는 모든 금전." },
     },
     {
-      question: { en: "Q5: How long does the IRD typically take to issue a Letter of Release?", ko: "Q5: 세무국이 석방 서한을 발급하는 데 일반적으로 얼마나 걸립니까?" },
-      answer: { en: "In most straightforward cases, the IRD issues clearance within 30 days if the IR56G was filed correctly and on time. However, complex cases (e.g., share awards, equity vesting) or peak seasons may cause delays.", ko: "대부분의 단순한 경우에는 IR56G가 올바르게 제때 제출된 경우 세무국이 30일 이내에 정산을 발급합니다. 단, 복잡한 사례(예: 주식 보상, 지분 귀속)나 피크 시즌에는 지연이 발생할 수 있습니다." },
+      question: { en: "Q5: How long does the IRD typically take to issue a Letter of Release?", ko: "Q5: IRD에서 릴리스 서신을 발급하는 데 일반적으로 얼마나 걸리나요?" },
+      answer: { en: "In most straightforward cases, the IRD issues clearance within 30 days if the IR56G was filed correctly and on time. However, complex cases (e.g., share awards, equity vesting) or peak seasons may cause delays.", ko: "대부분의 간단한 경우 IRD는 IR56G를 제시간에 정확하게 제출한 경우 30일 이내에 승인서를 발급합니다. 그러나 복잡한 경우(예: 주식 보상, 주식 부여) 또는 성수기에는 지연이 발생할 수 있습니다." },
     },
   ],
   contactInformationDisclaimer: {

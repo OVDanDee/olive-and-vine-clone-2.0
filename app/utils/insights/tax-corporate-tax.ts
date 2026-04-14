@@ -27,28 +27,28 @@ export const taxCorporateTaxTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: When must profits tax be filed?", ko: "Q1: 이익세 신고는 언제 제출해야 하나요?" },
-      answer: { en: "The profits tax filing deadline in Hong Kong is typically within 3 months from the end of the company’s accounting year. For example, if the accounting year ends on December 31, the profits tax return must be completed by March 31 of the following year. However, if filing through a tax representative, the deadline may be extended to approximately 7.5 months.", ko: "홍콩 이익세 신고 제출 기한은 일반적으로 회사의 회계 연도 말일로부터 3개월 이내입니다. 예를 들어, 회계 연도가 12월 31일에 끝나면, 이익세 신고는 다음 해 3월 31일까지 제출해야 합니다. 그러나, 세무 대행인을 통해 신고하는 경우, 기한은 약 7.5개월로 연장될 수 있습니다." },
+      question: { en: "Q1: When must profits tax be filed?", ko: "Q1: 수익세는 언제 신고해야 하나요?" },
+      answer: { en: "The profits tax filing deadline in Hong Kong is typically within 3 months from the end of the company’s accounting year. For example, if the accounting year ends on December 31, the profits tax return must be completed by March 31 of the following year. However, if filing through a tax representative, the deadline may be extended to approximately 7.5 months.", ko: "홍콩의 이익세 신고 기한은 일반적으로 회사의 회계연도 종료일로부터 3개월 이내입니다. 예를 들어 회계연도가 12월 31일에 종료되는 경우 다음 해 3월 31일까지 이익세 신고를 완료해야 합니다. 단, 세무 대리인을 통해 신고하는 경우 기한이 약 7.5개월까지 연장될 수 있습니다." },
     },
     {
-      question: { en: "Q2: What documents are required for profits tax filing?", ko: "Q2: 이익세 신고에 필요한 문서는 무엇인가요?" },
-      answer: { en: "Profits tax filing generally requires the annual financial statements, audit report, and the Profits Tax Return provided by the IRD. Additional documents may be needed depending on the company’s business activities.", ko: "이익세 신고는 일반적으로 연간 재무제표, 감사 보고서, 그리고 IRD에서 제공하는 이익세 신고서가 필요합니다. 회사의 사업 활동에 따라 추가 문서가 필요할 수 있습니다." },
+      question: { en: "Q2: What documents are required for profits tax filing?", ko: "질문 2: 수익세 신고에는 어떤 서류가 필요하나요?" },
+      answer: { en: "Profits tax filing generally requires the annual financial statements, audit report, and the Profits Tax Return provided by the IRD. Additional documents may be needed depending on the company’s business activities.", ko: "일반적으로 수익세 신고에는 연간 재무제표, 감사 보고서, IRD에서 제공하는 수익세 신고서가 필요합니다. 회사의 비즈니스 활동에 따라 추가 서류가 필요할 수도 있습니다." },
     },
     {
-      question: { en: "Q3: Can the IRD request additional information after submission of the tax return?", ko: "Q3: IRD는 이익세 신고 제출 후 추가 정보를 요청할 수 있나요?" },
-      answer: { en: "Yes, the IRD may request additional information upon reviewing the tax return. In such cases, the requested information must be submitted promptly, and any necessary adjustments must be made.", ko: "예, IRD는 이익세 신고 검토 후 추가 정보를 요청할 수 있습니다. 이러한 경우, 요청된 정보는 즉시 제출되어야 하며, 필요한 조정이 이루어져야 합니다." },
+      question: { en: "Q3: Can the IRD request additional information after submission of the tax return?", ko: "Q3: 세금 신고서 제출 후 IRD에서 추가 정보를 요청할 수 있나요?" },
+      answer: { en: "Yes, the IRD may request additional information upon reviewing the tax return. In such cases, the requested information must be submitted promptly, and any necessary adjustments must be made.", ko: "예. IRD는 세금 신고서를 검토하면서 추가 정보를 요청할 수 있습니다. 이러한 경우 요청된 정보를 즉시 제출하고 필요한 조정을 수행해야 합니다." },
     },
     {
-      question: { en: "Q4: What are the methods for paying profits tax?", ko: "Q4: 이익세 납부 방법은 무엇인가요?" },
-      answer: { en: "The tax amount finalized by the IRD must be paid within the deadline. Payment can be made through various methods, including online payment and bank payment.", ko: "IRD에서 결정된 세액은 기한 내에 납부해야 합니다. 온라인 납부, 은행 납부 등 다양한 방법으로 납부할 수 있습니다." },
+      question: { en: "Q4: What are the methods for paying profits tax?", ko: "Q4: 수익세 납부 방법은 무엇인가요?" },
+      answer: { en: "The tax amount finalized by the IRD must be paid within the deadline. Payment can be made through various methods, including online payment and bank payment.", ko: "IRD에서 확정된 세액은 기한 내에 납부해야 합니다. 온라인 납부, 은행 납부 등 다양한 방법을 통해 납부할 수 있습니다." },
     },
     {
-      question: { en: "Q5: Are accounting and auditing mandatory for profits tax filing?", ko: "Q5: 이익세 신고에 회계 및 감사가 필수인가요?" },
-      answer: { en: "Yes, all companies in Hong Kong are generally required to maintain accounts and undergo auditing. The audit report must be attached for tax filing. However, branches established as legal branches are not required to provide an audit report. Note that this differs from the common overseas reference to subsidiaries as overseas branches, so caution is advised.", ko: "예, 홍콩의 모든 회사는 일반적으로 회계 및 감사를 유지해야 합니다. 감사 보고서는 세무 신고에 첨부되어야 합니다. 그러나, 법인 지사로 설립된 지사는 감사 보고서를 제공할 필요가 없습니다. 이는 외국 참조에서 자회사를 해외 지사로 참조하는 것과 다르므로, 주의가 필요합니다." },
+      question: { en: "Q5: Are accounting and auditing mandatory for profits tax filing?", ko: "Q5: 수익세 신고 시 회계 및 감사가 필수인가요?" },
+      answer: { en: "Yes, all companies in Hong Kong are generally required to maintain accounts and undergo auditing. The audit report must be attached for tax filing. However, branches established as legal branches are not required to provide an audit report. Note that this differs from the common overseas reference to subsidiaries as overseas branches, so caution is advised.", ko: "예, 홍콩의 모든 회사는 일반적으로 계정을 유지하고 감사를 받아야 합니다. 세금 신고를 위해서는 감사 보고서를 첨부해야 합니다. 그러나 합법적인 지사로 설립된 지사는 감사 보고서를 제출할 필요가 없습니다. 이는 해외에서 자회사를 해외 지사로 보는 일반적인 기준과 다르므로 주의가 필요합니다." },
     },
     {
-      question: { en: "Q6: Can a tax agent be used for profits tax filing?", ko: "Q6: 세무 대행인을 이용하여 이익세 신고를 할 수 있나요?" },
-      answer: { en: "Yes, assistance from professional corporate service providers can be obtained. For example, Olive & Vine provides various corporate services, including profits tax filing, to ensure your business complies with all regulatory requirements.", ko: "예, 전문 기업 서비스 제공자의 도움을 받을 수 있습니다. 예를 들어, Olive & Vine는 이익세 신고를 포함한 다양한 기업 서비스를 제공하여 비즈니스가 모든 규제 요건을 준수할 수 있도록 돕습니다." },
+      question: { en: "Q6: Can a tax agent be used for profits tax filing?", ko: "Q6: 세무 대리인을 통해 수익세 신고를 할 수 있나요?" },
+      answer: { en: "Yes, assistance from professional corporate service providers can be obtained. For example, Olive & Vine provides various corporate services, including profits tax filing, to ensure your business complies with all regulatory requirements.", ko: "예, 전문 기업 서비스 제공업체의 도움을 받을 수 있습니다. 예를 들어, Olive & Vine은 수익세 신고를 포함한 다양한 기업 서비스를 제공하여 비즈니스가 모든 규제 요건을 준수할 수 있도록 지원합니다." },
     },
   ],
   aiTaskAutomation: {
@@ -175,10 +175,10 @@ export const taxCorporateTaxTranslations = {
     col3: { en: "Further Extended Filing Deadlines (Semi-Electronic / Electronic Filing)", ko: "추가 연장된 제출 기한(반전자/전자 제출)" },
   },
   profitsTaxDeadlineTableRows: [
-    { col1: { en: "“N” Code (April 1, 2023 – November 30, 2023)", ko: "“N” 코드(2023년 4월 1일 – 2023년 11월 30일)" }, col2: { en: "May 2, 2024", ko: "2024년 5월 2일" }, col3: { en: "June 2, 2024", ko: "2024년 6월 3일" } },
-    { col1: { en: "“D” Code (December 1, 2023 – December 31, 2023)", ko: "“D” 코드(2023년 12월 1일 – 2023년 12월 31일)" }, col2: { en: "August 15, 2024", ko: "2024년 8월 15일" }, col3: { en: "September 15, 2024", ko: "2024년 9월 15일" } },
-    { col1: { en: "“M” Code – In Case of Profit (January 1, 2024 – March 31, 2024)", ko: "“M” 코드 – 이익 발생 시(2024년 1월 1일 – 2024년 3월 31일)" }, col2: { en: "November 15, 2024", ko: "2024년 11월 15일" }, col3: { en: "December 15, 2024", ko: "2024년 12월 15일" } },
-    { col1: { en: "“M” Code – In Case of Profit (January 1, 2024 – March 31, 2024)", ko: "“M” 코드 – 이익 발생 시(2024년 1월 1일 – 2024년 3월 31일)" }, col2: { en: "January 31, 2025", ko: "2025년 1월 31일" }, col3: { en: "No Further Extension", ko: "추가 연장 없음" } },
+    { col1: { en: "“N” Code (April 1, 2023 – November 30, 2023)", ko: "\"N\" 코드(2023년 4월 1일 - 2023년 11월 30일)" }, col2: { en: "May 2, 2024", ko: "2024년 5월 2일" }, col3: { en: "June 2, 2024", ko: "2024년 6월 2일" } },
+    { col1: { en: "“D” Code (December 1, 2023 – December 31, 2023)", ko: "\"D\" 코드(2023년 12월 1일 - 2023년 12월 31일)" }, col2: { en: "August 15, 2024", ko: "2024년 8월 15일" }, col3: { en: "September 15, 2024", ko: "2024년 9월 15일" } },
+    { col1: { en: "“M” Code – In Case of Profit (January 1, 2024 – March 31, 2024)", ko: "\"M\" 코드 - 이익 발생 시(2024년 1월 1일 - 2024년 3월 31일)" }, col2: { en: "November 15, 2024", ko: "2024년 11월 15일" }, col3: { en: "December 15, 2024", ko: "2024년 12월 15일" } },
+    { col1: { en: "“M” Code – In Case of Profit (January 1, 2024 – March 31, 2024)", ko: "\"M\" 코드 - 이익 발생 시(2024년 1월 1일 - 2024년 3월 31일)" }, col2: { en: "January 31, 2025", ko: "2025년 1월 31일" }, col3: { en: "No Further Extension", ko: "추가 확장 없음" } },
   ],
   profitsTaxDeadlineTableNote: {
     en: "Missing the filing deadline may result in penalties, so it is crucial to submit within the deadline.",

@@ -114,13 +114,32 @@ function toValue(node: ts.Expression, lang: Lang): unknown {
 }
 
 function getByPath(obj: unknown, dottedKey: string): unknown {
-  const parts = dottedKey.split(".");
-  let cur = obj;
-  for (const part of parts) {
-    if (typeof cur === "object" && cur !== null && !Array.isArray(cur)) {
-      cur = (cur as Record<string, unknown>)[part];
+  // Parse "foo.bar[0].baz[1]" into tokens: ["foo", "bar", 0, "baz", 1]
+  const tokens: Array<string | number> = [];
+  for (const seg of dottedKey.split(".")) {
+    if (!seg) continue;
+    // Extract a leading identifier then zero or more [idx] suffixes
+    const m = seg.match(/^([^[]+)((?:\[\d+\])*)$/);
+    if (!m) {
+      tokens.push(seg);
+      continue;
+    }
+    tokens.push(m[1]);
+    const idxRe = /\[(\d+)\]/g;
+    let im: RegExpExecArray | null;
+    while ((im = idxRe.exec(m[2])) !== null) {
+      tokens.push(Number(im[1]));
+    }
+  }
+  let cur: unknown = obj;
+  for (const tok of tokens) {
+    if (cur === null || cur === undefined) return undefined;
+    if (typeof tok === "number") {
+      if (!Array.isArray(cur)) return undefined;
+      cur = cur[tok];
     } else {
-      return undefined;
+      if (typeof cur !== "object" || Array.isArray(cur)) return undefined;
+      cur = (cur as Record<string, unknown>)[tok];
     }
   }
   return cur;

@@ -108,23 +108,23 @@ export const aiBusinessAutomationTranslations = {
   faqItems: [
     {
       question: { en: "Q1: What are the benefits of AI-powered business process automation?", ko: "Q1: AI 기반 비즈니스 프로세스 자동화의 이점은 무엇인가요?" },
-      answer: { en: "AI-driven automation delivers advantages such as enhanced efficiency, improved accuracy, and cost savings. These enable companies to maximize operational efficiency and reduce expenses.", ko: "AI 기반 자동화는 효율성 향상, 정확도 개선, 비용 절감 등의 이점을 제공합니다. 이를 통해 기업은 운영 효율을 극대화하고 비용을 절감할 수 있습니다." },
+      answer: { en: "AI-driven automation delivers advantages such as enhanced efficiency, improved accuracy, and cost savings. These enable companies to maximize operational efficiency and reduce expenses.", ko: "AI 기반 자동화는 효율성 향상, 정확도 개선, 비용 절감 등의 이점을 제공합니다. 이를 통해 기업은 운영 효율성을 극대화하고 비용을 절감할 수 있습니다." },
     },
     {
       question: { en: "Q2: In which business areas can AI be applied?", ko: "Q2: AI는 어떤 비즈니스 영역에 적용할 수 있나요?" },
-      answer: { en: "AI applies across customer service, marketing, financial management, production management, and human resources. It automates repetitive tasks and analyzes data to provide actionable business insights.", ko: "AI는 고객 서비스, 마케팅, 재무 관리, 생산 관리, 인적 자원 관리 등 다양한 영역에 적용됩니다. 반복 작업을 자동화하고 데이터를 분석하여 실행 가능한 비즈니스 인사이트를 제공합니다." },
+      answer: { en: "AI applies across customer service, marketing, financial management, production management, and human resources. It automates repetitive tasks and analyzes data to provide actionable business insights.", ko: "AI는 고객 서비스, 마케팅, 재무 관리, 생산 관리, 인사 등 다양한 분야에 적용됩니다. 반복적인 작업을 자동화하고 데이터를 분석하여 실행 가능한 비즈니스 인사이트를 제공합니다." },
     },
     {
-      question: { en: "Q3: What should be considered when implementing AI-based automation systems?", ko: "Q3: AI 기반 자동화 시스템 도입 시 고려해야 할 사항은 무엇인가요?" },
-      answer: { en: "Key considerations include system accuracy, data security, and initial implementation costs. Continuous learning and updates for AI models are also essential.", ko: "주요 고려 사항에는 시스템 정확도, 데이터 보안, 초기 도입 비용이 포함됩니다. AI 모델의 지속적인 학습과 업데이트도 필수적입니다." },
+      question: { en: "Q3: What should be considered when implementing AI-based automation systems?", ko: "Q3: AI 기반 자동화 시스템을 구현할 때 고려해야 할 사항은 무엇인가요?" },
+      answer: { en: "Key considerations include system accuracy, data security, and initial implementation costs. Continuous learning and updates for AI models are also essential.", ko: "주요 고려 사항으로는 시스템 정확도, 데이터 보안, 초기 구현 비용 등이 있습니다. AI 모델에 대한 지속적인 학습과 업데이트도 필수적입니다." },
     },
     {
-      question: { en: "Q4: What are the advantages of AI in marketing?", ko: "Q4: 마케팅에서 AI의 이점은 무엇인가요?" },
-      answer: { en: "AI-powered marketing analyzes customer behavior patterns for targeted campaigns and predicts campaign performance. This ensures more efficient use of marketing budgets.", ko: "AI 기반 마케팅은 타겟 캠페인을 위해 고객 행동 패턴을 분석하고 캠페인 성과를 예측합니다. 이를 통해 마케팅 예산을 더 효율적으로 사용할 수 있습니다." },
+      question: { en: "Q4: What are the advantages of AI in marketing?", ko: "Q4: 마케팅에서 AI의 장점은 무엇인가요?" },
+      answer: { en: "AI-powered marketing analyzes customer behavior patterns for targeted campaigns and predicts campaign performance. This ensures more efficient use of marketing budgets.", ko: "AI 기반 마케팅은 타겟팅 캠페인에 대한 고객 행동 패턴을 분석하고 캠페인 성과를 예측합니다. 이를 통해 마케팅 예산을 보다 효율적으로 사용할 수 있습니다." },
     },
     {
-      question: { en: "Q5: Which production management aspects can AI automate?", ko: "Q5: AI는 생산 관리의 어떤 부분을 자동화할 수 있나요?" },
-      answer: { en: "AI automates quality control, predictive maintenance, and production planning. These improvements boost production efficiency and product quality.", ko: "AI는 품질 관리, 예측 정비, 생산 계획을 자동화합니다. 이러한 개선으로 생산 효율과 제품 품질이 향상됩니다." },
+      question: { en: "Q5: Which production management aspects can AI automate?", ko: "Q5: AI가 자동화할 수 있는 생산 관리 측면에는 어떤 것이 있나요?" },
+      answer: { en: "AI automates quality control, predictive maintenance, and production planning. These improvements boost production efficiency and product quality.", ko: "AI는 품질 관리, 예측 유지보수, 생산 계획을 자동화합니다. 이러한 개선으로 생산 효율성과 제품 품질이 향상됩니다." },
     },
   ],
   aiTaskAutomation: {

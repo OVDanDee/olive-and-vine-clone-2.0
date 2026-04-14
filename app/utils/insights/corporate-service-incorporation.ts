@@ -27,11 +27,11 @@ export const corporateServiceIncorporationTranslations = {
     col2: { en: "Amount(HKD)", ko: "금액(HKD)" },
   },
   costTableRows: [
-    { col1: { en: "Companies Registry Registration Fee", ko: "회사 등록처 등록비" }, col2: { en: "1,545 (1,720 for counter submissions)", ko: "1,545 (카운터 제출 시 1,720)" } },
-    { col1: { en: "Business Registration Certificate Fee – 1 Year", ko: "사업자 등록증 비용 – 1년" }, col2: { en: "150", ko: "150" } },
-    { col1: { en: "Business Registration Certificate Fee – 3 Years", ko: "사업자 등록증 비용 – 3년" }, col2: { en: "3,650", ko: "3,650" } },
-    { col1: { en: "Olive and Vine Service Fee Estimate", ko: "Olive & Vine 서비스 비용 추정" }, col2: { en: "From 4,000", ko: "4,000 이상" } },
-    { col1: { en: "Total", ko: "합계" }, col2: { en: "From 5,659", ko: "5,659 이상" } },
+    { col1: { en: "Companies Registry Registration Fee", ko: "기업 등기소 등록 수수료" }, col2: { en: "1,545 (1,720 for counter submissions)", ko: "1,545개(카운터 제출의 경우 1,720개)" } },
+    { col1: { en: "Business Registration Certificate Fee – 1 Year", ko: "사업자 등록증 수수료 - 1년" }, col2: { en: "150", ko: "150" } },
+    { col1: { en: "Business Registration Certificate Fee – 3 Years", ko: "사업자 등록증 수수료 - 3년" }, col2: { en: "3,650", ko: "3,650" } },
+    { col1: { en: "Olive and Vine Service Fee Estimate", ko: "Olive & Vine 서비스 요금 견적" }, col2: { en: "From 4,000", ko: "4,000부터" } },
+    { col1: { en: "Total", ko: "합계" }, col2: { en: "From 5,659", ko: "5,659달러부터" } },
   ],
   costTableNotes: {
     en: "Note 1 These amounts may vary according to government policy and represent actual expenses excluding Olive & Vine's service fees.\nNote 2 Olive & Vine's service fees may vary depending on the specific composition and background details of the shareholders/directors of the company to be incorporated.",
@@ -148,7 +148,7 @@ export const corporateServiceIncorporationTranslations = {
     ko: "기본 회사 사항을 결정한 후 법인 설립 신청을 위해 다음 서류를 홍콩 기업 등록소에 제출해야 합니다:",
   },
   preparingSubmissionDocumentsItems: [
-    { en: "Incorporation Form (e.g. NNC1) Company Incorporation Application Form", ko: "설립 양식 (예: NNC1) 회사 설립 신청서" },
+    { en: "Incorporation Form (e.g. NNC1) Company Incorporation Application Form", ko: "법인 설립 양식(예: NNC1) 회사 설립 신청서" },
     { en: "Articles of Association Company Articles of Association", ko: "정관 회사 정관" },
   ],
 };

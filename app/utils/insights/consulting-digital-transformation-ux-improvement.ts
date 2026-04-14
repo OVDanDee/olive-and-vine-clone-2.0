@@ -126,20 +126,20 @@ export const consultingDigitalTransformationUXImprovementTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: What is the most effective way to improve customer experience?", ko: "Q1: 고객 경험을 위한 디지털 전환 개선 방법은 무엇인가요?" },
-      answer: { en: "Digital transformation enhances customer experience through personalized services, omnichannel strategies, and improved customer support systems. These approaches increase customer satisfaction and strengthen customer loyalty.", ko: "디지털 전환은 개인화된 서비스, 오메니채널 전략, 개선된 고객 지원 시스템을 통해 고객 경험을 향상시킵니다. 이러한 접근 방식은 고객 만족도를 높이고 고객 충성도를 강화합니다." },
+      question: { en: "Q1: What is the most effective way to improve customer experience?", ko: "Q1: 고객 경험을 개선하는 가장 효과적인 방법은 무엇인가요?" },
+      answer: { en: "Digital transformation enhances customer experience through personalized services, omnichannel strategies, and improved customer support systems. These approaches increase customer satisfaction and strengthen customer loyalty.", ko: "디지털 전환은 개인화된 서비스, 옴니채널 전략, 개선된 고객 지원 시스템을 통해 고객 경험을 향상시킵니다. 이러한 접근 방식은 고객 만족도를 높이고 고객 충성도를 강화합니다." },
     },
     {
       question: { en: "Q2: What is an omnichannel strategy?", ko: "Q2: 옴니채널 전략이란 무엇인가요?" },
-      answer: { en: "An omnichannel strategy integrates online and offline channels to ensure that customers receive a consistent experience regardless of the channel they use, thereby delivering a superior customer experience.", ko: "옴니채널 전략은 온라인과 오프라인 채널을 통합하여 고객이 어떤 채널을 사용하든 일관된 경험을 제공하여 우수한 고객 경험을 제공합니다." },
+      answer: { en: "An omnichannel strategy integrates online and offline channels to ensure that customers receive a consistent experience regardless of the channel they use, thereby delivering a superior customer experience.", ko: "옴니채널 전략은 온라인과 오프라인 채널을 통합하여 고객이 사용하는 채널에 관계없이 일관된 경험을 제공함으로써 우수한 고객 경험을 제공하는 것입니다." },
     },
     {
       question: { en: "Q3: How does a digital check-in/check-out system work?", ko: "Q3: 디지털 체크인/체크아웃 시스템은 어떻게 작동하나요?" },
-      answer: { en: "It allows customers to check in and check out via a mobile app, reducing waiting times and increasing convenience. This also improves operational efficiency for hotels.", ko: "모바일 앱을 통해 체크인과 체크아웃을 할 수 있어 대기 시간을 줄이고 편리함을 증가시킵니다. 호텔의 운영 효율성도 개선됩니다." },
+      answer: { en: "It allows customers to check in and check out via a mobile app, reducing waiting times and increasing convenience. This also improves operational efficiency for hotels.", ko: "고객은 모바일 앱을 통해 체크인과 체크아웃을 할 수 있어 대기 시간이 단축되고 편의성이 높아집니다. 또한 호텔의 운영 효율성도 향상됩니다." },
     },
     {
-      question: { en: "Q4: What are the advantages of a table ordering system?", ko: "Q4: 테이블 주문 시스템의 이점은 무엇인가요?" },
-      answer: { en: "By enabling customers to scan QR codes at their tables to view menus and place orders, the system simplifies the ordering process, reduces mistakes, and enhances customer satisfaction.", ko: "고객이 테이블에서 QR 코드를 스캔하여 메뉴를 보고 주문할 수 있도록 함으로써, 이 시스템은 주문 과정을 간소화하고 오류를 줄이며 고객 만족도를 향상시킵니다." },
+      question: { en: "Q4: What are the advantages of a table ordering system?", ko: "Q4: 테이블 주문 시스템의 장점은 무엇인가요?" },
+      answer: { en: "By enabling customers to scan QR codes at their tables to view menus and place orders, the system simplifies the ordering process, reduces mistakes, and enhances customer satisfaction.", ko: "이 시스템은 고객이 테이블에서 QR 코드를 스캔하여 메뉴를 확인하고 주문할 수 있도록 하여 주문 프로세스를 간소화하고 실수를 줄이며 고객 만족도를 높입니다." },
     },
   ],
 };

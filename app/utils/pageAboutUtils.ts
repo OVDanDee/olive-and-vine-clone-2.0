@@ -53,8 +53,8 @@ export const aboutPageTranslations = {
       career: [
         { company: { en: "PwC", ko: "PwC" }, role: { en: "Assurance", ko: "보증" }, location: { en: "Hong Kong", ko: "홍콩" }, current: false },
         { company: { en: "PwC", ko: "PwC" }, role: { en: "Assurance", ko: "보증" }, location: { en: "Sydney", ko: "시드니" }, current: false },
-        { company: { en: "IL Shin CPA", ko: "일신회계법인" }, role: { en: "Engagement Leader", ko: "엔게이지먼트 리더" }, location: { en: "Hong Kong", ko: "홍콩" }, current: false },
-        { company: { en: "Olive & Vine", ko: "Olive & Vine" }, role: { en: "Co-Founder", ko: "공동창업자" }, location: { en: "Hong Kong", ko: "홍콩" }, current: true },
+        { company: { en: "IL Shin CPA", ko: "IL Shin CPA" }, role: { en: "Engagement Leader", ko: "참여 리더" }, location: { en: "Hong Kong", ko: "홍콩" }, current: false },
+        { company: { en: "Olive & Vine", ko: "Olive & Vine" }, role: { en: "Co-Founder", ko: "공동 창립자" }, location: { en: "Hong Kong", ko: "홍콩" }, current: true },
       ],
     },
     miyoung: {
@@ -73,11 +73,11 @@ export const aboutPageTranslations = {
         ko: "카카오 → BNP파리바 → 메트라이프 → 처브 → Olive & Vine",
       },
       career: [
-        { company: { en: "Kakao", ko: "카카오" }, role: { en: "Internal Audit", ko: "내부 감사" }, location: { en: "Korea", ko: "한국" }, current: false },
-        { company: { en: "BNP Paribas", ko: "BNP Paribas" }, role: { en: "Compliance", ko: "규정 준수" }, location: { en: "Korea", ko: "한국" }, current: false },
-        { company: { en: "MetLife", ko: "MetLife" }, role: { en: "Corporate Affairs", ko: "기업 업무" }, location: { en: "Korea", ko: "한국" }, current: false },
-        { company: { en: "Chubb", ko: "Chubb" }, role: { en: "Internal Audit & Compliance", ko: "내부 감사 및 규정 준수" }, location: { en: "KR · SG · HK", ko: "한국 · 싱가포르 · 홍콩" }, current: false },
-        { company: { en: "Olive & Vine", ko: "Olive & Vine" }, role: { en: "Co-Founder", ko: "공동창업자" }, location: { en: "Hong Kong", ko: "홍콩" }, current: true },
+        { company: { en: "Kakao", ko: "카카오" }, role: { en: "Internal Audit", ko: "내부 감사" }, location: { en: "Korea", ko: "대한민국" }, current: false },
+        { company: { en: "BNP Paribas", ko: "BNP파리바" }, role: { en: "Compliance", ko: "규정 준수" }, location: { en: "Korea", ko: "대한민국" }, current: false },
+        { company: { en: "MetLife", ko: "MetLife" }, role: { en: "Corporate Affairs", ko: "기업 업무" }, location: { en: "Korea", ko: "대한민국" }, current: false },
+        { company: { en: "Chubb", ko: "Chubb" }, role: { en: "Internal Audit & Compliance", ko: "내부 감사 및 규정 준수" }, location: { en: "KR · SG · HK", ko: "KR - SG - HK" }, current: false },
+        { company: { en: "Olive & Vine", ko: "Olive & Vine" }, role: { en: "Co-Founder", ko: "공동 창립자" }, location: { en: "Hong Kong", ko: "홍콩" }, current: true },
       ],
     },
   },
@@ -101,9 +101,9 @@ export const aboutPageTranslations = {
 
   // Stats — Enhanced impact-focused labels
   stats: [
-    { value: 25, suffix: "+", label: { en: "Years of Partnership", ko: "파트너십의 해" } },
-    { value: 500, suffix: "+", label: { en: "Clients Transformed", ko: "변혁된 클라이언트" } },
-    { value: 4, suffix: "", label: { en: "Jurisdictions Served", ko: "서비스 지역" } },
+    { value: 25, suffix: "+", label: { en: "Years of Partnership", ko: "수년간의 파트너십" } },
+    { value: 500, suffix: "+", label: { en: "Clients Transformed", ko: "변화된 고객" } },
+    { value: 4, suffix: "", label: { en: "Jurisdictions Served", ko: "서비스 관할 지역" } },
     { value: 99, suffix: "%", label: { en: "Client Retention Rate", ko: "고객 유지율" } },
   ],
 

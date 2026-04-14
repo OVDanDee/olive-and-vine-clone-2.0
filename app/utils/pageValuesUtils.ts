@@ -22,26 +22,26 @@ export const valuesPageTranslations = {
   values: [
     {
       number: "1",
-      title: { en: "Integrity", ko: "정직성" },
+      title: { en: "Integrity", ko: "무결성" },
       statement: {
         en: "We don't compromise on honesty, even when it's inconvenient.",
-        ko: "우리는 불편해도 정직함을 타협하지 않습니다.",
+        ko: "당사는 불편하더라도 정직함과 타협하지 않습니다.",
       },
       body: {
         en: "Integrity means we tell you what you need to hear, not what you want to hear. When we identify a risk in your financial strategy, we address it directly and collaboratively. When we make a commitment, we keep it. Our clients trust us because they know we'll never sacrifice their long-term interests for short-term convenience. We build relationships on truth, and we protect those relationships with unwavering honesty.",
-        ko: "정직성은 우리가 당신이 원하는 말이 아닌 필요한 말을 한다는 의미입니다. 당신의 금융 전략에서 리스크를 발견하면 직접적이고 협력적으로 다룹니다. 약속을 하면 지킵니다. 우리 클라이언트들이 우리를 신뢰하는 이유는 우리가 그들의 장기 이익을 단기적 편의를 위해 절대 희생하지 않을 것이라 알기 때문입니다. 우리는 진실 위에 관계를 구축하고, 흔들리지 않는 정직함으로 그 관계를 지킵니다.",
+        ko: "무결성이란 고객이 듣고 싶은 말이 아니라 고객이 들어야 할 말을 하는 것을 의미합니다. 재무 전략에서 위험을 발견하면 직접적이고 협력적으로 해결합니다. 한 번 약속한 것은 반드시 지킵니다. 고객들은 단기적인 편의를 위해 장기적인 이익을 희생하지 않는다는 것을 알기에 저희를 신뢰합니다. 우리는 진실을 바탕으로 관계를 구축하며, 흔들림 없는 정직함으로 그 관계를 보호합니다.",
       },
     },
     {
       number: "2",
-      title: { en: "Excellence", ko: "탁월성" },
+      title: { en: "Excellence", ko: "우수성" },
       statement: {
         en: "Excellence is not a destination—it's our daily practice.",
-        ko: "탁월성은 목표가 아닙니다. 매일의 실천입니다.",
+        ko: "우수성은 목적지가 아니라 매일 실천하는 것입니다.",
       },
       body: {
         en: "Excellence means bringing Big Four rigor to every engagement, regardless of client size. We obsess over details because details matter. We stay current with evolving regulations and best practices because our clients depend on our expertise. Excellence isn't about being perfect—it's about caring deeply. Every recommendation is tested, every solution is tailored, and every deliverable reflects our commitment to quality. Your success deserves nothing less than our best.",
-        ko: "탁월성은 클라이언트 규모에 관계없이 모든 업무에 Big Four의 엄격함을 가져오는 것입니다. 우리는 세부사항에 집착합니다. 왜냐하면 세부사항이 중요하기 때문입니다. 진화하는 규정과 최고의 관행을 따릅니다. 왜냐하면 클라이언트들이 우리의 전문성을 의존하기 때문입니다. 탁월성은 완벽함에 관한 것이 아닙니다. 깊이 있는 배려에 관한 것입니다. 모든 제안은 검증되고, 모든 솔루션은 맞춤형이며, 모든 결과물은 우리의 품질 약속을 반영합니다.",
+        ko: "우수성이란 고객 규모에 관계없이 모든 계약에 빅4의 엄격함을 적용하는 것을 의미합니다. 디테일이 중요하기 때문에 디테일에 집착합니다. 고객은 우리의 전문성에 의존하기 때문에 우리는 진화하는 규정과 모범 사례를 최신 상태로 유지합니다. 탁월함은 완벽함이 아니라 깊은 배려에서 비롯됩니다. 모든 권장 사항은 테스트를 거치고, 모든 솔루션은 맞춤화되며, 모든 결과물에는 품질에 대한 당사의 노력이 반영되어 있습니다. 고객의 성공을 위해 최선을 다합니다.",
       },
     },
     {
@@ -49,23 +49,23 @@ export const valuesPageTranslations = {
       title: { en: "Partnership", ko: "파트너십" },
       statement: {
         en: "Your growth is our growth. We win when you win.",
-        ko: "당신의 성장이 우리의 성장입니다. 당신이 이기면 우리도 이깁니다.",
+        ko: "여러분의 성장이 곧 우리의 성장입니다. 여러분이 성공해야 우리도 성공합니다.",
       },
       body: {
         en: "Partnership means we're not mercenaries counting hours—we're advocates invested in your future. We celebrate your milestones as our own. We anticipate your challenges before you do. We serve as your sounding board during critical decisions, and we support you through transitions. Partnership also means transparency. You understand our recommendations, our fees are clear, and we measure our value by the impact we create together, not by billable hours.",
-        ko: "파트너십은 우리가 시간을 세는 용병이 아니라 당신의 미래에 투자된 옹호자라는 의미입니다. 우리는 당신의 이정표를 우리의 것처럼 축하합니다. 우리는 당신의 도전을 먼저 예상합니다. 우리는 중요한 결정 중에 당신의 판단판으로 봉사하고, 전환의 시기를 통해 당신을 지원합니다. 파트너십은 또한 투명성을 의미합니다. 당신은 우리의 제안을 이해하고, 우리의 비용은 명확하며, 우리는 청구 시간이 아닌 함께 만드는 영향력으로 우리의 가치를 측정합니다.",
+        ko: "파트너십은 시간을 세는 용병이 아니라 여러분의 미래에 투자하는 동반자라는 의미입니다. 저희는 여러분의 이정표를 저희의 이정표로 축하합니다. 여러분의 어려움을 먼저 예상합니다. 중요한 결정을 내릴 때 여러분의 의견에 귀 기울이고, 전환기에는 여러분을 지원합니다. 파트너십은 또한 투명성을 의미합니다. 고객님은 저희의 권장 사항을 이해하고, 수수료는 명확하며, 청구 가능한 시간이 아닌 함께 만들어낸 영향력으로 가치를 측정합니다.",
       },
     },
     {
       number: "4",
-      title: { en: "Compassion", ko: "공감" },
+      title: { en: "Compassion", ko: "동정심" },
       statement: {
         en: "Behind every number is a person, a dream, a story.",
-        ko: "모든 숫자 뒤에는 한 사람, 꿈, 그리고 이야기가 있습니다.",
+        ko: "모든 숫자 뒤에는 사람, 꿈, 이야기가 있습니다.",
       },
       body: {
         en: "Compassion is what separates great advisory from transactional advice. We take time to understand your world—your pressures, your ambitions, your vision. We listen with genuine care, not just to check a box. When you're facing a challenge, we empathize before we strategize. When you celebrate a victory, we celebrate with you. Compassion makes us human. It's what drives us to serve our clients with genuine dedication, and it's what builds the trust that transforms our relationships from professional to personal.",
-        ko: "공감은 위대한 자문과 거래적 조언을 구분하는 것입니다. 우리는 당신의 세상을 이해하는 데 시간을 투자합니다. 당신의 압박감, 야망, 비전을 이해합니다. 우리는 단지 체크박스를 확인하기 위해서가 아니라 진정한 배려로 경청합니다. 당신이 도전에 직면하면 우리는 전략을 세우기 전에 공감합니다. 당신이 승리를 축하하면 우리도 당신과 함께 축하합니다. 공감은 우리를 인간답게 만듭니다. 그것은 우리가 클라이언트들을 진정한 헌신으로 섬기도록 이끌고, 우리의 관계를 전문적인 것에서 개인적인 것으로 변환하는 신뢰를 구축합니다.",
+        ko: "연민은 훌륭한 자문과 거래 조언을 구분하는 요소입니다. 우리는 고객의 압박감, 야망, 비전 등 고객의 세계를 이해하는 데 시간을 할애합니다. 단순히 체크박스에 체크하는 것이 아니라 진정성을 가지고 귀를 기울입니다. 고객이 어려움에 직면했을 때 전략을 세우기 전에 먼저 공감합니다. 여러분이 승리를 축하할 때는 함께 축하합니다. 연민은 우리를 인간답게 만듭니다. 이것이 바로 우리가 진정성 있는 헌신으로 고객에게 서비스를 제공할 수 있는 원동력이며, 업무적인 관계에서 개인적인 관계로 전환하는 신뢰를 구축하는 원동력입니다.",
       },
     },
     {
@@ -73,11 +73,11 @@ export const valuesPageTranslations = {
       title: { en: "Growth", ko: "성장" },
       statement: {
         en: "We believe in the power of continuous evolution.",
-        ko: "우리는 지속적 진화의 힘을 믿습니다.",
+        ko: "저희는 지속적인 진화의 힘을 믿습니다.",
       },
       body: {
         en: "Growth is about more than revenue—it's about becoming better versions of ourselves and our firm. We invest in our team's development because their growth fuels our collective impact. We embrace change and innovation, staying ahead of industry trends and regulatory shifts. We encourage bold thinking while maintaining professional rigor. Growth also means we challenge ourselves to serve better every single day. We learn from every engagement, we celebrate our wins, and we view our setbacks as opportunities to evolve. This mindset ensures that Olive & Vine will always remain the partner you need.",
-        ko: "성장은 수익 이상의 것입니다. 그것은 우리 자신과 우리의 펌을 더 나은 버전이 되도록 하는 것입니다. 우리는 팀원의 성장에 투자합니다. 왜냐하면 그들의 성장은 우리의 집단 영향력을 촉진하기 때문입니다. 우리는 변화와 혁신을 수용하고 업계 트렌드 앞에 유지합니다. 우리는 대담한 사고를 장려하면서 전문성을 유지합니다. 성장은 또한 매일 더 잘 섬기도록 우리 자신에게 도전하는 것을 의미합니다. 우리는 모든 업무에서 배우고, 우리의 승리를 축하하며, 우리의 실패를 진화의 기회로 봅니다.",
+        ko: "성장이란 단순히 수익을 넘어 우리 자신과 회사가 더 나은 버전으로 거듭나는 것을 의미합니다. 우리는 팀의 성장이 우리의 집단적 영향력을 촉진하기 때문에 팀의 발전에 투자합니다. 변화와 혁신을 수용하여 업계 트렌드와 규제 변화에 앞서 나갑니다. 우리는 전문적인 엄격함을 유지하면서 대담한 사고를 장려합니다. 또한 성장이란 매일 더 나은 서비스를 제공하기 위해 도전한다는 의미이기도 합니다. 우리는 모든 참여에서 배우고, 승리를 축하하며, 좌절을 발전의 기회로 여깁니다. 이러한 사고방식을 통해 Olive & Vine은 항상 고객에게 필요한 파트너로 남을 것입니다.",
       },
     },
   ],

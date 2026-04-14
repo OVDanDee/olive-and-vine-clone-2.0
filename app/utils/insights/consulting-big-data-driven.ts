@@ -176,24 +176,24 @@ export const consultingBigDataDrivenTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: How does big data analysis benefit business?", ko: "Q1: 빅데이터 분석은 비즈니스에 어떤 이점을 제공합니까?" },
-      answer: { en: "Big data analysis aids business through market trend identification, customer demand prediction, cost reduction, and more. This enables better decision-making and enhanced competitiveness.", ko: "빅데이터 분석은 시장 트렌드 파악, 고객 수요 예측, 비용 절감 등을 통해 더 나은 의사결정을 가능하게 하고 경쟁력을 강화합니다." },
+      question: { en: "Q1: How does big data analysis benefit business?", ko: "Q1: 빅데이터 분석은 비즈니스에 어떤 이점을 제공하나요?" },
+      answer: { en: "Big data analysis aids business through market trend identification, customer demand prediction, cost reduction, and more. This enables better decision-making and enhanced competitiveness.", ko: "빅데이터 분석은 시장 동향 파악, 고객 수요 예측, 비용 절감 등을 통해 비즈니스에 도움을 줍니다. 이를 통해 더 나은 의사결정을 내리고 경쟁력을 강화할 수 있습니다." },
     },
     {
-      question: { en: "Q2: Which industries can utilize big data?", ko: "Q2: 빅데이터는 어떤 산업에서 활용할 수 있나요?" },
-      answer: { en: "Big data applies to retail, healthcare, finance, public services, energy, education, and beyond. It delivers valuable insights across virtually all sectors.", ko: "빅데이터는 소매, 의료, 금융, 공공 서비스, 에너지, 교육 등 거의 모든 산업에 적용됩니다. 그것은 거의 모든 산업에서 가치 있는 인사이트를 제공합니다." },
+      question: { en: "Q2: Which industries can utilize big data?", ko: "Q2: 빅데이터를 활용할 수 있는 산업 분야는 무엇인가요?" },
+      answer: { en: "Big data applies to retail, healthcare, finance, public services, energy, education, and beyond. It delivers valuable insights across virtually all sectors.", ko: "빅데이터는 소매업, 의료, 금융, 공공 서비스, 에너지, 교육 등 다양한 분야에 적용됩니다. 빅데이터는 거의 모든 분야에 걸쳐 가치 있는 인사이트를 제공합니다." },
     },
     {
       question: { en: "Q3: What should be considered when implementing big data analysis?", ko: "Q3: 빅데이터 분석을 구현할 때 고려해야 할 사항은 무엇인가요?" },
-      answer: { en: "Consider data accuracy, security, and tool selection. A clear plan for applying analysis results to actual business operations is also essential.", ko: "데이터 정확성, 보안, 도구 선택을 고려해야 합니다. 분석 결과를 실제 비즈니스 운영에 적용하는 명확한 계획도 필수적입니다." },
+      answer: { en: "Consider data accuracy, security, and tool selection. A clear plan for applying analysis results to actual business operations is also essential.", ko: "데이터 정확성, 보안, 도구 선택을 고려하세요. 분석 결과를 실제 비즈니스 운영에 적용하기 위한 명확한 계획도 필수입니다." },
     },
     {
-      question: { en: "Q4: What are the advantages of big data in fraud detection?", ko: "Q4: 빅데이터 분석은 사기 탐지에 어떤 이점을 제공합니까?" },
-      answer: { en: "Big data enables preemptive fraud detection in finance, preventing incidents. This boosts institutional trust and protects customer assets.", ko: "빅데이터 분석은 금융에서 사기를 사전에 탐지하여 사건을 방지할 수 있습니다. 이는 기관의 신뢰도를 높이고 고객 자산을 보호합니다." },
+      question: { en: "Q4: What are the advantages of big data in fraud detection?", ko: "Q4: 사기 탐지에서 빅 데이터의 장점은 무엇인가요?" },
+      answer: { en: "Big data enables preemptive fraud detection in finance, preventing incidents. This boosts institutional trust and protects customer assets.", ko: "빅 데이터는 금융 분야에서 선제적인 사기 탐지를 가능하게 하여 사고를 예방합니다. 이를 통해 기관의 신뢰를 높이고 고객 자산을 보호할 수 있습니다." },
     },
     {
-      question: { en: "Q5: How can big data enable personalized customer services?", ko: "Q5: 빅데이터는 개인화된 고객 서비스를 어떻게 가능하게 합니까?" },
-      answer: { en: "Analyzing purchase history, search patterns, and behavior data allows tailored recommendations and services. This increases satisfaction and repurchase rates.", ko: "구매 이력, 검색 패턴, 행동 데이터를 분석하면 맞춤화된 추천과 서비스를 제공할 수 있습니다. 이는 만족도와 재구매율을 높입니다." },
+      question: { en: "Q5: How can big data enable personalized customer services?", ko: "Q5: 빅데이터를 통해 어떻게 개인화된 고객 서비스를 제공할 수 있나요?" },
+      answer: { en: "Analyzing purchase history, search patterns, and behavior data allows tailored recommendations and services. This increases satisfaction and repurchase rates.", ko: "구매 내역, 검색 패턴, 행동 데이터를 분석하여 맞춤형 추천과 서비스를 제공합니다. 이를 통해 만족도와 재구매율을 높일 수 있습니다." },
     },
   ],
 };

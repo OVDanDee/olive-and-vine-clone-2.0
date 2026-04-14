@@ -29,12 +29,12 @@ export const hrWithholdingObligationsDepartingEmployeesTranslations = {
   },
   section1Conditions: [
     {
-      label: { en: "Section 52(7)(a)", ko: "제52조 제7항 (a)" },
-      description: { en: "The IRD authorises payment; or", ko: "세무국이 지급을 승인한 경우; 또는" },
+      label: { en: "Section 52(7)(a)", ko: "섹션 52(7)(a)" },
+      description: { en: "The IRD authorises payment; or", ko: "IRD가 지불을 승인하거나, 또는" },
     },
     {
-      label: { en: "Section 52(7)(b)", ko: "제52조 제7항 (b)" },
-      description: { en: "One month has elapsed since IRD received IR56G", ko: "세무국이 IR56G를 수령한 후 1개월이 경과한 경우" },
+      label: { en: "Section 52(7)(b)", ko: "섹션 52(7)(b)" },
+      description: { en: "One month has elapsed since IRD received IR56G", ko: "IRD가 IR56G를 받은 후 한 달이 경과했습니다" },
     },
   ],
   section1Note: {
@@ -60,9 +60,9 @@ export const hrWithholdingObligationsDepartingEmployeesTranslations = {
     ko: "IRD는 서류 제출에 대해 공식적인 확인서를 발급하지 않습니다. 고용주는 일반적으로 접수 날짜를 정합니다:",
   },
   section2ReceiptMethods: [
-    { en: "eTAX submission record (official timestamp)", ko: "eTAX 제출 기록 (공식 타임스탬프)" },
-    { en: "Postal tracking records showing delivery to IRD", ko: "세무국에 배달된 것을 보여주는 우편 추적 기록" },
-    { en: "Hand-delivery stamp (if filed at IRD's drop-box or counter)", ko: "직접 제출 도장 (세무국 투입함 또는 카운터에 제출한 경우)" },
+    { en: "eTAX submission record (official timestamp)", ko: "eTAX 제출 기록(공식 타임스탬프)" },
+    { en: "Postal tracking records showing delivery to IRD", ko: "IRD로의 배송을 보여주는 우편 추적 기록" },
+    { en: "Hand-delivery stamp (if filed at IRD's drop-box or counter)", ko: "수기 배달 스탬프(IRD의 드롭박스 또는 카운터에 접수된 경우)" },
   ],
   section2ReceiptNote: {
     en: "These records should be retained to evidence the 30-day period.",
@@ -92,10 +92,10 @@ export const hrWithholdingObligationsDepartingEmployeesTranslations = {
   },
   section3Items: [
     { en: "Retain proof of IR56G receipt date", ko: "IR56G 수령 날짜 증명 보관" },
-    { en: "Do not release any remuneration prior to meeting one of the statutory release conditions", ko: "법적 석방 조건 중 하나를 충족하기 전에 보수를 지급하지 마십시오" },
-    { en: "Ensure IR56G is filed on time to avoid employer liability", ko: "고용주 책임을 피하기 위해 IR56G를 제때 제출하십시오" },
-    { en: "Prepare complete and accurate compensation data to avoid clearance delays", ko: "정산 지연을 피하기 위해 완전하고 정확한 보수 데이터를 준비하십시오" },
-    { en: "Document the internal decision to release payments (after 30 days or after IRD approval)", ko: "지급금 지급 결정(30일 후 또는 세무국 승인 후)을 내부적으로 문서화하십시오" },
+    { en: "Do not release any remuneration prior to meeting one of the statutory release conditions", ko: "법정 공개 조건 중 하나를 충족하기 전에는 보수를 공개하지 마세요" },
+    { en: "Ensure IR56G is filed on time to avoid employer liability", ko: "고용주 책임을 피하기 위해 IR56G를 제때 제출해야 합니다" },
+    { en: "Prepare complete and accurate compensation data to avoid clearance delays", ko: "완전하고 정확한 보상 데이터를 준비하여 통관 지연 방지" },
+    { en: "Document the internal decision to release payments (after 30 days or after IRD approval)", ko: "지급 해제에 대한 내부 결정을 문서화합니다(30일 후 또는 IRD 승인 후)" },
   ],
 
   // Section 4: After 30-day period
@@ -114,11 +114,11 @@ export const hrWithholdingObligationsDepartingEmployeesTranslations = {
     ko: "핵심 포인트",
   },
   section5Items: [
-    { en: "Withholding is mandatory once IR56G is filed.", ko: "IR56G 제출 후에는 보류가 의무적입니다." },
-    { en: "Payment can be released after IRD authorisation or after 30 days from IRD receipt.", ko: "지급금은 세무국의 승인 후 또는 세무국 수령 후 30일이 경과한 후에 지급될 수 있습니다." },
-    { en: "IRD often issues clearance within 30 days if filings are correct and timely.", ko: "세무국은 신고가 정확하고 제때 이루어진 경우 30일 이내에 정산을 발급하는 경우가 많습니다." },
-    { en: "Employers must verify IRD receipt date due to lack of formal acknowledgement.", ko: "공식 확인이 없으므로 고용주는 세무국 수령 날짜를 확인해야 합니다." },
-    { en: "Failure to give proper notice can cause employer personal tax liability.", ko: "적절한 통보를 하지 않으면 고용주의 개인적 세금 책임이 발생할 수 있습니다." },
+    { en: "Withholding is mandatory once IR56G is filed.", ko: "IR56G를 제출하면 원천 징수는 필수입니다." },
+    { en: "Payment can be released after IRD authorisation or after 30 days from IRD receipt.", ko: "IRD 승인 후 또는 IRD 수령 후 30일이 지나면 지급이 해제될 수 있습니다." },
+    { en: "IRD often issues clearance within 30 days if filings are correct and timely.", ko: "IRD는 제출 서류가 정확하고 적시에 제출된 경우 30일 이내에 허가를 발급하는 경우가 많습니다." },
+    { en: "Employers must verify IRD receipt date due to lack of formal acknowledgement.", ko: "고용주는 공식적인 승인이 없으므로 IRD 접수일을 확인해야 합니다." },
+    { en: "Failure to give proper notice can cause employer personal tax liability.", ko: "적절한 통지를 하지 않으면 고용주에게 개인 납세 책임이 발생할 수 있습니다." },
   ],
 
   frequentlyAskedQuestions: {
@@ -127,24 +127,24 @@ export const hrWithholdingObligationsDepartingEmployeesTranslations = {
   },
   faqItems: [
     {
-      question: { en: "Q1: When does the employer's withholding obligation begin?", ko: "Q1: 고용주의 보류 의무는 언제 시작됩니까?" },
-      answer: { en: "The obligation begins from the date IR56G is submitted to the IRD — not from the date the employee gives notice. Filing triggers the statutory withholding requirement immediately.", ko: "의무는 직원이 통보한 날이 아닌 IR56G가 세무국에 제출된 날부터 시작됩니다. 제출 즉시 법적 보류 요건이 발동됩니다." },
+      question: { en: "Q1: When does the employer's withholding obligation begin?", ko: "Q1: 고용주의 원천징수 의무는 언제부터 시작되나요?" },
+      answer: { en: "The obligation begins from the date IR56G is submitted to the IRD — not from the date the employee gives notice. Filing triggers the statutory withholding requirement immediately.", ko: "의무는 직원이 통지한 날짜가 아니라 IRD에 IR56G를 제출한 날부터 시작됩니다. 제출하면 즉시 법정 원천 징수 의무가 발생합니다." },
     },
     {
-      question: { en: "Q2: How does the employer confirm the IRD's receipt date for IR56G?", ko: "Q2: 고용주는 IR56G에 대한 세무국의 수령 날짜를 어떻게 확인합니까?" },
-      answer: { en: "The IRD does not issue formal acknowledgement for paper filings. Employers should use eTAX submission timestamps, postal tracking records showing delivery, or a hand-delivery stamp as evidence of the receipt date.", ko: "세무국은 서면 신고에 대한 공식 확인을 발급하지 않습니다. 고용주는 eTAX 제출 타임스탬프, 배달을 보여주는 우편 추적 기록, 또는 직접 제출 도장을 수령 날짜의 증거로 사용해야 합니다." },
+      question: { en: "Q2: How does the employer confirm the IRD's receipt date for IR56G?", ko: "Q2: 고용주는 IRD의 IR56G 수령 날짜를 어떻게 확인하나요?" },
+      answer: { en: "The IRD does not issue formal acknowledgement for paper filings. Employers should use eTAX submission timestamps, postal tracking records showing delivery, or a hand-delivery stamp as evidence of the receipt date.", ko: "IRD는 서면 제출에 대해서는 공식적인 확인서를 발급하지 않습니다. 고용주는 접수 날짜의 증거로 eTAX 제출 타임스탬프, 배달을 보여주는 우편 추적 기록 또는 직접 배달 스탬프를 사용해야 합니다." },
     },
     {
-      question: { en: "Q3: What is the employer's liability if payment is released too early?", ko: "Q3: 지급금을 너무 일찍 지급하면 고용주의 책임은 무엇입니까?" },
-      answer: { en: "Under Section 52(6) of the IRO, the employer becomes personally liable for the employee's unpaid salaries tax. This liability attaches regardless of whether the employer was aware of the outstanding tax amount.", ko: "세무조례 제52조 제6항에 따라, 고용주는 직원의 미납 급여세에 대해 개인적으로 책임을 지게 됩니다. 이 책임은 고용주가 미납 세액을 알고 있었는지 여부와 관계없이 발생합니다." },
+      question: { en: "Q3: What is the employer's liability if payment is released too early?", ko: "질문 3: 급여가 너무 일찍 지급된 경우 고용주의 책임은 어떻게 되나요?" },
+      answer: { en: "Under Section 52(6) of the IRO, the employer becomes personally liable for the employee's unpaid salaries tax. This liability attaches regardless of whether the employer was aware of the outstanding tax amount.", ko: "IRO 52(6)조에 따라 고용주는 직원의 미납 급여세에 대해 개인적으로 책임을 집니다. 이 책임은 고용주가 미납 세액을 알고 있었는지 여부와 관계없이 부과됩니다." },
     },
     {
-      question: { en: "Q4: If the IRD issues clearance after the employer already released payment on Day 30, is the employer still protected?", ko: "Q4: 고용주가 이미 30일째에 지급금을 지급한 후 세무국이 정산을 발급하면 고용주는 여전히 보호받습니까?" },
-      answer: { en: "Yes. Provided the employer filed IR56G correctly, tracked the 30-day receipt window accurately, and withheld payments throughout that period, the employer is fully protected under Section 52(7)(b). A later-issued clearance letter does not revive liability.", ko: "네. 고용주가 IR56G를 올바르게 제출하고, 30일 수령 기간을 정확하게 추적하며, 그 기간 동안 지급금을 보류한 경우, 고용주는 제52조 제7항 (b)에 따라 완전히 보호받습니다. 이후 발급된 정산 서한은 책임을 되살리지 않습니다." },
+      question: { en: "Q4: If the IRD issues clearance after the employer already released payment on Day 30, is the employer still protected?", ko: "Q4: 고용주가 30일째에 이미 급여를 지급한 후 IRD가 승인서를 발급하는 경우에도 고용주는 여전히 보호되나요?" },
+      answer: { en: "Yes. Provided the employer filed IR56G correctly, tracked the 30-day receipt window accurately, and withheld payments throughout that period, the employer is fully protected under Section 52(7)(b). A later-issued clearance letter does not revive liability.", ko: "예. 고용주가 IR56G를 올바르게 제출하고 30일의 수령 기간을 정확하게 추적했으며 해당 기간 동안 급여를 원천 징수했다면 고용주는 섹션 52(7)(b)에 따라 완전히 보호됩니다. 나중에 발급된 허가서는 책임을 되살리지 않습니다." },
     },
     {
-      question: { en: "Q5: Does the withholding obligation apply to all types of payments, including bonuses?", ko: "Q5: 보류 의무가 보너스를 포함한 모든 유형의 지급금에 적용됩니까?" },
-      answer: { en: "Yes. The obligation covers all remuneration including salary, bonus, commission, leave pay, payment in lieu of notice, and any other termination entitlements. There are no exemptions for specific payment types.", ko: "네. 의무는 급여, 보너스, 수수료, 휴가 수당, 예고 대신 지급금 및 기타 퇴직 급여를 포함한 모든 보수에 적용됩니다. 특정 지급 유형에 대한 면제는 없습니다." },
+      question: { en: "Q5: Does the withholding obligation apply to all types of payments, including bonuses?", ko: "질문 5: 원천징수 의무는 상여금을 포함한 모든 유형의 지급에 적용되나요?" },
+      answer: { en: "Yes. The obligation covers all remuneration including salary, bonus, commission, leave pay, payment in lieu of notice, and any other termination entitlements. There are no exemptions for specific payment types.", ko: "예. 이 의무는 급여, 보너스, 커미션, 휴가 수당, 통지 대신 지급, 기타 해고 수당을 포함한 모든 보수를 포함합니다. 특정 지급 유형에 대한 면제는 없습니다." },
     },
   ],
   contactInformationDisclaimer: {
