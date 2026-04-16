@@ -121,6 +121,11 @@ export const subTagsByInsight = {
     { en: "NAR1", ko: "NAR1" },
     { en: "Compliance", ko: "규정 준수" },
   ] as InsightSubTag[],
+  severanceLongServicePayment: [
+    { en: "Severance Payment", ko: "해고수당" },
+    { en: "Long Service Payment", ko: "장기근속수당" },
+    { en: "MPF Offsetting", ko: "MPF 상계" },
+  ] as InsightSubTag[],
 };
 
 export const FIVE_STEPS_CARD: InsightCardDefinition = {
@@ -363,6 +368,16 @@ export const EMPLOYERS_RETURN_BIR56A_CARD: InsightCardDefinition = {
   subTags: subTagsByInsight.employersReturnBir56a,
 };
 
+export const SEVERANCE_LONG_SERVICE_PAYMENT_CARD: InsightCardDefinition = {
+  image: "/insights/severance-long-service-payment.jpg",
+  alt: "Severance Payment vs Long Service Payment in Hong Kong",
+  href: "/insights/hr/severance-long-service-payment",
+  tag: { en: "HR", ko: "인사" },
+  title: { en: "Severance Payment vs Long Service Payment in Hong Kong", ko: "홍콩의 해고수당과 장기근속수당 비교" },
+  description: { en: "", ko: "" },
+  subTags: subTagsByInsight.severanceLongServicePayment,
+};
+
 export const ANNUAL_RETURN_COMPANIES_REGISTRY_CARD: InsightCardDefinition = {
   image: "/insights/annual-return-companies-registry.jpg",
   alt: "Annual Return Filing with the Hong Kong Companies Registry (NAR1)",
@@ -398,4 +413,5 @@ export const INSIGHT_LIST_CARDS: InsightCardDefinition[] = [
   TWO_TIERED_SALARIES_TAX_CARD,
   EMPLOYERS_RETURN_BIR56A_CARD,
   ANNUAL_RETURN_COMPANIES_REGISTRY_CARD,
+  SEVERANCE_LONG_SERVICE_PAYMENT_CARD,
 ];

@@ -234,6 +234,16 @@ const INSIGHT_PAGES: Record<string, DynamicPageEntry> = {
       ko: ["인사이트", "인사", "연간 고용주 신고서 (BIR56A)"],
     },
   },
+  "insights/hr/severance-long-service-payment": {
+    documentTitle: {
+      en: "Severance Payment vs Long Service Payment in Hong Kong",
+      ko: "홍콩의 해고수당과 장기근속수당 비교",
+    },
+    pathSegments: {
+      en: ["Insights", "HR", "Severance Payment vs Long Service Payment"],
+      ko: ["인사이트", "인사", "해고수당과 장기근속수당 비교"],
+    },
+  },
   "insights/corporate-service/annual-return-companies-registry": {
     documentTitle: {
       en: "Annual Return Filing with the Hong Kong Companies Registry (NAR1)",
