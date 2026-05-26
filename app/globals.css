@@ -26,6 +26,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+/* Next.js dev-tools portal: clear default 8px inset (browser preview) */
+nextjs-portal {
+  top: unset !important;
+  left: unset !important;
+}
+
 html[data-lang="KOR"] {
   --font-sans: "Noto Sans KR", sans-serif;
 }
