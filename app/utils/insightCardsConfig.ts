@@ -121,6 +121,11 @@ export const subTagsByInsight = {
     { en: "NAR1", ko: "NAR1" },
     { en: "Compliance", ko: "규정 준수" },
   ] as InsightSubTag[],
+  propertyTaxHongKong: [
+    { en: "Inland Revenue Ordinance", ko: "국세법" },
+    { en: "Rental Income", ko: "임대 소득" },
+    { en: "Cap. 112", ko: "제112장" },
+  ] as InsightSubTag[],
 };
 
 export const FIVE_STEPS_CARD: InsightCardDefinition = {
@@ -373,6 +378,16 @@ export const ANNUAL_RETURN_COMPANIES_REGISTRY_CARD: InsightCardDefinition = {
   subTags: subTagsByInsight.annualReturnCompaniesRegistry,
 };
 
+export const PROPERTY_TAX_HONG_KONG_CARD: InsightCardDefinition = {
+  image: "/insights/property-tax-hong-kong.jpg",
+  alt: "Property Tax in Hong Kong: What Landlords Need to Know",
+  href: "/insights/tax/property-tax-hong-kong",
+  tag: { en: "Tax", ko: "세무" },
+  title: { en: "Property Tax in Hong Kong: What Landlords Need to Know", ko: "홍콩의 재산세: 집주인이 알아야 할 사항" },
+  description: { en: "", ko: "" },
+  subTags: subTagsByInsight.propertyTaxHongKong,
+};
+
 export const INSIGHT_LIST_CARDS: InsightCardDefinition[] = [
   FIVE_STEPS_CARD,
   INTRODUCTION_XERO_CARD,
@@ -398,4 +413,5 @@ export const INSIGHT_LIST_CARDS: InsightCardDefinition[] = [
   TWO_TIERED_SALARIES_TAX_CARD,
   EMPLOYERS_RETURN_BIR56A_CARD,
   ANNUAL_RETURN_COMPANIES_REGISTRY_CARD,
+  PROPERTY_TAX_HONG_KONG_CARD,
 ];
